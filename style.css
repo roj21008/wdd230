@@ -1,6 +1,9 @@
-body{background-color:#3498DB ;}
+body{}
     .header{
+        display:grid;
     border-color: #3498DB;
+    background-color:#3498DB ;
+    border-radius: 20px;
     }
 
     .my-image{
