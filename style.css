@@ -1,4 +1,4 @@
-body{}
+
     .header{
         display:grid;
     border-color: #3498DB;
@@ -6,8 +6,4 @@ body{}
     border-radius: 20px;
     }
 
-    .my-image{
-        width:200px;
-        height: 250px;
-    }
-
+    
