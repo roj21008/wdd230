@@ -50,4 +50,5 @@ footer{
 span{
     color:white;
 } 
-p{font-size: 1.25em;}
+p.last-update{color:yellow}
+
