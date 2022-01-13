@@ -1,18 +1,24 @@
-#content{
-    max-width: 680px;
-    margin: 0 auto;}
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Cookie&family=MonteCarlo&family=Special+Elite&display=swap');
+
+main{
+       
+    width: 680px;
+    margin:  auto;
+    
+    background-color: rgb(140, 206, 233)
+}
 .header{
     display:grid;
     border-color: #3498DB;
     background-color:#1b70a8 ;
     border-radius: 20px;
-    width: 100%;
+    width: 640px;
     height: 250px;
     padding: 20px;
     position:relative;
     grid-template-columns: repeat(4, 1fr);
 }
-
+/* MY PHOTO*/
 .my-image{
     margin:auto;
     grid-column:1/2 ;
@@ -24,7 +30,7 @@
     box-shadow: 1px 1px 28px rgb(49, 47, 47);    
 }
 
-
+/*LUIS A ROJAS*/
 .myname{
     
     margin:auto;
@@ -33,22 +39,36 @@
     grid-row: 1/3;
     color:white;  
     text-shadow: 1px 1px 18px rgb(49, 47, 47);    
+    font-family: 'MonteCarlo', cursive;
+    font-size: 3.5em;
 }
+/*WDD 230 : Assignment Portal*/
+.subtitle{text-shadow: 1px 1px 12px rgb(49, 47, 47); 
+    font-family: 'Special Elite', cursive;
+    font-size: 2.5em;
+    text-align: center;
+    
+}
+.lessons ul li{font-family: 'Aclonica', sans-serif;}
 
-.subtitle{text-shadow: 1px 1px 12px rgb(49, 47, 47); }
-
+hr{ border-top: 2.5px dotted #1b70a8;}
 footer{
-        margin:auto;
+        
         padding:1.5em;
         background-color:#1b70a8 ;
         border-radius: 20px;
-        max-width: 680px;
+        max-width: 635px;
         height: 3.5em;
         margin: 0 auto;
         text-align: center;
         color:white;
+        vertical-align: middle;
     }
-p{
+.footer{
     color:yellow;
+    font-family: 'Cookie', cursive;
+    font-size: 1.4em;
+    line-height: 0.3em;
+    
 } 
 
