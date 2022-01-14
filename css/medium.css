@@ -1,0 +1,16 @@
+@media only screen and(min-width: 32.5em){
+    h1.myname{
+    
+        
+        font-size: 4.5em;
+        color:red; 
+    }
+    /*WDD 230 : Assignment Portal*/
+    h2.subtitle{
+        
+        font-size: 3.5em;
+        color:red; 
+     
+        
+    }
+}

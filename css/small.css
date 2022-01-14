@@ -5,7 +5,6 @@ main{
     width: 680px;
     margin:  auto;
     
-    background-color: rgb(140, 206, 233)
 }
 .header{
     display:grid;
@@ -28,10 +27,11 @@ main{
     border-radius: 20px;
     margin-left:5% ;
     box-shadow: 1px 1px 28px rgb(49, 47, 47);    
+    float: left;
 }
 
 /*LUIS A ROJAS*/
-.myname{
+h1.myname{
     
     margin:auto;
     padding: 20px;
@@ -43,13 +43,25 @@ main{
     font-size: 3.5em;
 }
 /*WDD 230 : Assignment Portal*/
-.subtitle{text-shadow: 1px 1px 12px rgb(49, 47, 47); 
+h2.subtitle{text-shadow: 1px 1px 12px rgb(49, 47, 47); 
     font-family: 'Special Elite', cursive;
     font-size: 2.5em;
     text-align: center;
     
 }
-.lessons ul li{font-family: 'Aclonica', sans-serif;}
+
+.lessons ul li{
+    font-family: 'Aclonica', sans-serif;
+}
+
+.myname:hover{
+    transform:scale(1.08);
+    z-index:2;
+}
+.my-image:hover{
+    transform:scale(1.08);
+    z-index:2;
+}
 
 hr{ border-top: 2.5px dotted #1b70a8;}
 footer{
@@ -66,9 +78,11 @@ footer{
     }
 .footer{
     color:yellow;
-    font-family: 'Cookie', cursive;
-    font-size: 1.4em;
-    line-height: 0.3em;
+    
     
 } 
+.subtitle:hover{
+    transform:scale(1.08);
+    z-index:2;
+}
 
