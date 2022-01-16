@@ -1,0 +1,98 @@
+body {
+	font-size: 20px;
+	
+}
+
+header h1 {
+    margin-top: 25px;
+    text-shadow: 1px 1px 12px rgb(49, 47, 47); 
+    font-family: 'Special Elite', cursive;
+    font-size: 1.2rem;
+}
+
+header h2 {
+   
+   margin-top:-16px;
+    
+    color:white;  
+    text-shadow: 1px 1px 18px rgb(49, 47, 47);    
+    font-family: 'MonteCarlo', cursive;
+    font-size: 2.5rem;
+}
+
+header {
+    text-align: center;
+    background-color: #1b70a8 ; 
+    color: white;
+    height:150px;
+    padding:0.5rem;
+}
+img {
+    max-width: 100%;
+}
+main {
+	max-width: 767px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 0.8rem;
+    
+}
+main section {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0 1rem;
+	background-color: #7fbbec ; 
+    
+}
+
+.description{
+    font-family: 'Aclonica', sans-serif;
+    padding:0.5rem;
+
+}
+
+h3{
+    text-align: center;
+    background-color: #1b70a8 ; 
+    color:white;
+    border-radius: 9px;
+    padding:2rem;
+    font-size: 1.5rem;
+}    
+.company{
+    font-family: 'Special Elite', cursive;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.link{
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+footer {
+    background-color: #1b70a8 ; 
+    color: white;
+    border-radius: 6px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+.my-info{
+    font-family: 'MonteCarlo', cursive;
+    font-size: 1rem;
+}
+
+
+.my-info{
+    font-family: 'MonteCarlo', cursive;
+    font-size: 0.9rem;
+}
+.last-modified{margin-top: -10px;
+    font-size: 0.8rem;
+}
+    
+
