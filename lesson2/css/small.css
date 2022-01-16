@@ -27,9 +27,11 @@ header {
     padding:0.5rem;
     border-radius: 0px 0px 9px 9px;
 }
+
 img {
     max-width: 100%;
 }
+
 main {
 	max-width: 767px;
 	margin: 0 auto;
@@ -62,6 +64,7 @@ h3{
     padding:2rem;
     font-size: 1.5rem;
 }    
+
 .company{
     font-family: 'Special Elite', cursive;
     font-size: 1.3rem;
@@ -83,19 +86,22 @@ footer {
     text-align: center;
     margin-top: 10px;
 }
+
 .my-info{
     font-family: 'MonteCarlo', cursive;
     font-size: 1rem;
 }
 
-
 .my-info{
     font-family: 'MonteCarlo', cursive;
     font-size: 0.9rem;
 }
-.last-modified{margin-top: -10px;
+
+.last-modified{
+    margin-top: -10px;
     font-size: 0.8rem;
 }
+
 a.home{
     font-size: 18px;
     padding: 12px;
