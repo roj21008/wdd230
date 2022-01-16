@@ -1,0 +1,52 @@
+@media only screen and (min-width: 37.5em) {
+	main {
+		grid-template-columns: 1fr 1fr;
+	}
+
+    main section:nth-child(){
+        grid-column: 1;
+    }
+
+	main section:nth-child(2) {
+		display: block;
+	}
+
+	main section:nth-child(3) {
+		grid-column: 1;
+        align-items: center;
+	}
+
+	main section picture {
+		display: block;
+	}
+	main section picture img {
+		width: 100%;
+		height: auto;
+		border: 1px solid #bbb;
+	}
+    header h1 {
+        margin-top: 25px;
+        text-shadow: 1px 1px 12px rgb(49, 47, 47); 
+        font-family: 'Special Elite', cursive;
+        font-size: 1.2rem;
+    }
+    
+    header h2 {
+       
+       margin-top:-16px;
+        
+        color:white;  
+        text-shadow: 1px 1px 18px rgb(49, 47, 47);    
+        font-family: 'MonteCarlo', cursive;
+        font-size: 2.5rem;
+    }
+
+.my-info{
+    font-family: 'MonteCarlo', cursive;
+    font-size: 1.1rem;
+}
+.last-modified{margin-top: -10px;
+    font-size: 1rem;
+}
+
+}
