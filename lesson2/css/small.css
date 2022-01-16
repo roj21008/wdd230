@@ -94,5 +94,9 @@ footer {
 .last-modified{margin-top: -10px;
     font-size: 0.8rem;
 }
+a.home{
+    font-size: 18px;
+    padding: 12px;
+}
     
 
