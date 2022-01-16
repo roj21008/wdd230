@@ -12,8 +12,7 @@ header h1 {
 
 header h2 {
    
-   margin-top:-16px;
-    
+    margin-top:-16px;
     color:white;  
     text-shadow: 1px 1px 18px rgb(49, 47, 47);    
     font-family: 'MonteCarlo', cursive;
@@ -26,6 +25,7 @@ header {
     color: white;
     height:150px;
     padding:0.5rem;
+    border-radius: 0px 0px 9px 9px;
 }
 img {
     max-width: 100%;
@@ -43,6 +43,7 @@ main section {
 	border: 1px solid #bbb;
 	padding: 0 1rem;
 	background-color: #7fbbec ; 
+    border-radius: 9px;
     
 }
 
@@ -53,6 +54,7 @@ main section {
 }
 
 h3{
+    margin: -1px -18px;
     text-align: center;
     background-color: #1b70a8 ; 
     color:white;
