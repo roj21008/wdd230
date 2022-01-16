@@ -1,4 +1,4 @@
-@media screen and (max-width: 800px){
+@media screen and (max-width: 35em){
     .header{
         background-color:burlywood;
     }
@@ -6,11 +6,3 @@
     
     }
 
-@media screen and (max-width: 600px){
-.header{
-    background-color: aqua;
-    }
-h1{
-    font-size: 5.5em;
-}
-}
