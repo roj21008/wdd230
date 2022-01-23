@@ -1,8 +1,18 @@
-@media screen and (max-width: 35em){
-    .header{
-        background-color:burlywood;
+@media (min-width: 600px){
+    
+    h1{
+        font-size: 4.5rem;
     }
-    h1{font-size: 4.5em;}
+    h2{font-size: 3.5rem;}
+    .my-image{
+        
+        width: 15rem;
+        height:18rem;
+        border-radius: 20px;
+        margin-left:5% ;
+        box-shadow: 1px 1px 28px rgb(49, 47, 47);    
+        float: left;
+    }
     
     }
 
