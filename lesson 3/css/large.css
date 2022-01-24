@@ -53,7 +53,7 @@
         width:550px;
         margin-top: 70px;
     }
-    td.primary, td.secondary, td.accent1,td.accent2,td.accent3{
+    td{
         height: 100px;
         
     }
