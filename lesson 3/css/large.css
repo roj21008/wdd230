@@ -48,10 +48,14 @@
         padding: 7px; 
         
     }
-
+   
     .color-img{
         width:550px;
         margin-top: 70px;
+    }
+    td.primary, td.secondary, td.accent1,td.accent2,td.accent3{
+        height: 100px;
+        
     }
     .center {
         display: block;
@@ -61,4 +65,5 @@
         border: 1px solid #011936;
         box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.15);
     }
+    
 }

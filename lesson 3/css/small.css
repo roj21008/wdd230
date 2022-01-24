@@ -1,6 +1,6 @@
 main, header, footer {
 	max-width: 700px;
-	margin: 0 auto;
+	margin: auto;
 	font-size: 0.8rem;
 
 }
@@ -70,6 +70,8 @@ header {
     background-color: #003049;
     color: #FCBF49;
     padding: 5px;
+    margin-bottom: -5px;
+    margin-top: -18px;
 }
 
 nav ul {
@@ -94,6 +96,7 @@ nav ul li {
 
 nav a {
     text-decoration: none;
+    color: #003049;
 }
 
 nav a:visited {
@@ -120,14 +123,51 @@ img{
         
     }
 
+    .url-palet{
+        display: block;
+        
+        padding: 35px;
+        text-align: center;
+        margin: auto;
+    }
+.colors th{
+    align-items: center;
+}
 .colors {
-    display: block;
+    
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    box-shadow: 5px 5px 5px #999;
     padding: 6px;
+
 }
+
+.primary {
+    background-color: #003049;
+    color:white;
+    text-align: center;
+  }
+  .secondary {
+    background-color: #D62828;
+    color:white;
+    text-align: center;
+  }
+  .accent1 {
+    background-color: #F77F00;
+    color:white;
+    text-align: center;
+  }
+  .accent2{
+    background-color: #FCBF49;
+    color:#003049;
+    text-align: center;
+  }
+  .accent3{
+    background-color:#EAE2B7;
+    color:#003049;
+    text-align: center;
+  }
+
 .target p{
     margin:10px;
     text-align: justify;
@@ -135,10 +175,11 @@ img{
 
 footer{
     background-color: #011936;
-    padding: 6px;
+    margin-bottom: -18px;
     margin-top:0px;
     text-align: center;
     color: #FCBF49;
     font-weight: bold;
+    padding: 5px;
 
 }
