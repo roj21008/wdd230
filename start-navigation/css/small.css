@@ -41,6 +41,12 @@ nav ul li.active a{
     color: #fff;
 }
 
+nav ul{
+    display: none;
+}
+nav ul.open{
+    display: block;
+}
 
 
 
