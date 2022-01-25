@@ -124,14 +124,19 @@ img{
     }
 
     .url-palet{
-        display: block;
+        display: flex;
+        justify-content: center;
+        padding-top:4rem;
         
-        padding: 35px;
-        text-align: center;
-        margin: auto;
+       
     }
-.colors th{
+.colors td{
     align-items: center;
+    
+}
+.colors td:hover{
+    transform:scale(1.14);
+    z-index:2;
 }
 .colors {
     
