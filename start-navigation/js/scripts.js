@@ -1,5 +1,6 @@
 function toogleMenu(){
-    console.log("It Worked!")
+    document.getElementById("primaryNav").classList.toggle("open");
+    document.getElementById("hamburguerBtn").classList.toggle("open");
 }
-const x = document.getElementById("primaryNav").classList.toggle("open");
+const x = document.getElementById("hamburgerBtn");
 x.onclick = toogleMenu
