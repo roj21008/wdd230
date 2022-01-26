@@ -44,10 +44,10 @@ nav ul li.active a{
 nav ul{
     display: none;
 }
+
 nav ul.open{
     display: block;
 }
-
 
 
 
