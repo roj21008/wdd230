@@ -1,4 +1,15 @@
 @media only screen and (min-width: 60em){
     
+    header{
+        background-color: #003049;
+        display: grid;
+        grid-template-columns: 0.5fr 1.5fr 3fr 1fr;
+        
+    }
+    
+        nav ul li a{
+            padding: .5rem 1rem;
+          }
+    
     
 }
