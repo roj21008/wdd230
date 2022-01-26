@@ -1,3 +1,6 @@
+body{
+    background-color: #EAE2B7;
+}
 header{
     background-color: #003049;
     display: grid;
@@ -85,28 +88,44 @@ nav ul.open{
     display:block;
     margin: auto;
     width: 100%;
-    background-color: aqua;
+    
     
 }
 main div{
     border: 1px solid black;
     margin:0.8rem auto ;
     width: 90%;
-    height: 10rem;    
+    height: 10rem;   
+    color:#F77F00; 
+    
 }
 .spotlight{
     display: block;
-    width: 40%;
-    width: 90%;
+    
+    height: 22rem;
     margin:auto;
     
 }
-
-
+.spot1 , .spot2{
+    width: 95%;
+    height: 45%;
+}
+.spot1{
+    margin-bottom: -15px;
+}
+.spot3{
+    display: none;
+}
+main div p{
+    padding:0.5rem ;
+}
+.join{
+    display:none
+}
 footer{
     background-color: #003049;
     margin-bottom: 18px;
-    margin-top:0px;
+    margin-top:-11px;
     text-align: center;
     color: #FCBF49;
     font-weight: bold;
