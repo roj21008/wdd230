@@ -7,11 +7,16 @@ header{
     grid-template-columns: 0.5fr 1.5fr 3fr 1fr;
     
 }
- header, footer {
+ header, footer,main {
 	
 	margin: auto;
 	font-size: 0.8rem;
+    
 
+}
+main{
+    padding:0.4rem;
+    
 }
 .logo{
     width: 5rem;
@@ -88,7 +93,8 @@ section.container{
     display:block;
     margin: auto;
     width: 100%;
-    border:1px solid red;  
+    border:3px solid red;
+    
     
     
 }
@@ -125,12 +131,13 @@ main div p{
 }
 footer{
     background-color: #003049;
-    margin-bottom: 18px;
-    margin-top:-11px;
+    margin-bottom: -18px;
+    margin-top:8px;
     text-align: center;
     color: #FCBF49;
     font-weight: bold;
     padding: 5px;
+    font-size: 1.1rem;
     
 }
 
