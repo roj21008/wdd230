@@ -10,7 +10,7 @@ header{
  header, footer,main {
 	
 	margin: auto;
-	font-size: 0.8rem;
+	
     
 
 }
@@ -108,7 +108,7 @@ main div{
 }
 .spotlight{
     display: block;
-    
+    border: 1px solid rgb(65, 15, 182);
     height: 22rem;
     margin:auto;
     
