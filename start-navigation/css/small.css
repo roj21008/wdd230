@@ -18,18 +18,19 @@ nav button{
     color: #555;
 }
 nav{
-    background-color: #eee;
+    background-color: rgb(76, 136, 214);
 }    
 nav ul{
     list-style-type: none;
     padding: 0;
     margin: 0;
+    
 }
 nav ul li a{
     display:block;
     padding: .8rem 2vw;
     text-decoration: none;
-    color: #333;
+    color: rgb(238, 231, 231);
     border-top: 1px solid rgba(0,0,0,0.5);
 }
 nav ul li a:hover{
