@@ -1,29 +1,5 @@
 @media only screen and (min-width: 35rem) {
-    body{
-        justify-content: center;
-        margin: auto;
-    }
-    header, footer {
-        width: 90%;
-        padding: 1px;
-    }
-    main{
-
-        width:89.5%  ;
-    }
-    nav button{
-          display:none;
-      }  
-    nav ul#primaryNav{
-      display:flex;
-      margin-left: 2vw;
-      border-left: 1px solid rgb(0, 0, 0, 0.3);
-     
-    }
-    nav ul li a{
-      border:none;
-      border-left: 1px solid rgb(0, 0,0, 0.3);
-    }
+    
     
     
     /*BOXES*/

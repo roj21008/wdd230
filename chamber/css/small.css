@@ -1,86 +1,23 @@
 body{
     background-color: #EAE2B7;
 }
-header{
-    background-color: #003049;
-    display: grid;
-    grid-template-columns: 0.5fr 1.5fr 3fr 1fr;
-    
-}
- header, footer,main {
-	
-	margin: auto;
-	
-    
 
-}
-main{
-    padding:0.4rem;
-    
-}
-.logo{
-    width: 5rem;
-    border-radius: 38px;
-    padding: 1rem;
-}
 
-section{
-    color: #EAE2B7;
-    margin: 1rem;
-}
+
 h1{
     font-size:1.3rem;
+    color:white;
 }
 h2{
     font-size:1rem;
+    color:white;
 }
 
 /*CSS NAV*/
-nav button{
-    margin: .2rem 2vw;
-    background: transparent;
-    border: none;
-    font-size: 2rem;
-    color: #003049;
-}
-nav{
-    background-color: transparent;
-}    
-nav ul{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-nav ul li a{
-    display:block;
-    padding: .8rem 2vw;
-    text-decoration: none;
-    color: rgb(235, 18, 18);
-    border-top: 1px solid rgba(224, 215, 215, 0.5);
-}
-nav ul li a:hover{
-    background-color: rgba(0,0,0,0.3);
-    
-}
-nav ul li.active a{
-    background-color: rgba(0,0,0,0.2);
-    color: #fff;
-}
+ 
 
-nav ul {
-    display: none;
-}
 
-nav ul.open{
-    display: block;
-}
 
-#hamburgerBtn span:nth-child(1) {display:block;}
-#hamburgerBtn span:nth-child(2) {display:none;}
-
-#hamburgerBtn.open span:nth-child(1) {display:none;}
-#hamburgerBtn.open span:nth-child(2) {display:block;}
-/*END NAV*/
 
 
 .facebook, .linkedin{
@@ -88,16 +25,25 @@ nav ul.open{
     border-radius: 50%;
     margin: 5px;
     justify-content: flex-end;
+} 
+aside {
+    color: white;
+    text-align:center;
+    margin: 5rem;
+    border: 1px solid grey;
+    padding: 0.75rem;
+    background-color: grey;
+    width: 50rem;
 }
+
 section.container{
     display:block;
     margin: auto;
     width: 100%;
     border:3px solid red;
-    
-    
-    
+        
 }
+
 main div{
     border: 1px solid black;
     margin:0.8rem auto ;

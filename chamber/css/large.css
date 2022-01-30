@@ -1,16 +1,79 @@
 @media only screen and (min-width: 60em){
     
     header{
-        background-color: #003049;
-        display: grid;
-        grid-template-columns: 0.5fr 1.5fr 3fr 1fr;
-        
-    }
+        border: 1px blue solid;
+       display:block;
+       background-color:#003049;
+       }
+     
+     
+     #title-nav{    
+       border:1px #FF5733 solid;
+       display:flex;
+       flex-direction:row;
+       justify-content:space-between;
+     }
+     
+     .logo{
+       margin-left:4rem;
+       
+        border: 1px yellow solid;
+     }
+     .section{
+      
+        border: 1px yellow solid;
+       text-align:center;
+       padding:1rem;
+     }
+     
+     .logo-title{
+       display:flex;
+       align-items:center;
+       border:5px green solid;
+       width:33rem;
+       
+     }
+     nav{
+       border:5px green solid;
+       margin:auto;
+       justify-content:center;
+      
+     }
+     button{
+       display:none;}
+     
+     nav ul{
+       list-style:none;
+       overflow:hidden;
+     }
+     nav ul li{
+       float:left;
+     }
+     
+     nav ul li a{
+       display:block;
+       padding:1.9rem;
+       text-decoration:none;
+       color:white;
+     }
+     .social{
+     width:10rem;
+       border:5px green solid;
+     }
+     
+     .date-now{
+       height:30px;
+       border:1px #FF5733 solid;
+       justify-content:center;
+       width:70%;
+       margin:auto;
+       height:2rem;
+       margin-top:1rem;
+       margin-bottom:1rem;
+     }
     
-        nav ul li a{
-            padding: .5rem 1rem;
-          }
     
+    /*section grid*/
     section.container{
     
     grid-template-columns: 1fr 2.5fr 1fr;
@@ -29,6 +92,7 @@
     .hero{
         grid-column: 2/3;
         grid-row: 1/3;
+        height: 100%;
     }
     .weather{
         grid-column: 1/2;
@@ -45,15 +109,20 @@
     .spotlight{
         display: flex;
         flex-direction: column;
-        padding:0.2rem;
         grid-column: 3/4;
         grid-row: 1/4;
+        height: 100%;
+
     }
     .spot1,.spot2,.spot3{
-    display: flex;
-    margin:0rem auto;
-    width: 90%;
-        height: 33.3%;
-        margin: 0.35rem ;
-    }
+        display: flow-root;
+        margin: 2% auto;
+        width: 90%;
+        height:33.3%;
+
+     }
+     .spot2{
+         margin-top: 0px;
+         margin-bottom: 0px;
+     }
 }
