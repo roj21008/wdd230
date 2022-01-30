@@ -38,12 +38,14 @@
   justify-content: left;
 }
 
+
      nav{
        
        margin:auto;
        justify-content:center;
       
      }
+
      button{
        display:none;}
      
