@@ -45,13 +45,13 @@ header{
   .logo-title{
     display:flex;
     align-items:center;
-    border:2px green solid;
+    
     width:23rem;
     
   }
   .nav-social{
       display:flex;
-      border:2px green solid;
+      
       flex-direction:row;
       align-items: center;
        
