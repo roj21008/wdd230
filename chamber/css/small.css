@@ -1,8 +1,60 @@
 body{
     background-color: #EAE2B7;
 }
-header,main, footer{width:80%;
+header,main, footer{width:99%;
 margin:auto;}
+
+header{
+        
+    display:block;
+    background-color:#003049;
+    padding: 1rem;
+    
+    }
+    /*rep*/
+    #title-nav{    
+       
+        display:flex;
+        flex-direction:row;
+        
+        
+      }
+/*rep*/
+.logo{
+    width: 7rem;
+    height: 6rem;
+    margin-right:2rem ;
+    margin-left: 2rem;
+    border-radius: 30%;
+    
+    
+  }
+  /*rep*/
+  .logo-title{
+    display:flex;
+    align-items:center;
+    
+      }
+    section{
+        width:40%;
+    }  
+  h1,h2{
+    text-align:center;
+  }
+
+  .logo-title{
+    display:flex;
+    align-items:center;
+    border:2px green solid;
+    width:23rem;
+    
+  }
+  .nav-social{
+      display:flex;
+      border:2px green solid;
+      flex-direction:row;
+       
+    }
 
 
 h1{
@@ -14,21 +66,52 @@ h2{
     color:white;
 }
 
-date, aside {
-	margin: 0.5rem;
-	text-align:center;
+
+nav ul{
+    list-style:none;
+    overflow:hidden;
+    
+    padding: 0;
+    margin: 0;
+  }
+  nav ul li{
+    float:left;
+  }
   
-	color:white;
-	padding: 0.75rem;
-	
-	
+  nav ul li a{
+    display:block;
+    padding:1.9rem;
+    text-decoration:none;
+    color:white;
+  }
+nav ul li:hover{
+    background-color: #F77F00;
+    color:#003049;
 }
-date{display:none}
+nav ul {
+    display: none;
+}
+
+nav ul.open{
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(1) {display:block;}
+#hamburgerBtn span:nth-child(2) {display:none;}
+
+#hamburgerBtn.open span:nth-child(1) {display:none;}
+#hamburgerBtn.open span:nth-child(2) {display:block;}
+
 
 /*CSS NAV*/
  
 
-
+.social{
+    width:10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 
 
@@ -38,6 +121,30 @@ date{display:none}
     margin: 5px;
     justify-content: flex-end;
 } 
+date, aside {
+	margin: 0.5rem;
+	text-align:center;
+    padding: top 1rem;;
+	color:white;
+	padding: 0.75rem;
+	
+	
+}
+date{
+    display:none
+}
+.date-now{
+    height:30px;
+    background-color: #1f648a;
+    justify-content:center;
+    align-items:center;
+    width:99%;
+    margin:auto;
+    height:3rem;
+    margin-top:1rem;
+    margin-bottom:1rem;
+  }
+
 
 section.container{
     display:block;
@@ -56,9 +163,10 @@ main div{
 }
 .spotlight{
     display: block;
-    border: 1px solid rgb(65, 15, 182);
+    border: 1px solid rgb(24, 23, 26);
     height: 22rem;
     margin:auto;
+    padding: 1rem;
     
 }
 .spot1 , .spot2{
@@ -67,6 +175,12 @@ main div{
 }
 .spot1{
     margin-bottom: -15px;
+    padding-right: -2rem;
+}
+
+.spot2{
+    margin-bottom: -15px;
+    padding-left: -2rem;
 }
 .spot3{
     display: none;

@@ -2,13 +2,7 @@
   main{
     width:75%;
     margin:1rem auto}
-    header{
-        
-       display:block;
-       background-color:#003049;
-       padding: 1rem;
-       
-       }
+   
      
      
      #title-nav{    
@@ -18,21 +12,7 @@
        justify-content:space-between;
      }
      
-     .logo{
-       width: 50%;
-       height: 70%;
-       margin-right:2rem ;
-       margin-left: 2rem;
-       border-radius: 30%;
-       
-       
-     }
-     .section{
-      
-        border: 1px yellow solid;
-       text-align:center;
-       padding:1rem;
-     }
+    
      h1,h2{
        text-align:center;
      }
@@ -47,6 +27,17 @@
        width:33rem;
        
      }
+
+/*navigation bar*/
+.nav-social{
+  width: 70%;
+  
+  display:flex;
+  
+  flex-direction:row-reverse;
+  justify-content: left;
+}
+
      nav{
        
        margin:auto;
@@ -56,23 +47,9 @@
      button{
        display:none;}
      
-     nav ul{
-       list-style:none;
-       overflow:hidden;
-     }
-     nav ul li{
-       float:left;
-     }
      
-     nav ul li a{
-       display:block;
-       padding:1.9rem;
-       text-decoration:none;
-       color:white;
-     }
      .social{
-     width:10rem;
-       
+       width:10rem;
        display: flex;
        justify-content: center;
        align-items: center;
@@ -80,11 +57,12 @@
      
      .date-now{
        height:30px;
-       border:1px #FF5733 solid;
+       background-color: #1f648a;
        justify-content:center;
-       width:70%;
+       align-items:center;
+       width:99%;
        margin:auto;
-       height:2rem;
+       height:3rem;
        margin-top:1rem;
        margin-bottom:1rem;
      }

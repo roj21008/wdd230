@@ -9,6 +9,7 @@ const x = document.getElementById("hamburgerBtn");
 x.onclick = toogleMenu
 
 
+
 //date now
 // select the elements to manipulate (output to)
 const datefield = document.querySelector("date");
