@@ -1,23 +1,31 @@
 @media only screen and (min-width: 60em){
-    
+  main{
+    width:75%;
+    margin:1rem auto}
     header{
-        border: 1px blue solid;
+        
        display:block;
        background-color:#003049;
+       padding: 1rem;
+       
        }
      
      
      #title-nav{    
-       border:1px #FF5733 solid;
+       
        display:flex;
        flex-direction:row;
        justify-content:space-between;
      }
      
      .logo{
-       margin-left:4rem;
+       width: 50%;
+       height: 70%;
+       margin-right:2rem ;
+       margin-left: 2rem;
+       border-radius: 30%;
        
-        border: 1px yellow solid;
+       
      }
      .section{
       
@@ -25,16 +33,22 @@
        text-align:center;
        padding:1rem;
      }
+     h1,h2{
+       text-align:center;
+     }
+     h1{
+       font-size:2.5rem;
+     }
      
      .logo-title{
        display:flex;
        align-items:center;
-       border:5px green solid;
+       
        width:33rem;
        
      }
      nav{
-       border:5px green solid;
+       
        margin:auto;
        justify-content:center;
       
@@ -58,7 +72,10 @@
      }
      .social{
      width:10rem;
-       border:5px green solid;
+       
+       display: flex;
+       justify-content: center;
+       align-items: center;
      }
      
      .date-now{
