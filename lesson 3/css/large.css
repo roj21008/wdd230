@@ -39,13 +39,12 @@
     nav a {
         font-size: 1.1rem;
     }
-    img {
-        display: block;
+    .center{
         margin:auto;
-        width: 300px;
-        height: 250px;
+        width: 450px;
+        height: 300px;
         margin-bottom: 50px;
-        padding: 7px; 
+        
         
     }
    
