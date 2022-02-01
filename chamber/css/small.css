@@ -20,8 +20,8 @@ header{
       }
 /*rep*/
 .logo{
-    width: 30%;
-    height: 70%;
+    width: 40%;
+    height: 80%;
     margin-right: 0.4rem;
    
     border-radius: 30%;
@@ -85,9 +85,10 @@ header{
   
   nav ul li a{
     display:block;
-    padding:0.9rem;
+    padding:0.4rem;
     text-decoration:none;
     color:white;
+    border-top: 1px solid #EAE2B7;
   }
 
 nav ul {
@@ -97,11 +98,13 @@ nav ul {
 nav ul.open{
     display: block;
     list-style-type:none;
-    background-color: #F77F00;
+    background-color: #003049;
     text-align: center;
     align-items: stretch;
     padding-inline-start: 0;
+    padding:0.8rem 0.2px;
     width: 100%;
+    
 
 }
 nav ul li.open:hover{
