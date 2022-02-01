@@ -20,8 +20,9 @@ header{
       }
 /*rep*/
 .logo{
-    width: 25%;
-    
+    width: 30%;
+    height: 70%;
+    margin-right: 0.4rem;
    
     border-radius: 30%;
     
@@ -33,20 +34,26 @@ header{
     justify-content:left;
     text-align: left;
     
-    
-    
-    
-      }
-    section{margin: 0.5em;
-        width:60%;
-    
-
-    }  
-  h1,h2{
-      text-align: left;
-    
-    font-size: 0.5rem;
+  
   }
+
+    section{margin: 0;
+        width:80%;
+    }  
+    
+ section h1{
+  font-size:1.3rem;
+  color: #EAE2B7;
+ font-family: 'Roboto', sans-serif; 
+ }
+ section h2{
+
+    font-size:1rem;
+    color: #EAE2B7;
+    font-family: 'Noto Serif', serif;
+
+
+ }
 
   .logo-title{
     display:flex;
@@ -60,20 +67,12 @@ header{
       
       flex-direction:row;
       align-items: center;
-      justify-content: right;
-      width: 55%;
-       
+      justify-content: space-between;
+      width: 40%;
+      
     }
 
 
-h1{
-    font-size:1.3rem;
-    color:white;
-}
-h2{
-    font-size:1rem;
-    color:white;
-}
 
 
 
@@ -224,26 +223,39 @@ footer{
 .separator{
   display:none;
 }
-.footer-title, .footer-subt{
+.footer-title{
   margin: 0 auto;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: lighter;
-  
+  font-family: 'Roboto', sans-serif;  
+  text-align: center;
+  color: #EAE2B7;
+}
+
+.footer-subt{
+  font-family: 'Noto Serif', serif;
+  margin: 0 auto;
+  font-size: 0.9rem;
+  font-weight: lighter;
+  color: #EAE2B7;
   text-align: center;
 }
 .location h2{
   text-align: center;
   font-weight: lighter;
   font-size: 1rem;
+  color: #EAE2B7;
 }
 
 .location a{
   text-decoration: none;
   color:white;
-  font-size: 1rem;
+  font-size: 0.9rem;
+  color: #EAE2B7;
 }
 .info p{
   margin: 0 auto;
+  font-size: 0.9rem;
 }
 
 
