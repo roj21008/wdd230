@@ -64,11 +64,10 @@ nav ul{
   justify-content: space-between;
   
 }
-nav ul li a{margin:0.5rem 2rem;}
-nav ul li:hover{
-  background-color: #F77F00;
-  color:#003049;
-}
+nav ul li a{
+  margin:0.5rem 2rem;
+  border-top: 0px solid #EAE2B7;}
+
      button{
        display:none;}
      

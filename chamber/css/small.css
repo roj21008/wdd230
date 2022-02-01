@@ -94,6 +94,11 @@ header{
 nav ul {
    display:none;
 }
+nav ul li:hover{
+  background-color: #F77F00;
+  color:#003049;
+  border-radius: 5px;
+}
 
 nav ul.open{
     display: block;
@@ -107,10 +112,7 @@ nav ul.open{
     
 
 }
-nav ul li.open:hover{
-    background-color: #EAE2B7;
-    color:#003049;
-}
+
 
 #hamburgerBtn span:nth-child(1) {display:block;}
 #hamburgerBtn span:nth-child(2) {display:none;}
