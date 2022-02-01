@@ -96,10 +96,53 @@
         width: 100%;
         
     }
-    
-    
-    
 
+
+    /*DESIGN FOOTER*/
+    .logo-tit-foot{
+        
+        display: flex;
+    }
+    .data{
+        
+        display: flex;
+        align-items: center;
 
     }
-    /**/
+    
+    .footer-title{
+        text-align: left;
+        font-size: 1.15rem;
+    }
+    .footer-subt{
+        text-align: left;
+        font-size: 0.8rem;
+    }
+    .title-subt{
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+    }
+    .location h2, .location a{
+        font-size: 0.7rem;
+        
+        letter-spacing:0.1rem;
+        
+    }
+.location{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+    .first-par,.separator{
+        display: flex;
+        justify-content: center;     
+        
+        
+    }
+    .info p{
+        margin: auto 0.2rem;
+    }
+
+    }
+    

@@ -143,4 +143,58 @@ nav ul li:hover{
          margin-top: 0px;
          margin-bottom: 0px;
      }
+
+
+/*DESIGN FOOTER*/
+.logo-tit-foot{
+  margin: 0 6rem;
+  display: flex;
+  justify-content: space-between;
+}
+.logo-footer{
+  width:20%;
+}
+
+
+.data{
+  
+  display: flex;
+  align-items: center;
+
+}
+
+.footer-title{
+  text-align: left;
+  font-size: 1.6rem;
+  margin-left: 0.5rem;
+  
+}
+
+.footer-subt{
+  text-align: left;
+  font-size: 1.2rem;
+  margin: 0.5rem;
+}
+.title-subt{
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+}
+
+ 
+  
+  
+
+.first-par,.separator{
+  display: flex;
+  justify-content: center;     
+  
+  
+}
+.info {
+display: flex;
+  margin: auto 0.2rem;
+  justify-content: center;
+  font-size: 1.3rem;
+}
 }

@@ -1,5 +1,5 @@
 const lastmod = document.querySelector('#lastmodified')
-lastmod.textContent = `Date last modified: ${document.lastModified}`;
+lastmod.textContent = `Last Modified: ${document.lastModified}`;
 
 function toogleMenu(){
     document.getElementById("primaryNav").classList.toggle("open");
