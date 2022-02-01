@@ -20,11 +20,11 @@
      h1,h2{
        text-align:center;
      }
-     h1{
-       font-size:2.5rem;
+    section h1{
+       font-size:2.2rem;
      }
-     h2{
-      font-size:1.5rem;
+     section h2{
+      font-size:1.3rem;
     }
     
      
@@ -36,7 +36,8 @@
        
      }
 .logo{
-  width:35%;
+  width:30%;
+  height: 80%;
 }
 /*navigation bar*/
 .nav-social{
@@ -48,6 +49,9 @@
   justify-content: left;
 }
 
+aside, nav ul li a{
+  font-size: 1.3rem;
+}
 
      nav{
        
@@ -167,13 +171,14 @@ nav ul li:hover{
   text-align: left;
   font-size: 1.6rem;
   margin-left: 0.5rem;
-  
+  font-family: 'Roboto', sans-serif;
 }
 
 .footer-subt{
   text-align: left;
   font-size: 1.2rem;
   margin: 0.5rem;
+  font-family: 'Roboto', sans-serif;
 }
 .title-subt{
   width: 70%;
@@ -191,10 +196,22 @@ nav ul li:hover{
   
   
 }
+
+.first-par p{
+  font-size: 1.3rem;
+}
+#lastmodified{
+  font-size: 1.3rem;
+}
+
 .info {
 display: flex;
   margin: auto 0.2rem;
   justify-content: center;
   font-size: 1.3rem;
+}
+.location h2, .location a{
+  font-size: 1.3rem;
+  font-family: 'Roboto', sans-serif;
 }
 }

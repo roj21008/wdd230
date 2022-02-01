@@ -9,7 +9,7 @@ body {
     
     
     margin: 1em auto;
-    font-family: 'Questrial', sans-serif;;
+    
 }
 
 h1{
@@ -116,12 +116,14 @@ nav a:hover {
     margin:auto;
     width: 90%;
     height: 250px;
-    
-    
-        
-    }
+   
+    }   
+.color-img{
+    margin: 1rem auto;
+    width: 60%;
+}
 
-    .url-palet{
+.url-palet{
         display: flex;
         justify-content: center;
         padding-top:4rem;
