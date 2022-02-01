@@ -1,9 +1,8 @@
-body{
-    background-color: #EAE2B7;
-}
-header,main, footer{width:99%;
-margin:auto;}
 
+header, footer{width:90%;
+margin:auto;}
+main{width:95%;
+margin: auto;}
 header{
         
     display:block;
@@ -16,15 +15,14 @@ header{
        
         display:flex;
         flex-direction:row;
-        
+        justify-content: center;
         
       }
 /*rep*/
 .logo{
-    width: 7rem;
-    height: 6rem;
-    margin-right:2rem ;
-    margin-left: 2rem;
+    width: 25%;
+    
+   
     border-radius: 30%;
     
     
@@ -32,14 +30,22 @@ header{
   /*rep*/
   .logo-title{
     display:flex;
-    align-items:center;
+    justify-content:left;
+    text-align: left;
+    
+    
+    
     
       }
-    section{
-        width:40%;
+    section{margin: 0.5em;
+        width:60%;
+    
+
     }  
   h1,h2{
-    text-align:center;
+      text-align: left;
+    
+    font-size: 0.5rem;
   }
 
   .logo-title{
@@ -54,6 +60,8 @@ header{
       
       flex-direction:row;
       align-items: center;
+      justify-content: right;
+      width: 55%;
        
     }
 
@@ -68,33 +76,38 @@ h2{
 }
 
 
-nav ul{
-    list-style:none;
-    overflow:hidden;
-    
-    padding: 0;
-    margin: 0;
-  }
+
   nav ul li{
-    float:left;
+    display: block;
+    
+    text-align: center;
+    margin: auto;
   }
   
   nav ul li a{
     display:block;
-    padding:1.9rem;
+    padding:0.9rem;
     text-decoration:none;
     color:white;
   }
-nav ul li:hover{
-    background-color: #F77F00;
-    color:#003049;
-}
+
 nav ul {
    display:none;
 }
 
 nav ul.open{
     display: block;
+    list-style-type:none;
+    background-color: #F77F00;
+    text-align: center;
+    align-items: stretch;
+    padding-inline-start: 0;
+    width: 100%;
+
+}
+nav ul li.open:hover{
+    background-color: #EAE2B7;
+    color:#003049;
 }
 
 #hamburgerBtn span:nth-child(1) {display:block;}
@@ -106,12 +119,12 @@ nav ul.open{
 
 /*CSS NAV*/
  
-
+/*div social net works*/
 .social{
-    width:10rem;
+    width:70%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    
   }
 
 
@@ -147,6 +160,9 @@ date{
   }
 
 
+
+  /*css main*/
+
 section.container{
     display:block;
     margin: auto;
@@ -167,22 +183,17 @@ main div{
     border: 1px solid rgb(24, 23, 26);
     height: 22rem;
     margin:auto;
-    padding: 1rem;
+    padding: 0.8rem;
+    width:84% ;
+    
     
 }
 .spot1 , .spot2{
     width: 95%;
-    height: 45%;
-}
-.spot1{
-    margin-bottom: -15px;
-    padding-right: -2rem;
+    height: 49%;
+    margin: auto;
 }
 
-.spot2{
-    margin-bottom: -15px;
-    padding-left: -2rem;
-}
 .spot3{
     display: none;
 }

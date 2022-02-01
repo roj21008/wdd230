@@ -1,7 +1,11 @@
 @media only screen and (min-width: 60em){
+ header,footer{
+  width:90%;
+  margin:1rem auto
+ }
   main{
-    width:75%;
-    margin:1rem auto}
+    width:85%;
+    margin:auto}
    
      
      
@@ -19,6 +23,10 @@
      h1{
        font-size:2.5rem;
      }
+     h2{
+      font-size:1.5rem;
+    }
+    
      
      .logo-title{
        display:flex;
@@ -28,8 +36,7 @@
        
      }
 .logo{
-  width: 12rem;
-  height:10rem;
+  width:35%;
 }
 /*navigation bar*/
 .nav-social{
@@ -50,6 +57,13 @@
      }
 nav ul{
   display:flex;
+  justify-content: space-between;
+  
+}
+nav ul li a{margin:0.5rem 2rem;}
+nav ul li:hover{
+  background-color: #F77F00;
+  color:#003049;
 }
      button{
        display:none;}
@@ -84,7 +98,7 @@ nav ul{
     
     }
     main div{
-        margin:0 auto ;
+        margin: auto ;
     }
     
     .event{
@@ -113,14 +127,16 @@ nav ul{
         flex-direction: column;
         grid-column: 3/4;
         grid-row: 1/4;
-        height: 100%;
+        height: 96%;
+        width: 90%;
+        margin: auto;
 
     }
     .spot1,.spot2,.spot3{
         display: flow-root;
-        margin: 2% auto;
+        margin: auto;
         width: 90%;
-        height:33.3%;
+        height:33%;
 
      }
      .spot2{
