@@ -21,9 +21,7 @@ header{
 /*rep*/
 .logo{
     width: 30%;
-    
     margin-right: 0.4rem;
-   
     border-radius: 30%;
     
     
@@ -33,27 +31,27 @@ header{
     display:flex;
     justify-content:left;
     text-align: left;
-    
-  
+     
   }
 
-    section{margin: 0;
+  section{margin: 0;
         width:80%;
     }  
 
- section h1{
-  font-size:1.3rem;
-  color: #EAE2B7;
- font-family: 'Roboto', sans-serif; 
+    section h1{
+      font-size:1.3rem;
+      color: #EAE2B7;
+      font-family: 'Roboto', sans-serif; 
+    }
+    section h2{
+
+      font-size:1rem;
+      color: #EAE2B7;
+      font-family: 'Noto Serif', serif;
+
+
  }
- section h2{
-
-    font-size:1rem;
-    color: #EAE2B7;
-    font-family: 'Noto Serif', serif;
-
-
- }
+ section
 
   .logo-title{
     display:flex;
@@ -185,9 +183,21 @@ main div{
     margin:0.8rem auto ;
     width: 90%;
     height: 10rem;   
-    color:#F77F00; 
+    background-color:#F77F00; 
+    
     
 }
+h3{
+  color: white
+}
+
+.hero h2{/*titulot*/
+  color:#EAE2B7;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+
 .spotlight{
     display: block;
     border: 1px solid rgb(24, 23, 26);
