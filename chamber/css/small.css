@@ -98,6 +98,8 @@ nav ul li:hover{
   background-color: #F77F00;
   color:#003049;
   border-radius: 5px;
+  padding-bottom: 20px;
+  transition-duration: 0.7s;
 }
 
 nav ul.open{

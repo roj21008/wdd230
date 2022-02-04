@@ -40,11 +40,7 @@
   
 }
 
-.trujillo-img{/*image in Hero with.......*/
-  max-width: 100%;
-    height: auto;
-  
-}
+
 /*navigation bar*/
 .nav-social{
   width: 70%;
@@ -118,6 +114,16 @@ nav ul li a{
         grid-column: 2/3;
         grid-row: 1/3;
         height: 100%;
+    }
+    .trujillo-img{/*image in Hero with.......*/
+      max-width: 100%;
+      
+        height: 100%;
+      
+    }
+    .hero-btn{
+      position: absolute;
+      background-color:#F77F00;  ;
     }
     .weather{
         grid-column: 1/2;
