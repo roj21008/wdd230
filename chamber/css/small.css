@@ -182,26 +182,54 @@ main div{
     border: 1px solid black;
     margin:0.8rem auto ;
     width: 90%;
-    height: 10rem;   
+    height: 15rem;   
     background-color:#F77F00; 
     
     
 }
+
 h3{
   color: white
 }
-
-.hero h2{/*titulot*/
-  color:#EAE2B7;
-  font-size: 3rem;
-  font-weight: bold;
+.hero{
+  position: relative;
 }
 
+.hero-subt{/*WELLCOME TO TRUJILLO*/
+  position: absolute;
+  top:10px;
+  left: 15px;
+  font-size: 2rem;
+  z-index: 2;
+  text-shadow: 5px 1px 20px yellow;
+  
+  }
 
+
+.trujillo-img{/*image in Hero with.......*/
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  
+}
+.hero-link{
+  background-color: #EAE2B7;
+  position: absolute;
+  z-index: 4;
+  color:#F77F00; 
+  bottom:10px;
+  right: 10px;
+  padding: 15px;
+  border-radius: 1rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
 .spotlight{
     display: block;
     border: 1px solid rgb(24, 23, 26);
-    height: 22rem;
+    height: 30rem;
     margin:auto;
     padding: 0.8rem;
     width:84% ;
@@ -212,9 +240,15 @@ h3{
     width: 95%;
     height: 49%;
     margin: auto;
+    text-align: center;  
 }
 
+.spot1 img{
+  margin: auto;
+  width: 35%;
+}
 .spot3{
+  text-align: center;
     display: none;
 }
 main div p{
@@ -223,6 +257,21 @@ main div p{
 .join{
     display:none
 }
+
+  p{
+    padding:0;
+    margin: 0;
+    color:#EAE2B7;
+  }
+ .phone{
+   border-top: 1px solid #EAE2B7;
+   margin: 8px;
+   
+ }
+
+
+
+/*CSS FOOTER*/
 footer{
     display: block;
     justify-content: center;

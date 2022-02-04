@@ -104,6 +104,7 @@ nav ul li a{
     }
     main div{
         margin: auto ;
+        
     }
     
     .event{
@@ -118,16 +119,7 @@ nav ul li a{
         height: 100%;
         position: relative;
     }
-    .hero-subt{
-     
-      position: absolute;
-      top:10px;
-      left: 10px;
-      font-size: 2rem;
-      z-index: 2;
-      
-     
-    }
+    
 
     .trujillo-img{/*image in Hero with.......*/
       position: absolute;
@@ -136,18 +128,7 @@ nav ul li a{
       z-index: 1;
       
     } 
-    .join-link{
-      background-color: #EAE2B7;
-      position: absolute;
-      z-index: 4;
-      color:#F77F00; 
-      bottom:10px;
-      right: 10px;
-      padding: 15px;
-      border-radius: 1rem;
-      font-weight: bold;
-      font-size: 2rem;
-}
+    
 
     .weather{
         grid-column: 1/2;
@@ -156,7 +137,12 @@ nav ul li a{
     .join{
         grid-column: 1/2;
         grid-row: 3/4;
+        
+        
+
     }
+    
+   
     .new{
         grid-column: 2/3;
         grid-row: 3/4;
@@ -182,6 +168,8 @@ nav ul li a{
          margin-top: 0px;
          margin-bottom: 0px;
      }
+
+
 
 
 /*DESIGN FOOTER*/
@@ -249,4 +237,5 @@ display: flex;
   font-size: 1.3rem;
   font-family: 'Roboto', sans-serif;
 }
+
 }
