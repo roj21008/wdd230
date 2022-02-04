@@ -9,7 +9,9 @@
         margin: auto;
         
     }
-        
+      .loogo{
+          width: 35%;
+      }  
 
     .date-now{
         width:88%;
