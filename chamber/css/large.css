@@ -27,7 +27,7 @@
       font-size:1.3rem;
     }
     
-     
+    /*css header*/ 
      .logo-title{
        display:flex;
        align-items:center;
@@ -37,6 +37,12 @@
      }
 .logo{
   width:40%;
+  
+}
+
+.trujillo-img{/*image in Hero with.......*/
+  max-width: 100%;
+    height: auto;
   
 }
 /*navigation bar*/
@@ -53,11 +59,11 @@ aside, nav ul li a{
   font-size: 1.3rem;
 }
 
-     nav{
-       
-       margin:auto;
-       justify-content:center;
-      
+nav{
+  
+  margin:auto;
+  justify-content:center;
+
      }
 nav ul{
   display:flex;
