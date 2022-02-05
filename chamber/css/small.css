@@ -226,6 +226,27 @@ h3{
   font-size: 1.5rem;
   text-decoration: none;
 }
+ 
+
+/* CSS WEATHER */
+.weather h2{
+  text-align: center;
+}
+.weather-top{
+  display:grid;
+  grid-template-columns: auto auto;
+
+}
+.weather-img{
+  grid-column: 1;
+  width: 25%;
+}
+.weather-subt{
+  grid-column: 2;
+}
+
+
+/*CSS SPOTLIGHT*/
 .spotlight{
     display: block;
     border: 1px solid rgb(24, 23, 26);
