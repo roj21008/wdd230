@@ -1,53 +1,62 @@
 
-header, footer{width:90%;
-margin:auto;}
-main{width:95%;
-margin: auto;}
+header, footer{
+  width:90%;
+  margin:auto;}
+
+main{
+  width:95%;
+  margin: auto;
+}
+
 header{
         
     display:block;
     background-color:#003049;
     padding: 1rem;
     
-    }
-    /*rep*/
-    #title-nav{    
-       
-        display:flex;
-        flex-direction:row;
-        justify-content: center;
+  }
+  
+/*rep*/
+#title-nav{    
+    
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
         
       }
 /*rep*/
 .logo{
-    width: 30%;
-    margin-right: 0.4rem;
-    border-radius: 30%;
+  width: 80px;
+  margin:auto;
+  border-radius: 30%;
+  
+  
+}
+/*rep*/
+.logo-title{
+  display:flex;
+  justify-content:left;
+  text-align: left;
     
-    
+}
+
+.section-title{
+  margin: 0;
+      width:80%;
+      
+  }  
+
+  .title-chamber{
+    font-size:1rem;
+    color: #EAE2B7;
+    font-family: 'Roboto', sans-serif; 
+    margin-left: 10px ;
   }
-  /*rep*/
-  .logo-title{
-    display:flex;
-    justify-content:left;
-    text-align: left;
-     
-  }
+  .subtitle-chamber{
 
-  section{margin: 0;
-        width:80%;
-    }  
-
-    section h1{
-      font-size:1.3rem;
-      color: #EAE2B7;
-      font-family: 'Roboto', sans-serif; 
-    }
-    section h2{
-
-      font-size:1rem;
-      color: #EAE2B7;
-      font-family: 'Noto Serif', serif;
+    font-size:0.8rem;
+    color: #EAE2B7;
+    font-family: 'Noto Serif', serif;
 
 
  }
@@ -69,10 +78,6 @@ header{
       width: 40%;
       
     }
-
-
-
-
 
   nav ul li{
     display: block;
@@ -167,22 +172,27 @@ date{
     margin-bottom:1rem;
   }
 
-
-
-  /*css main*/
+/*----CSS MAIN-----------*/
+/*CSS MAIN*/
+  /*CSS MAIN*/
+main{
+  margin: 1rem auto;
+}
 
 section.container{
-    display:block;
-    margin: auto;
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 0.5rem;
+    
     width: 100%;
             
 }
 
-main div{
+.hero, .event, .weather, .new, .join, .spotlight {
     border: 1px solid black;
-    margin:0.8rem auto ;
-    width: 90%;
-    height: 15rem;   
+    margin: auto ;
+    width: 100%;
+    height: 100%;   
     background-color:#F77F00; 
     
     
@@ -193,25 +203,7 @@ h3{
 }
 .hero{
   position: relative;
-}
-
-.hero-subt{/*WELLCOME TO TRUJILLO*/
-  position: absolute;
-  top:10px;
-  left: 15px;
-  font-size: 2rem;
-  z-index: 2;
-  text-shadow: 5px 1px 20px yellow;
-  
-  }
-
-
-.trujillo-img{/*image in Hero with.......*/
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  
+  grid-row: 1;
 }
 .hero-link{
   background-color: #EAE2B7;
@@ -225,61 +217,138 @@ h3{
   font-weight: bold;
   font-size: 1.5rem;
   text-decoration: none;
+  box-shadow: 1px 2px #888888;
 }
- 
+.hero-link:active{
+  box-shadow: 2px 3px 10px 8px #888888;
+}
 
-/* CSS WEATHER */
-.weather h2{
+.hero-subt{/*WELLCOME TO TRUJILLO*/
+  position: absolute;
+  top:10px;
+  left: 15px;
+  font-size: 2rem;
+  z-index: 2;
+  text-shadow: 5px 1px 20px yellow;
+  color: #EAE2B7;;
+  
+  }
+ 
+.event{
+  grid-row:2 ;
+}
+.event h3{
+  margin-top: -0.8rem;
   text-align: center;
 }
+.event-par{
+  font-size: 1.7rem;
+}
+.weather{
+  grid-row: 3;
+}
 .weather-top{
-  display:grid;
-  grid-template-columns: auto auto;
-
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0.1rem;
+  
+  height: 35%;
 }
 .weather-img{
+  width:190px;
+  margin: 10px;
   grid-column: 1;
-  width: 25%;
 }
 .weather-subt{
+  font-size: 3rem;
   grid-column: 2;
 }
+.weather h4{
+  text-align: right;
+  margin-right: 20px;
+  font-size:1rem ;
+  margin-top: 3px;
+  color: white;
+}
+.text-weather{
+  
+  margin-right: 20px;
+  font-size:1.1rem ;
+  
+  margin-top: 3px;
+  color: white;
+}
+.new{
+  grid-row: 4;
+}
+.new p{
+  line-height: 2;
+  font-size: 1.2rem;
+}
 
 
-/*CSS SPOTLIGHT*/
+
+.trujillo-img{/*image in Hero with.......*/
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  
+}
+
+
+/* CSS WEATHER */
+
+
+
+/*-------CSS SPOTLIGHT--------*/
 .spotlight{
-    display: block;
-    border: 1px solid rgb(24, 23, 26);
-    height: 30rem;
-    margin:auto;
-    padding: 0.8rem;
-    width:84% ;
-    
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    grid-row: 5/7;
     
 }
-.spot1 , .spot2{
-    width: 95%;
-    height: 49%;
-    margin: auto;
-    text-align: center;  
+
+.spot1{
+  text-align: center;
+  grid-row:1 ;
+  border:1px solid black;
+  margin: 0.5rem 0.5rem 0 0.5rem;
+  line-height: 1.6;
 }
 
 .spot1 img{
   margin: auto;
   width: 35%;
+  
 }
+
+.spot2{
+  text-align: center;
+  grid-row:2 ;
+  border:1px solid black;
+  margin: 0 0.5rem 0.5rem 0.5rem;
+  line-height: 1.6;
+}
+
 .spot2 img{
   margin: auto;
-  width: 35%; 
-}
-.spot3 img{
-  margin: auto;
-  width: 35%; 
+  width: 18%; 
+  
 }
 .spot3{
   text-align: center;
     display: none;
+    border:1px solid black;
+    line-height: 1.6;
 }
+.spot3 img{
+  margin: auto;
+  width: 30%; 
+  
+  
+}
+
 main div p{
     padding:0.5rem ;
 }
@@ -287,26 +356,39 @@ main div p{
     display:none
 }
 
-  p{
-    padding:0;
-    margin: 0;
-    color:#EAE2B7;
-  }
- .phone{
-   border-top: 1px solid #EAE2B7;
-   margin: 8px;
-   
- }
+div p{
+  text-align: center;
+  margin: -1rem auto;
+  color:#003049;;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.container h2{  /*titles in every box*/
+  text-shadow: 5px 1px 20px yellow;
+  text-align: center;
+  font-size: 1.7rem;
+  color: #EAE2B7;
+}
+
+.phone{
+  border-top: 1px solid #EAE2B7;
+  margin: 8px;
+  
+  
+}
+/*-----------END CSS MAIN----------*/
 
 
 
-/*CSS FOOTER*/
+/*------------CSS FOOTER------------*/
 footer{
     display: block;
     justify-content: center;
     text-align: center;
     background-color: #003049;
-    margin: 1rem auto;
+    margin: 2rem auto;
+    margin-top:1rem;
     padding: 1rem;
     color: #FCBF49;
     
