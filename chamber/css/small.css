@@ -438,5 +438,8 @@ footer{
   margin: 0 auto;
   font-size: 0.9rem;
 }
+.my-info, .separator{
+  color: #EAE2B7;
+}
 
 
