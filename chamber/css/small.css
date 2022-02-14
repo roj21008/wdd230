@@ -171,7 +171,11 @@ date{
     margin-top:1rem;
     margin-bottom:1rem;
   }
-
+  .meet{
+    text-align: center;
+    color:white;
+    font-size: 1.3rem;
+  }
 /*----CSS MAIN-----------*/
 /*CSS MAIN*/
   /*CSS MAIN*/
@@ -248,9 +252,8 @@ h3{
   grid-row: 3;
 }
 .weather-top{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 0.1rem;
+ text-align: center;
+ margin: 1rem auto;
   
   height: 35%;
 }

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head>   
     <meta charset="UTF-8" />
     <meta name="author" content="Luis A. Rojas" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
@@ -46,9 +46,8 @@
         <div class="date-now">
             <date></date>
             <aside></aside>
-            
         </div>
-        
+        <h2 class="meet"> Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h2>
     </header>
 
     <main>
@@ -72,12 +71,14 @@
                 
                 <h2>Weather</h2>
                 <section class="weather-top">
-                    <img class="weather-img"src="image/clima.png" alt="weather icon">
-                    <h3 class="weather-subt">19°C</h3>
+                    
+                    <img src="https://www.meteored.pe/wimages/foto660f9f5cb7f0624dbeb7c307ccc68b3d.png">
+                    
+
                 </section>  
                 <h4>Partly Cloudy</h4>
                 
-                    <p class="text-weather">Wind Speed:     2.5 km/h</p>
+                    <p class="text-weather">Wind Speed: <span id="speed"> 2.5 km/h</span></p>
                     <p class="text-weather">Wind Chill: <span id="windchill"></span></p>
                 
             </div>
@@ -157,7 +158,8 @@
 </footer>
     <script src="js/last-modified.js"></script>
     <script src="js/windchill.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    
+    
 </body>
 </html>
 
