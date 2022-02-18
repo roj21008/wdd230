@@ -264,4 +264,16 @@ display: flex;
   font-family: 'Roboto', sans-serif;
 }
 
+
+
+
+.trujillo-images{  /*picture element*/
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  justify-content: center;
+}
+
+
 }
