@@ -1,0 +1,19 @@
+body{
+    display:flex;
+    flex-direction: column;
+
+}
+h1{
+    text-align: center;
+}
+picture{
+    width: 600px;
+    margin:auto;
+    
+   
+}
+img{
+    width: 100%;
+    
+
+}
