@@ -140,8 +140,23 @@
         font-size: 3rem;
         grid-column: 2;
       }
+ /*------------------------------------------------*/     
+/*DISCOVER PAGE*/
+/*DISCOVER PAGE*/
+/*DISCOVER PAGE*/
+/*DISCOVER PAGE*/
+/*DISCOVER PAGE*/
 
 
+.trujillo-images{  /*picture element*/
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    justify-content: center;
+  }
+  
+/*---------------------------------------------*/
     /*DESIGN FOOTER*/
     .logo-tit-foot{
         
@@ -187,6 +202,9 @@
     .info p{
         margin: auto 0.2rem;
     }
+
+
+
 
     }
     

@@ -111,7 +111,7 @@ nav ul.open{
     background-color: #003049;
     text-align: center;
     align-items: stretch;
-    padding-inline-start: 0;
+    
     padding:0.8rem 0.2px;
     width: 100%;
     
@@ -384,10 +384,19 @@ div p{
 
 
 
-
 /*DISCOVER PAGE
+DISCOVER PAGE
+DISCOVER PAGE
+DISCOVER PAGE
+DISCOVER PAGE
 TRUJILLO IMAGES
 */
+.label,.visits{
+  color:#EAE2B7;
+  background-color: #F77F00;
+  padding: 0.5rem;
+  font-weight: bold;
+}
 #container-discover{/*div element*/
   width: 95%;
   margin: 1rem auto;
@@ -403,13 +412,12 @@ TRUJILLO IMAGES
 figure {
   width: 100%;
   height: 100%;
-  margin:1rem auto;
+  margin: auto;
   box-shadow: 0px 15px 25px rgba(4, 72, 99, 0.5);
   border-radius: 6px;
 }
 #container-discover .trujillo-images figure .capa{
   position:absolute;
-  
   top:0;
   width: 100%;
   height: 100%;
