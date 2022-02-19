@@ -18,3 +18,4 @@ numVisits++;
 localStorage.setItem("visits-ls", numVisits);
 
 // show todays date.
+
