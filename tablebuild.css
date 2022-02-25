@@ -1,0 +1,53 @@
+#container{
+    font-family: 'Ubuntu', sans-serif;
+    width:25rem;
+    margin:auto;
+  }
+  
+  table{
+    width:100%;
+  }
+  table,tr,th,td{
+    border:1px solid blue;
+    border-collapse:collapse;
+    padding:0.7rem;
+    text-align:center;
+  }
+  
+  .header,.nov_value{
+    text-align:center;
+  }
+  tr:nth-child(4),tr:nth-child(6), tr:nth-child(8){background-color:#FCBF49;}
+  .header{
+    padding:1rem;
+    font-size:2rem;
+  }
+  tr:first-child{
+    background-color:#003049;
+      color:#EAE2B7;
+  }
+  tr:nth-child(2){
+    background-color:#F77F00;
+    color:#003049;
+    font-weight:bold;
+  }
+  
+  .goal{
+    background-color:#F77F00;
+    color:#003049;
+  }
+  
+  .black_friday{
+    font-style: italic;
+  }
+  
+  tr:nth-child(9){
+    background-color:#003049;
+    color:#EAE2B7;
+  }
+  
+  
+  tr:nth-child(3),tr:nth-child(5), tr:nth-child(7){
+    background-color:#EAE2B7;
+  }
+   

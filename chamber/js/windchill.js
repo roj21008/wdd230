@@ -13,3 +13,4 @@ let result = wind(weather,speed);*/
 document.getElementById("windchill").textContent = wind(73,13).toFixed(2);  
 
 
+
