@@ -108,7 +108,7 @@ nav ul li a{
     section.container{
     
     grid-template-columns: 1.1fr 2.3fr 1.1fr;
-    grid-template-rows: 1fr 1fr 1fr  ;
+    grid-template-rows: 18rem 18rem 18rem  ;
     grid-gap: 0.5rem;
     margin: 1rem auto ;
 
