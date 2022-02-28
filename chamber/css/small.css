@@ -539,17 +539,13 @@ form label.sbs{
 
 }
 
-  
-
 .submitBtn{
-  
- 
   border: none;
   border-radius: 1rem;
   background-color: #F77F00;
   color: #EAE2B7;
   padding: .75rem 1.5rem;
-  width: 99%;
+  width: 90%;
   margin: auto;
   
   }
