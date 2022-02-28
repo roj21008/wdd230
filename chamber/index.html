@@ -55,12 +55,12 @@
         <section class="container">
             <div class="hero"> <!--     Hero with site name and call to action-->
                 <h1 class="hero-subt">Wellcome to Trujillo</h1>
-                
-                    <img src="image/wdd230-org.jpg" size="50w" alt="Home imgage" class="trujillo-img"
-                    srcset="image/wdd230-org_small.jpg 300w,
-                            image/wdd230-org_medium.jpg 500w,
-                            image/wdd230-org_large.jpg 1100w,">
-                
+                <picture>
+                    <source media="(max-width: 594px)"srcset ="image/wdd230-org_small.jpg">
+                    <source media="(max-width: 1019px)"srcset ="image/wdd230-org_medium.jpg">
+                    <source media="(max-width: 1500px)"srcset ="image/wdd230-org_large.jpg">
+                    <img src="image/wdd230-org_large.jpg" size="50w" alt="Home imgage" class="trujillo-img">
+                </picture>
                 <!--<img src="image/huanchaco.jpg" alt="" class="trujillo-img">-->
                 <a href="#" class="hero-link">Join the Chamber</a>
                 

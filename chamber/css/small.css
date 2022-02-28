@@ -185,7 +185,8 @@ main{
 
 section.container{
     display:grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    /*grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;*/
+    grid-template-rows: 25rem 25rem 25rem 25rem 25rem 25rem;
     grid-gap: 0.5rem;
     
     width: 100%;
