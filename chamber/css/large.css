@@ -62,12 +62,11 @@
 }
 
 aside, nav ul li a{
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 nav{
-  
-  margin:auto;
+    margin:auto;
   justify-content:center;
 
      }
@@ -76,8 +75,9 @@ nav ul{
   justify-content: space-between;
   
 }
+
 nav ul li a{
-  margin:0.5rem 2rem;
+  margin:0.5rem 0.9rem;
   border-top: 0px solid #EAE2B7;}
 
      button{

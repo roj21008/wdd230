@@ -17,11 +17,12 @@ header{
   }
   
 /*rep*/
-#title-nav{    
-    
+#title-nav{    /*ALL TITLE LOGO, NAV, SOCIAL*/
+  
   display:flex;
   flex-direction:row;
   justify-content: center;
+  align-items: center;
         
       }
 /*rep*/
@@ -37,11 +38,12 @@ header{
   display:flex;
   justify-content:left;
   text-align: left;
-    
+  
+  width: 70%;
 }
 
 .section-title{
-  margin: 0;
+  margin:auto  0;
       width:80%;
       
   }  
@@ -57,52 +59,53 @@ header{
     font-size:0.8rem;
     color: #EAE2B7;
     font-family: 'Noto Serif', serif;
+    margin-left: 10px ;
 
 
  }
- section
-
-  .logo-title{
-    display:flex;
-    align-items:center;
-    
-    width:23rem;
-    
+ 
+  
+  ul{
+    margin: 1px auto;
+   
   }
-  .nav-social{
-      display:flex;
-      
-      flex-direction:row;
-      align-items: center;
-      justify-content: space-between;
-      width: 40%;
-      
-    }
+  
 
   nav ul li{
     display: block;
     
     text-align: center;
-    margin: auto;
+    margin: 0px auto;
+    
+
+    
   }
   
   nav ul li a{
     display:block;
-    padding:0.4rem;
+    padding: .7rem;
     text-decoration:none;
     color:white;
     border-top: 1px solid #EAE2B7;
+    margin: 1px auto;
+  }
+  
+  nav ul li:hover{
+  background-color: #F77F00;
+  color:#003049;
+  border-radius: 5px;
+  padding: 0.3rem;
+  transition-duration: 0.5s;
+}
+.home-btn{
+    background-color: #F77F00;
+    border-radius: 5px;
+    
+
   }
 
 nav ul {
    display:none;
-}
-nav ul li:hover{
-  background-color: #F77F00;
-  color:#003049;
-  border-radius: 5px;
-  padding-bottom: 20px;
-  transition-duration: 0.7s;
 }
 
 nav ul.open{
@@ -116,6 +119,9 @@ nav ul.open{
     width: 100%;
     
 
+}
+#hamburgerBtn{
+  margin: auto;
 }
 
 
@@ -134,7 +140,7 @@ p{
  
 /*div social net works*/
 .social{
-    width:70%;
+    width:20%;
     display: flex;
     justify-content: center;
     

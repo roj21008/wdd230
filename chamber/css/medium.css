@@ -30,6 +30,9 @@
     
     
      }
+     
+     nav ul.open{
+        display: flex;}
 
 
     .date-now{
