@@ -151,7 +151,7 @@ p{
 date, aside {
 	margin: 0.5rem;
 	text-align:center;
-    padding: top 1rem;;
+    padding: 1rem;
 	color:white;
 	padding: 0.75rem;
 	
@@ -401,7 +401,7 @@ TRUJILLO IMAGES
 #container-discover{/*div element*/
   width: 95%;
   margin: 1rem auto;
-  border: 1px solid blue;
+  
   
 }
 .trujillo-images{
@@ -495,7 +495,7 @@ z-index:1;
   width:35%;
   height:45%;
   margin: 0 3em .5em 0;
-  shape-outside: circle();
+  
 }
 
 
@@ -505,11 +505,9 @@ form fieldset{
   
   width: 90%;
   margin:2rem auto ;
-  border: 1 px solid #003049;
+  border: 2px solid #003049;
   border-radius: 10px;
   padding: 0.5rem 2%;
-  
-
   
 }
 form legend{
@@ -520,6 +518,7 @@ form label.top , form div{
   display:block;
   padding-top: 1rem;
  font-size: 0.8rem; 
+ 
 }
 form label.top input, form label.top select{
   display: block;
