@@ -1,3 +1,28 @@
+const bannerMessage = (day)=>{
+	const meet = document.querySelector(".meet");
+	const banner = document.createElement("h3");
+	banner.innerText = `Come join us for the chamber meet and greet ${day} at 7:00 p.m.`
+	meet.appendChild(banner)
+}
+
+const dayName = new Date();
+switch (dayName.getDay()){
+	case 1:
+		bannerMessage("Wednesday")
+		break;
+	case 2:
+		bannerMessage("Wednesday")
+		break;
+}
+
+
+
+
+
+
+
+//MUBER OF VISITS
+
 // initialize display elements
 
 const visitsDisplay = document.querySelector(".visits");
