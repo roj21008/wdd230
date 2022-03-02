@@ -11,59 +11,66 @@
     <title>TABLE TASK</title>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="tablebuild.css"/>
-
+ 
   </head>
   
   <body>
   <div id="container">
  
   <table id="table1">
+    <thead>
     <tr  >
-      <th class="header" colspan="3">ACME Wildwest</th>
+      <th id="header" scope="col" colspan="3">ACME Wildwest</th>
     </tr>
-    <tr>
-      <th> Period</th>
-      <th> Sales</th>
-      <th> Sales Goal</th>
+  
+  
+    <tr class="titles">
+      <th scope="col" headers="header"> Period</th>
+      <th scope="col" headers="header"> Sales</th>
+      <th scope="col" headers="header"> Sales Goal</th>
     </tr>
-    
+  </thead>
+  <tbody>
     <tr>
-      <td>August</td>
-      <td>$ 3950</td>
-      <td>$ 4000</td>
-    </tr>
-    
-    <tr>
-      <td>September</td>
-      <td>$ 4420</td>
-      <td>$ 5000</td>
-    </tr>
-    <tr>
-      <td>October</td>
-      <td>$ 4870</td>
-      <td>$ 5000</td>
-    </tr>
-        
-    <tr>
-      <td>November</td>
-      <td>$ 8610</td>
-      <td class="goal">$ 7500</td>
-    </tr>
-    
-    <tr>
-      <td class="black_friday">Black friday</td>
-      <td class="nov_value" colspan ="2">$ 3200</td>
-    </tr>
-    <tr>
-      <td>December</td>
-      <td>$ 6820</td>
-      <td>$ 7500</td>
-    </tr>
-    <tr>
-      <td colspan="3">Compiled 24.02.2022 by Luis A. Rojas</td>
+        <td>August</td>
+        <td>$ 3950</td>
+        <td>$ 4000</td>
+      </tr>
       
-    </tr>
-    
+      <tr>
+        <td>September</td>
+        <td>$ 4420</td>
+        <td>$ 5000</td>
+      </tr>
+      <tr>
+        <td>October</td>
+        <td>$ 4870</td>
+        <td>$ 5000</td>
+      </tr>
+          
+      <tr>
+        <td>November</td>
+        <td>$ 8610</td>
+        <td class="goal">$ 7500</td>
+      </tr>
+      
+      <tr>
+        <td class="black_friday">Black friday</td>
+        <td class="nov_value" colspan ="2">$ 3200</td>
+      </tr>
+      <tr>
+        <td>December</td>
+        <td>$ 6820</td>
+        <td>$ 7500</td>
+      </tr>
+
+  </tbody>
+  <tfoot>
+      <tr>
+        <td colspan="3">Compiled 24.02.2022 by Luis A. Rojas</td>
+        
+      </tr>
+  </tfoot>
   </table>
     
      
