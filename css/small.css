@@ -1,0 +1,95 @@
+
+
+body{
+       
+    width: 680px;
+    margin:  auto;
+    padding: 1rem;
+    
+    
+}
+header{display: flex;
+    flex-direction: row;
+   align-items: center;
+    border-color: #1b70a8 ;
+    background-color:#1b70a8 ;
+    border-radius: 20px;
+    width: 90%;
+    margin: auto;
+    height: 12rem;
+    
+    
+    grid-template-columns: repeat(4, 1fr);
+}
+/* MY PHOTO*/
+.my-image{
+    margin:0.8rem auto;
+    
+    width: 9rem;
+    height:90%;
+    border-radius: 20px;
+    margin-left: 1rem;
+    box-shadow: 1px 1px 28px rgb(49, 47, 47);    
+    
+}
+
+/*LUIS A ROJAS*/
+.myname{
+margin-right: 1.7rem;
+    color:white;  
+    text-shadow: 1px 1px 18px rgb(49, 47, 47);    
+    font-family: 'MonteCarlo', cursive;
+    font-size: 3.5rem;
+}
+/*WDD 230 : Assignment Portal*/
+h2{
+    text-shadow: 1px 1px 12px rgb(49, 47, 47); 
+    font-family: 'Special Elite', cursive;
+    font-size: 2.5rem;
+    text-align: center;
+    
+}
+
+.lessons ul li{
+    font-family: 'Aclonica', sans-serif;
+}
+
+.myname:hover{
+    transform:scale(1.08);
+    z-index:2;
+}
+.my-image:hover{
+    transform:scale(1.08);
+    z-index:2;
+}
+
+hr{ border-top: 2.5px dotted #1b70a8;}
+
+footer{
+        
+      
+    background-color:#1b70a8 ;
+    border-radius: 20px;
+    width: 90%;
+    height: 4.9rem;
+    margin: auto;
+    text-align: center;
+    
+    
+        
+    }
+
+.my-info{font-family: 'MonteCarlo', cursive;
+    color:yellow;
+    font-size: 1.19rem;
+    
+}
+.last-modified{
+    margin:1rem auto;
+    color:yellow;
+       
+} 
+.subtitle:hover{
+    transform:scale(1.08);
+    z-index:2;
+}
