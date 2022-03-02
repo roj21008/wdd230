@@ -182,7 +182,7 @@ date{
     color:white;
     font-size: 1rem;
   }
-/*-----------------------CSS MAIN--------------------*/
+/*-----------------------CSS MAIN-------------------------------------------------*/
 /*CSS MAIN*/
   /*CSS MAIN*/
 main{
@@ -191,7 +191,7 @@ main{
 
 section.container{
     display:grid;
-    /*grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;*/
+    
     grid-template-rows: 25rem 25rem 25rem 25rem 25rem 25rem;
     grid-gap: 0.5rem;
     
@@ -292,9 +292,9 @@ h3{
 .new{
   grid-row: 4;
 }
-.new p{
+.new p, .join p{
   line-height: 2;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 
@@ -318,19 +318,19 @@ h3{
     grid-template-rows: 1fr 1fr;
     grid-row: 5/7;
     
-}
+} 
 
 .spot1{
   text-align: center;
   grid-row:1 ;
   border:1px solid black;
-  margin: 0.5rem 0.5rem 0 0.5rem;
-  line-height: 1.6;
+  margin: 1rem 1rem 0.5rem 1rem;
+  
 }
 
 .spot1 img{
   margin: auto;
-  width: 35%;
+  width: 20%;
   
 }
 
@@ -338,8 +338,8 @@ h3{
   text-align: center;
   grid-row:2 ;
   border:1px solid black;
-  margin: 0 0.5rem 0.5rem 0.5rem;
-  line-height: 1.6;
+  margin: 0.5rem 1rem 1rem 1rem;
+  
 }
 
 .spot2 img{
@@ -351,7 +351,7 @@ h3{
   text-align: center;
     display: none;
     border:1px solid black;
-    line-height: 1.6;
+    
 }
 .spot3 img{
   margin: auto;
