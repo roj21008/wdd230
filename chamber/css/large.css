@@ -204,7 +204,14 @@ nav ul li a{
 .phone{
   padding-bottom: -2rem;
 }
+/*---------------------JOIN PAGE-------------------*/
+form label.top input, form label.top select{
+max-width: 15rem;
+}
 
+textarea{
+  max-width: 60%;
+}
 
 /*DESIGN FOOTER*/
 .logo-tit-foot{
