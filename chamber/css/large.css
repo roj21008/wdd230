@@ -215,7 +215,14 @@ textarea{
 .selected{
   width:25px;
 }
-
+/*------------DIRECTORY PAGE---------------*/
+div.cards{
+  
+  
+  
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  
+}
 
 /*---------------------------DESIGN FOOTER--------------------------*/
 .logo-tit-foot{
