@@ -572,6 +572,32 @@ textarea{
   form label.top input:required:valid{
     border-left: green solid 6px;
   }
+/*----------------------DIRECTORY-------------------------*/
+
+div.cards{
+  width: 90%;
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1rem;
+}
+
+section.section_company{
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  border:1px solid rgba(6, 31, 87, 0.4);
+  height: 95%;
+  background-color: rgba(9, 88, 112, 0.7);
+  color: antiquewhite;
+  border: 2px solid rgb(5, 68, 87);
+}
+img{
+  width: 80%;
+  height: 60%;
+}
+
+
 /*-----------END CSS MAIN----------*/
 
 

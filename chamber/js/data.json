@@ -5,7 +5,21 @@
             "address":"alan garcia",
             "tel":"948895989",
             "website":"https://google.com.mx",
-            "image":"https://roj21008.github.io/wdd230/chamber/image/discover_trujillo_1.jpg"
+            "image":"data_company_1"
+        },
+        {
+            "name":"Sandra",
+            "address":"la esperanza",
+            "tel":"948895989",
+            "website":"https://google.com.mx",
+            "image":"data_company_1"
+        },
+        {
+            "name":"Valentina",
+            "address":"El Mlagro",
+            "tel":"948895989",
+            "website":"https://google.com.mx",
+            "image":"data_company_1"
         }
     ]
   }

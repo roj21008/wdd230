@@ -3,6 +3,49 @@ const cards = document.querySelector('.cards');
 let dataRequest;
 
 
+fetch(requestURL)
+    .then( function(response){
+        return response.json();
+    })
+    .then( function(jsonObject){
+        
+    const companies = jsonObject['companies'];
+    companies.forEach(displayProphets);
+});
+
+
+function displayProphets(company){
+    let card = document.createElement('section');
+    let h2Name =  document.createElement('h2');
+    let logo =  document.createElement('img');
+    let Address = document.createElement('p');
+    let Telephone = document.createElement('p');  
+    let Website = document.createElement('a');
+
+    
+    h2Name.textContent = company.name;
+    Address.textContent = company.address;
+    Telephone.textContent = company.tel;
+    Website.textContent = company.website;
+
+    
+    logo.setAttribute('src',company.image);
+    logo.setAttribute('alt',`Company Logo`);
+    logo.setAttribute('loading','lazy');
+    logo.classList.add("logo_img-directory");
+    card.classList.add("section_company");
+    
+
+    card.appendChild(h2Name);
+    card.appendChild(Address)
+    card.appendChild(Telephone)
+    card.appendChild(Website);
+    
+    cards.appendChild(card);
+    }
+    
+
+/*
 fetch(requestURL) 
     .then(request => request.json())
     .then( ( data ) => {
@@ -88,4 +131,4 @@ document.getElementById('grid').addEventListener('click', function(){
     cards.classList.remove('list');
     cards.innerHTML="";
     dataRequest.forEach(displayCompany);
-})
+})*/
