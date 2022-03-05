@@ -26,7 +26,7 @@ function displayProphets(company){
     h2Name.textContent = company.name;
     Address.textContent = company.address;
     Telephone.textContent = company.tel;
-    Website.textContent = company.website;
+    Website.innerHTML = company.website;
 
     
     logo.setAttribute('src',company.image);

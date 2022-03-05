@@ -1,87 +1,87 @@
 {
     "companies": [
         {
-            "name":"Luis",
-            "address":"alan garcia",
-            "tel":"948895989",
-            "website":"https://www.youtube.com/watch?v=gYMfwlyf5cI&ab_channel=FernandoHerrera",
-            "image":"./image/data_company_1.png"
+            "name":"Danper Trujillo SAC",
+            "address":"Carretera Industrial s/n, Sector Barrio Nuevo, Moche",
+            "tel":"(044) 252574",
+            "website":"https://danper.com",
+            "image":""
         },
         {
-            "name":"Sandra",
-            "address":"la esperanza",
-            "tel":"948895989",
-            "website":"https://google.com.mx",
-            "image":"https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+            "name":"Camposol",
+            "address":"Chao",
+            "tel":null,
+            "website":"https://www.camposol.com",
+            "image":""
         },
         {
-            "name":"Valentina",
-            "address":"El Mlagro",
-            "tel":"948895989",
-            "website":"https://google.com.mx",
-            "image":"data_company_1"
+            "name":"El Rincon de Vallejo",
+            "address":"Jirón Orbegoso 311",
+            "tel":" 915 111 386",
+            "website":"http://www.rincondevallejo.pe",
+            "image":""
         },
         {
-            "name":"Luis",
-            "address":"alan garcia",
-            "tel":"948895989",
-            "website":"https://google.com.mx",
-            "image":"data_company_1"
+            "name":"El Paisa",
+            "address":"Las Gemas 418,",
+            "tel":"044-200450",
+            "website":"https://www.restaurantturisticoelpaisa.com/",
+            "image":""
         },
         {
-            "name":"Sandra",
-            "address":"la esperanza",
-            "tel":"948895989",
-            "website":"https://google.com.mx",
-            "image":"data_company_1"
+            "name":"Clínica Sánchez Ferrer",
+            "address":"Av Los Laureles 430",
+            "tel":" (044) 601050",
+            "website":"https://www.sanna.pe",
+            "image":""
         },
         {
-            "name":"Valentina",
-            "address":"El Mlagro",
-            "tel":"948895989",
-            "website":"https://google.com.mx",
-            "image":"data_company_1"
+            "name":"Caja Trujillo",
+            "address":"Trujillo Perú-Cercado",
+            "tel":null,
+            "website":"https://www.cajatrujillo.com.pe",           
+            "image":""
         },
         {
-            "name":"Luis",
-            "address":"alan garcia",
-            "tel":"948895989",
-            "website":"https://google.com.mx",
-            "image":"data_company_1"
+            "name":"COAM - Contratistas",
+            "address":" Av. Fátima 127",
+            "tel":"044-286045",
+            "website":"https://coamcontratistas.pe",
+            "image":""
         },
         {
-            "name":"Sandra",
-            "address":"la esperanza",
-            "tel":"948895989",
-            "website":"https://google.com.mx",
-            "image":"data_company_1"
+            "name":"Chimu Agropecuaria",
+            "address":"Av. América Nte. 2213,",
+            "tel":"044-224309",
+            "website":"https://www.chimuagropecuaria.com.pe",
+            "image":""
         },
         {
-            "name":"Valentina",
-            "address":"El Mlagro",
-            "tel":"948895989",
-            "website":"https://google.com.mx",
-            "image":"data_company_1"
+            "name":"Berman Lab",
+            "address":"Almagro 607 - Trujillo",
+            "tel":" 950206241",
+            "website":"https://www.bermanlab.com",
+            "image":""
         },{
-            "name":"Luis",
-            "address":"alan garcia",
-            "tel":"948895989",
-            "website":"https://google.com.mx",
-            "image":"data_company_1"
+            "name":"Molinorte",
+            "address":"Panamericana Norte Km. 561",
+            "tel":"(044) 205378",
+            "website":"https://molinortesac.com",
+            "image":""
         },
         {
-            "name":"Sandra",
-            "address":"la esperanza",
-            "tel":"948895989",
-            "website":"https://google.com.mx",
-            "image":"data_company_1"
+            "name":"UPAO",
+            "address":"Av. América Sur 3145",
+            "tel":"044 604444",  
+            "website":"https://upao.edu.pe/",
+            "image":""
         },
         {
-            "name":"Valentina",
-            "address":"El Mlagro",
-            "tel":"948895989",
-            "website":"https://google.com.mx",
-            "image":"data_company_1"
+            "name":"CV COVESA",
+            "address":"Av. Larco 1525, Distrito de Víctor Larco Herrera",
+            "tel":"044  295072",
+            "website":"http://cvcovesa.com/",
+            "image":""
         }
     ]
   }
