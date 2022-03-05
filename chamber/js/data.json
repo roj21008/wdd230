@@ -1,10 +1,11 @@
 {
     "companies": [
         {
-            "Name":"Luis",
-            "Address":"alan garcia",
-            "Telephone":"948895989",
-            "website":"https://google.com.mx"}
-      
+            "name":"Luis",
+            "address":"alan garcia",
+            "tel":"948895989",
+            "website":"https://google.com.mx",
+            "image":"https://roj21008.github.io/wdd230/chamber/image/discover_trujillo_1.jpg"
+        }
     ]
   }
