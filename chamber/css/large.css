@@ -212,8 +212,12 @@ max-width: 15rem;
 textarea{
   max-width: 60%;
 }
+.selected{
+  width:25px;
+}
 
-/*DESIGN FOOTER*/
+
+/*---------------------------DESIGN FOOTER--------------------------*/
 .logo-tit-foot{
   margin: 0 6rem;
   display: flex;
