@@ -124,7 +124,6 @@ nav ul.open{
   margin: auto;
 }
 
-
 #hamburgerBtn span:nth-child(1) {display:block;}
 #hamburgerBtn span:nth-child(2) {display:none;}
 
@@ -403,6 +402,7 @@ TRUJILLO IMAGES
   background-color: #F77F00;
   padding: 0.5rem;
   font-weight: bold;
+  font-size: 0.8rem;
 }
 #container-discover{/*div element*/
   width: 95%;
@@ -546,6 +546,9 @@ form label.sbs{
 
 }
 
+form label.sbs input{
+  margin-right: 2%;
+}
 textarea{
   max-width: 17rem;
 }

@@ -54,12 +54,13 @@
 
     <main>
         
-        <form action="thankyou.html" method="get" >
+        <form action="thanks.html" method="get" >
             <fieldset>
                 <legend>Applicant Information</legend>
                 <label class="top">First Name* <input type="text" name="fname" required></label>
                 <label class="top">Last Name* <input type="text" name="lname" required></label>
-                <label class="top">Bussines Position <input type="text" name="bsns_postn" maxlength="7"></label>
+                <label class="top" >Business position<input type="text" name="title" pattern="[a-zA-Z-_\s]{7,}" title="This field accepts alpha characters, hyphens, and spaces with a minimum of seven characters"></label>
+                
                 <label class="top">Email* <input type="email" name="email" placeholder="someone@mail.com" required></label>
                 <label class="top">Phone* <input type="tel" name="phone" placeholder="123456789" required></label>
                 <label class="top">Bussines Name* <input type="text" name="bsns_name" required></label>
@@ -68,14 +69,17 @@
             <fieldset>
                 <legend>Membership Level</legend>
                 
-                    <label class="sbs"><input class="radio" type="radio" name="audience" value="NP">NP Membership</label>
-                    <label class="sbs"><input class="radio" type="radio" name="audience" value="bronze">Bronze Membership</label>
-                    <label class="sbs"><input class="radio" type="radio" name="audience" value="silver">Silver Membership</label>
-                    <label class="sbs"><input class="radio" type="radio" name="audience" value="golden">Golden Membership</label>
-            </fieldset>
+                    <label class="sbs"><input  type="radio" name="audience" value="NP">NP Membership</label>
+                    <label class="sbs"><input  type="radio" name="audience" value="bronze">Bronze Membership</label>
+                    <label class="sbs"><input  type="radio" name="audience" value="silver">Silver Membership</label>
+                    <label class="sbs"><input  type="radio" name="audience" value="golden">Golden Membership</label>
+            
+                    
+                </fieldset>
         <fieldset class="description">
             <label class="top">Bussines Description</label>
             <textarea  name="bsns_description" rows="10" cols="50" placeholder="Write a brief description of your business"></textarea>
+            
             <input type="hidden" name="date">
         </fieldset>
             
