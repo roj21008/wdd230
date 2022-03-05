@@ -34,7 +34,9 @@ function displayProphets(company){
     logo.setAttribute('loading','lazy');
     logo.classList.add("logo_img-directory");
     card.classList.add("section_company");
-    
+    Address.classList.add("address");
+    Telephone.classList.add("telephone");
+    Website.classList.add("website");
 
     card.appendChild(h2Name);
     card.appendChild(Address)
