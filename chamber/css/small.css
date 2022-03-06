@@ -573,6 +573,30 @@ textarea{
     border-left: green solid 6px;
   }
 /*----------------------DIRECTORY-------------------------*/
+.grid-or-list {
+  padding: 2rem;
+  text-align: center;
+}
+#grid{
+   content: "\f58d";
+  }
+  #list{
+    content: "\f03a";
+  }
+#grid,#list {
+  font-size: 3rem;
+  padding: 1.5rem;
+  background: white;
+  color: #003049;
+  border: solid 1px ;
+}
+.grid-or-list button:hover {
+  cursor: pointer;
+}
+.grid-or-list button.selected {
+  background-color:#003049 ;
+  color: white;
+}
 
 div.cards{
   width: 90%;
@@ -590,7 +614,7 @@ section.section_company{
   padding: 0.2rem 0;
   border:1px solid rgba(6, 31, 87, 0.4);
   height: 95%;
-  background-color: rgba(9, 88, 112, 0.7);
+  background-color: rgba(7, 90, 4, 0.7);
   color: antiquewhite;
   border: 2px solid rgb(5, 68, 87);
 }
@@ -608,6 +632,35 @@ img.logo_img-directory{
   word-break: break-word;
 }
 
+/*----table------*/
+table{
+  width: 100%;
+  margin: auto;
+}
+table,tr,th,td{
+  border:1px solid #003049;
+  border-collapse:collapse;
+  padding:0.7rem;
+  text-align:center;
+}
+
+
+
+
+tbody tr:nth-child(even){
+  background-color:#FCBF49;
+  color:#003049;
+  font-weight:bold;
+}
+thead{
+  padding:1rem;
+  font-size:2rem;
+   background-color:#003049;
+    color:#EAE2B7;
+}
+
+
+/*----END DIRECTORY------------------*/
 
 /*-----------END CSS MAIN----------*/
 

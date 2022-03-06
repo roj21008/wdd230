@@ -215,6 +215,7 @@ textarea{
 .selected{
   width:25px;
 }
+
 /*------------DIRECTORY PAGE---------------*/
 div.cards{
   
@@ -223,7 +224,16 @@ div.cards{
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   
 }
+#grid,#list{
+  display: inline;
+}
 
+#grid{
+  content: "\f58d"
+ }
+ #list{
+   content: "\f03a";
+ }
 /*---------------------------DESIGN FOOTER--------------------------*/
 .logo-tit-foot{
   margin: 0 6rem;

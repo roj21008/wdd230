@@ -1,7 +1,16 @@
 const requestURL = "https://roj21008.github.io/wdd230/chamber/js/data.json";
 const cards = document.querySelector('.cards');
 let dataRequest;
-
+//let gridBtn = document.getElementById('grid').classList.add('selected');
+//let listBtn = document.getElementById('list').classList.add('selected');
+fetch(requestURL)
+    .then(request => request.json())
+    .then( ( data ) => {
+        const companies = data.companies;
+        dataRequest = companies;
+        companies.forEach(displayCompany);
+    });
+/*
 
 fetch(requestURL)
     .then( function(response){
@@ -10,11 +19,11 @@ fetch(requestURL)
     .then( function(jsonObject){
         
     const companies = jsonObject['companies'];
-    companies.forEach(displayProphets);
-});
+    companies.forEach(displayCompany);
+});*/
 
 
-function displayProphets(company){
+function displayCompany(company){
     let card = document.createElement('section');
     let h2Name =  document.createElement('h2');
     let logo =  document.createElement('img');
@@ -47,45 +56,7 @@ function displayProphets(company){
     }
     
 
-/*
-fetch(requestURL) 
-    .then(request => request.json())
-    .then( ( data ) => {
-        const companies = data.companies;
-        dataRequest = companies;
-        companies.forEach(displayCompany);
-    });
 
-
-displayCompany = (company) => {
-    // Create elements to add to the document
-    let card = document.createElement("section");
-    let logo = document.createElement("img");
-    let name = document.createElement("h3");
-    let address = document.createElement("p");
-    let tel = document.createElement("p");
-    let website = document.createElement("a");
-    
-    logo.setAttribute('src', company.image);
-    logo.setAttribute('alt', `Logo of ${company.name}`);
-    logo.setAttribute('loading', 'lazy');
-
-    name.textContent = company.name;
-    address.textContent = `Address: ${company.address}`;
-    tel.textContent = `Telephone: ${(company.tel == null) ? 'Not available' : company.tel}`;
-    website.setAttribute("href", company.website);
-    website.setAttribute('target', "_blank");
-    website.textContent = company.website;
-
-
-    card.appendChild(logo);
-    card.appendChild(name);
-    card.appendChild(address);
-    card.appendChild(tel);
-    card.appendChild(website);
-
-    cards.appendChild(card);
-}
 
 document.getElementById('list').addEventListener('click', function () {
     document.getElementById('list').classList.add('selected');
@@ -131,6 +102,6 @@ document.getElementById('grid').addEventListener('click', function(){
     document.getElementById('grid').classList.add('selected');
     document.getElementById('list').classList.remove('selected');
     cards.classList.remove('list');
-    cards.innerHTML="";
+    
     dataRequest.forEach(displayCompany);
-})*/
+})
