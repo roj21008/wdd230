@@ -5,14 +5,14 @@
             "address":"Carretera Industrial s/n, Sector Barrio Nuevo, Moche",
             "tel":"(044) 252574",
             "website":"https://danper.com",
-            "image":""
+            "image":"image/danper.svg"
         },
         {
             "name":"Camposol",
             "address":"Chao",
             "tel":null,
             "website":"https://www.camposol.com",
-            "image":""
+            "image":"image/camposol.png"
         },
         {
             "name":"El Rincon de Vallejo",
@@ -54,7 +54,7 @@
             "address":"Av. América Nte. 2213,",
             "tel":"044-224309",
             "website":"https://www.chimuagropecuaria.com.pe",
-            "image":""
+            "image":"https://roj21008.github.io/wdd230/chamber/image/chimu.jpg"
         },
         {
             "name":"Berman Lab",
