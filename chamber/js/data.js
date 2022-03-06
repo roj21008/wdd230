@@ -47,6 +47,7 @@ function displayCompany(company){
     Telephone.classList.add("telephone");
     Website.classList.add("website");
 
+    card.appendChild(logo);
     card.appendChild(h2Name);
     card.appendChild(Address)
     card.appendChild(Telephone)
@@ -63,14 +64,7 @@ document.getElementById('list').addEventListener('click', function () {
     document.getElementById('grid').classList.remove('selected');
     cards.classList.add('list')
     table = `<table>
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Address</th>
-                <th>Telephone</th>
-                <th>website</th>
-            </tr>
-        </thead>
+       
         <tbody>
         </tbody>
     </table>`;

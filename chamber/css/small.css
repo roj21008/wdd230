@@ -593,6 +593,7 @@ textarea{
 .grid-or-list button:hover {
   cursor: pointer;
 }
+
 .grid-or-list button.selected {
   background-color:#003049 ;
   color: white;

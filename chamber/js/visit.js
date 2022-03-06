@@ -12,25 +12,27 @@ switch (dayName.getDay()){
 		bannerMessage("Wednesday")
 		break;
 	case 2:
-		bannerMessage("Wednesday")
+		bannerMessage("Wednesday") 
 		break;
 }
 //---------END OF BANNER-----------------------------------------
 
 //---------VISITS-------------------------------------------------------------
 
+
+/*
 const visits = document.querySelector(".visits");
 
 
 const FACTOR = 1000 * 60 * 60 * 24;
 
-last_v = (window.localStorage.getItem('last_visit') == null) ? new Date().getTime() : window.localStorage.getItem('last_visit');
+last_v = (window.localStorage.getItem('last_visit') ) ? new Date().getTime() : window.localStorage.getItem('last_visit');
 new_v = new Date().getTime();
 
 let daysBetween = Math.round((new_v - last_v) / FACTOR)
 
-days_message = (window.localStorage.getItem('last_visit') == null) ? ', Welcome by First Time!' : ', Last Visited: ' + daysBetween + ' day(s) ago.';
+days_message = (window.localStorage.getItem('last_visit') ) ? ', Welcome by First Time!' : ', Last Visited: ' + daysBetween + ' day(s) ago.';
 
-visits.textContent =  window.localStorage.getItem('visits') + days_message;
+visits.textContent = visits.textContent = 'Num Visits: ' + window.localStorage.getItem('visits') + days_message;
 
-window.localStorage.setItem('last_visit', new_v);
+window.localStorage.setItem('last_visit', new_v);*/
