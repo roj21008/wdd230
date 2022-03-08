@@ -11,7 +11,7 @@ fetch(requestURL)
         companies.forEach(displayCompany);
     });
 /*
-
+ 
 fetch(requestURL)
     .then( function(response){
         return response.json();

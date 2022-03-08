@@ -612,22 +612,22 @@ section.section_company{
   text-align: center;
   width: 100%;
   margin: auto;
-  
+  padding: 0.2rem 0;
   border:1px solid rgba(6, 31, 87, 0.4);
-  height: 95%;
-  background-color: rgba(7, 90, 4, 0.7);
+  height: 100%;
+  background-color: rgba(129, 5, 5, 0.7);
   color: antiquewhite;
-  border: 2px solid rgb(5, 68, 87);
+  border: 3px solid rgb(5, 68, 87);
 }
 .address,.telephone{
   color:white;
   margin: auto;
 }
 img.logo_img-directory{
-  width: 60%;
+  width: 80%;
   height: 9rem; 
   margin:0.5rem auto;
-  border: 1px solid yellow;
+  
 }
 .website{
   margin-bottom: 1rem;
