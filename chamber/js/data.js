@@ -37,7 +37,7 @@ function displayCompany(company){
     Telephone.textContent = company.tel;
     Website.innerHTML = company.website;
 
-    
+     
     logo.setAttribute('src',company.image);
     logo.setAttribute('alt',`Company Logo`);
     logo.setAttribute('loading','lazy');

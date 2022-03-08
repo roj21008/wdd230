@@ -19,7 +19,7 @@
             "address":"Jirón Orbegoso 311",
             "tel":" 915 111 386",
             "website":"http://www.rincondevallejo.pe",
-            "image":""
+            "image":"image/rincon_vallejo.jpg"
         },
         {
             "name":"El Paisa",
@@ -33,21 +33,21 @@
             "address":"Av Los Laureles 430",
             "tel":" (044) 601050",
             "website":"https://www.sanna.pe",
-            "image":""
+            "image":"image/sanna.png"
         },
         {
             "name":"Caja Trujillo",
             "address":"Trujillo Perú-Cercado",
             "tel":null,
             "website":"https://www.cajatrujillo.com.pe",           
-            "image":""
+            "image":"image/Caja-Trujillo.png"
         },
         {
             "name":"COAM - Contratistas",
             "address":" Av. Fátima 127",
             "tel":"044-286045",
             "website":"https://coamcontratistas.pe",
-            "image":""
+            "image":"image/coam.png"
         },
         {
             "name":"Chimu Agropecuaria",
@@ -61,27 +61,27 @@
             "address":"Almagro 607 - Trujillo",
             "tel":" 950206241",
             "website":"https://www.bermanlab.com",
-            "image":""
+            "image":"image/bermanlab.png" 
         },{
             "name":"Molinorte",
             "address":"Panamericana Norte Km. 561",
             "tel":"(044) 205378",
             "website":"https://molinortesac.com",
-            "image":""
+            "image":"image/molinorte.png"
         },
         {
             "name":"UPAO",
             "address":"Av. América Sur 3145",
             "tel":"044 604444",  
             "website":"https://upao.edu.pe/",
-            "image":""
+            "image":"image/upao.jpg"
         },
         {
             "name":"CV COVESA",
             "address":"Av. Larco 1525, Distrito de Víctor Larco Herrera",
             "tel":"044  295072",
             "website":"http://cvcovesa.com/",
-            "image":""
+            "image":"image/covesa.png"
         }
     ]
   }
