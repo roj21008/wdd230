@@ -13,8 +13,10 @@ header, footer{
     text-align: center;
     color: white;
     padding: 2rem 0;
+
     
 }
+
 div.cards{
     width: 90%;
     margin: 1rem auto;
