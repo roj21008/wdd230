@@ -594,7 +594,7 @@ textarea{
   cursor: pointer;
 }
 
-.grid-or-list button.selected {
+.grid-or-list button {
   background-color:#003049 ;
   color: white;
 }

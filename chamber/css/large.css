@@ -81,7 +81,7 @@ nav ul li a{
   margin:0.5rem 0.9rem;
   border-top: 0px solid #EAE2B7;}
 
-     button{
+  #hamburgerBtn{
        display:none;}
      
      
@@ -225,13 +225,13 @@ div.cards{
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   
 }
-/*tr{
+tr{
   display: block;
   
   border: 0px;
   width: 100%;
   padding: 0.3rem 0;
-}*/
+}
 
 
 /*---------------------------DESIGN FOOTER--------------------------*/
