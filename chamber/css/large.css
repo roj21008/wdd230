@@ -225,16 +225,15 @@ div.cards{
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   
 }
-#grid,#list{
-  display: inline;
-}
+/*tr{
+  display: block;
+  
+  border: 0px;
+  width: 100%;
+  padding: 0.3rem 0;
+}*/
 
-#grid{
-  content: "\f58d"
- }
- #list{
-   content: "\f03a";
- }
+
 /*---------------------------DESIGN FOOTER--------------------------*/
 .logo-tit-foot{
   margin: 0 6rem;

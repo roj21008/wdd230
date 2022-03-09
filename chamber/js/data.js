@@ -10,17 +10,6 @@ fetch(requestURL)
         dataRequest = companies;
         companies.forEach(displayCompany);
     });
-/*
- 
-fetch(requestURL)
-    .then( function(response){
-        return response.json();
-    })
-    .then( function(jsonObject){
-        
-    const companies = jsonObject['companies'];
-    companies.forEach(displayCompany);
-});*/
 
 
 function displayCompany(company){
@@ -64,10 +53,9 @@ document.getElementById('list').addEventListener('click', function () {
     document.getElementById('grid').classList.remove('selected');
     cards.classList.add('list')
     table = `<table>
-       
-        <tbody>
-        </tbody>
-    </table>`;
+                <tbody>
+                </tbody>
+            </table>`;
 
     cards.innerHTML = table;
     dataRequest.forEach((c) => {
@@ -86,7 +74,7 @@ document.getElementById('list').addEventListener('click', function () {
         tr.appendChild(address);
         tr.appendChild(tel);
         tr.appendChild(website);
-
+        
         document.querySelector('table > tbody').appendChild(tr);
     });
     
