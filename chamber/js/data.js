@@ -81,9 +81,10 @@ document.getElementById('list').addEventListener('click', function () {
 });
 
 document.getElementById('grid').addEventListener('click', function(){
+    cards.classList.remove('list');
     document.getElementById('grid').classList.add('selected');
     document.getElementById('list').classList.remove('selected');
-    cards.classList.remove('list');
+    
     
     dataRequest.forEach(displayCompany);
 })

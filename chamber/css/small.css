@@ -97,10 +97,9 @@ header{
   padding: 0.3rem;
   transition-duration: 0.5s;
 }
-.home-btn{
+nav ul li:active{
     background-color: #F77F00;
-    border-radius: 5px;
-    
+    border-radius: 5px;   
 
   }
 
