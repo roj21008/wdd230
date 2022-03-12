@@ -148,7 +148,7 @@ nav ul li a{
     } 
     
     .text-weather{
-      font-size: 1.4rem;
+      font-size: 1rem;
     }
     .weather{
         grid-column: 1/2;
@@ -166,6 +166,7 @@ nav ul li a{
     #current-temp{/*SHOW HOW MANY GRADES*/
       font-size: 2rem;
         }
+       
     
     .join{
         grid-column: 1/2;
