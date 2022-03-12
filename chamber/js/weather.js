@@ -1,4 +1,4 @@
-const apiURL = 'http://api.openweathermap.org/data/2.5/weather?q=Trujillo,PE&units=imperial&APPID=a2f1a61501fd27fd28283d9ea3fb3a7a';      
+const apiURL = 'https://api.openweathermap.org/data/2.5/weather?q=Trujillo,PE&units=imperial&APPID=a2f1a61501fd27fd28283d9ea3fb3a7a';      
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
