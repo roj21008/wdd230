@@ -255,38 +255,77 @@ h3{
 }
 .weather{
   grid-row: 3;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0px;
 }
-.weather-top{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 0.1rem;
+.section-weather{
+  display:flex;
+ margin-bottom: 1rem;
   
-  height: 35%;
+  height: 50%;
+  
 }
-.weather-img{
-  width:190px;
-  margin: 10px;
-  grid-column: 1;
+
+.figure-weather{/*FIGCAPTION*/
+  
+  width: 50%;
+  
+  text-align: center;
+
+  
 }
-.weather-subt{
-  font-size: 3rem;
-  grid-column: 2;
+
+#weathericon{
+  padding: 0px;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+
 }
-.weather h4{
-  text-align: right;
-  margin-right: 20px;
-  font-size:1rem ;
-  margin-top: 3px;
+.figcaption-weather{/*show condition*/
   color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: capitalize;
+  
 }
+.show-degrees{/*CONTANER OF GRADE*/
+  font-size: 3rem;
+  color: white;
+  
+  width: 50%;
+  text-align: center;
+  padding-top:4.3rem ;
+  
+}
+.info-weather{/*div windchill and windspeed*/
+  
+  height: 20%;
+  
+  
+}
+#current-temp{/*SHOW HOW MANY GRADES*/
+  font-size: 3rem;
+  
+  text-align: center;
+}
+
+
+
 .text-weather{
   
   margin-right: 20px;
-  font-size:1.1rem ;
+  font-size:1.6rem ;
   
   margin-top: 3px;
   color: white;
 }
+#icon-src{
+  display:none
+}
+
+
 .new{
   grid-row: 4;
 }
@@ -416,13 +455,15 @@ TRUJILLO IMAGES
   width: 100%;
 }
 
-figure {
+figure.figure-discovery {
   width: 100%;
   height: 100%;
   margin: auto;
   box-shadow: 0px 15px 25px rgba(4, 72, 99, 0.5);
   border-radius: 6px;
 }
+
+
 #container-discover .trujillo-images figure .capa{
   position:absolute;
   top:0;

@@ -2,7 +2,7 @@
 let temperatureInt = ""
 let wSpeedInt = ""
 
-let temperature = document.getElementById("temperature").textContent;
+let temperature = document.getElementById("current-temp").textContent;
 let windSpeed = document.getElementById("speed").textContent;
 
 wSpeedInt = parseFloat(windSpeed);

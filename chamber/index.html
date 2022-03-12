@@ -32,7 +32,7 @@
                 <a href="https://pe.linkedin.com/"><img src="image/linkedin.png" alt="linkedin" class="linkedin"></a>
             </div>
             <button id="hamburgerBtn"><span>&#9776</span><span>X</span></button>                   
-            
+             
             
         </div>
          <nav>
@@ -79,15 +79,17 @@
             <div class="weather"><!--<p>WEATHER</p>-->
                 
                 <h2>Weather</h2>
-                <section class="weather-top">
-                    <img class="weather-img"src="image/clima.png" alt="weather icon">
-                    <h3 class="weather-subt"><span id="temperature">73</span>°F</h3>
+                <section class="section-weather">
+                    <span id="icon-src"></span>
+                    <div class="figure-weather"><img src="" alt="" id="weathericon" /></div>
+                    
+                    <div class="show-degrees"><span id="current-temp"></span> &deg;F</div>
                 </section>  
-                <h4>Partly Cloudy</h4>
-                
-                    <p class="text-weather">Wind Speed: <span id="speed"> 13</span>km/h</p>
+                <figcaption class="figcaption-weather"></figcaption>
+                <div class="info-weather">
+                    <p class="text-weather">Wind Speed: <span id="speed"></span> km/h</p>
                     <p class="text-weather">Wind Chill: <span id="windchill"></span></p>
-                
+                </div>
             </div>
             <div class="new">
                 <h2>New Release</h2>
@@ -168,6 +170,7 @@
     <script src="js/lazyload.js"></script>
     <script src="js/visit.js"></script>
     <script src="js/data.js"></script>
+    <script defer type="module" src="js/weather.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 </body>
 </html>

@@ -122,7 +122,7 @@ nav ul li a{
         text-align: center;
         width:100%;
         height: 100%;
-        
+         
     }
     .event h3{
       margin-top: 1rem;
@@ -147,13 +147,26 @@ nav ul li a{
       
     } 
     
-
+    .text-weather{
+      font-size: 1.4rem;
+    }
     .weather{
         grid-column: 1/2;
         grid-row: 2/3;
         
     }
+    .section-weather{
+      height: 35%;
+    }
 
+    .show-degrees{/*CONTANER OF GRADE*/
+      padding-top:1.3rem ;
+      font-size: 2rem;
+    }
+    #current-temp{/*SHOW HOW MANY GRADES*/
+      font-size: 2rem;
+        }
+    
     .join{
         grid-column: 1/2;
         grid-row: 3/4;

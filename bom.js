@@ -15,6 +15,7 @@
     listText.textContent = newItem;
     listItem.appendChild(listBtn);
     listBtn.textContent = '❌';
+    
     list.appendChild(listItem);
 
     listBtn.onclick = function(e) {
