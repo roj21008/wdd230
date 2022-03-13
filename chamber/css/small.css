@@ -76,9 +76,7 @@ header{
     
     text-align: center;
     margin: 0px auto;
-    
-
-    
+   
   }
   
   nav ul li a{
@@ -97,11 +95,7 @@ header{
   padding: 0.3rem;
   transition-duration: 0.5s;
 }
-nav ul li:active{
-    background-color: #F77F00;
-    border-radius: 5px;   
 
-  }
 
 nav ul {
    display:none;
