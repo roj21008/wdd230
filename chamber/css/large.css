@@ -240,8 +240,8 @@ div.cards{
   
 }
 tr{
-  display: block;
-  
+  display: table-row-group;
+  height: 4rem;
   border: 0px;
   width: 100%;
   padding: 0.3rem 0;
