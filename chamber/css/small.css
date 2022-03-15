@@ -1,11 +1,11 @@
 
-header, footer{
+header, footer{ 
   width:90%;
   margin:auto;}
 
 main{ 
   width:95%;
-  margin: 1rem auto;
+  margin: auto;
 }
 
 header{ 
@@ -141,16 +141,16 @@ p{
 
 
 .facebook, .linkedin{
-    width: 30px;
+    width: 25px;
     border-radius: 50%;
-    margin: 5px;
+    margin: 3px;
     justify-content: flex-end;
 } 
 date, aside {
 	margin: 0.5rem;
 	text-align:center;
     padding: 1rem;
-	color:white;
+	color: #003049;
 	padding: 0.75rem;
 	
 	
@@ -159,29 +159,31 @@ date{
     display:none
 }
 .date-now{
+    margin-top: 0;
     height:30px;
-    background-color: #1f648a;
+    background-color: #FCBF49;
     justify-content:center;
     align-items:center;
-    width:99%;
-    margin:auto;
+    width:96%;
+    margin: 0.2rem auto;
     height:3rem;
-    margin-top:1rem;
-    margin-bottom:1rem;
+    
   }
-  .meet{
+  .meet h3{
     text-align: center;
-    color:white;
-    font-size: 1rem;
+    color: #EAE2B7;    
+    border-top: 1px solid #EAE2B7 ;
+    border-bottom: 1px solid #EAE2B7 ;
+    font-size: 1.5rem;
   }
 /*-----------------------CSS MAIN-------------------------------------------------*/
 /*CSS MAIN*/
   /*CSS MAIN*/
 main{
-  margin: 1rem auto;
+  margin: 0rem auto;
 }
 
-section.container{
+div.container{
     display:grid;
     
     grid-template-rows: 25rem 25rem 25rem 25rem 25rem 25rem;
@@ -277,7 +279,7 @@ h3{
   margin: 0 auto;
 
 }
-.figcaption-weather{/*show condition*/
+.condition-weather{/*show condition*/
   color: white;
   font-size: 1.5rem;
   text-align: center;
@@ -652,7 +654,7 @@ section.section_company{
   color: antiquewhite;
   border: 3px solid rgb(5, 68, 87);
   
-}
+} 
 .address,.telephone{
   color:white;
   margin: auto;

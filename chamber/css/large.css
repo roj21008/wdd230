@@ -1,8 +1,8 @@
-@media only screen and (min-width: 60em){
+@media only screen and (min-width: 60em){ 
  
   header,footer{
   width:90%;
-  margin:1rem auto
+  
  }
   main{
     width:85%;
@@ -92,21 +92,13 @@ nav ul li a{
        align-items: center;
      }
      
-     .date-now{
-       height:30px;
-       background-color: #1f648a;
-       justify-content:center;
-       align-items:center;
-       width:99%;
-       margin:auto;
-       height:3rem;
-       margin-top:1rem;
-       margin-bottom:1rem;
-     }
-    
+     
+    .date-now{
+      width: 92%;
+    }
     
     /*section grid*/
-    section.container{
+    div.container{
     
     grid-template-columns: 1.1fr 2.3fr 1.1fr;
     grid-template-rows: 17rem 17rem 17rem  ;

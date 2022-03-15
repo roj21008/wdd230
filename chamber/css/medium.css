@@ -16,13 +16,13 @@
         
         
       } 
-      .title-chamber{
+    .title-chamber{
         font-size:1.8rem;
         color: #EAE2B7;
         font-family: 'Roboto', sans-serif; 
         margin-left: 10px ;
       }
-      .subtitle-chamber{
+    .subtitle-chamber{
     
         font-size:1.2rem;
         color: #EAE2B7;
@@ -33,17 +33,12 @@
      
      nav ul.open{
         display: flex;}
-        .home-btn{
+
+    .home-btn{
             border-top: none;
         }
 
-    .date-now{
-        width:88%;
-        justify-content: center;
-    }
-    
-      
-      #title-nav{    
+    #title-nav{    
        
         display:flex;
         flex-direction:row;
@@ -52,9 +47,10 @@
         margin: auto;
       } 
     
+      .date-now{width: 92%;}
     
     /*BOXES*/
-    section.container{
+    div.container{
         display:grid;
         grid-template-columns: 1.5fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;

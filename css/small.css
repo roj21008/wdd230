@@ -1,21 +1,22 @@
-
-
 body{
-       
-    width: 680px;
-    margin:  auto;
-    padding: 1rem;
-    
-    
+    background-color: aqua;
 }
+header, footer{
+    width:90%;
+    margin:auto;
+    border-color: #1b70a8 ;
+    background-color:#1b70a8 ;;}
+  
+  main{ 
+    width:95%;
+    margin: 1rem auto;
+  }
 header{display: flex;
     flex-direction: row;
    align-items: center;
-    border-color: #1b70a8 ;
-    background-color:#1b70a8 ;
+    
     border-radius: 20px;
-    width: 90%;
-    margin: auto;
+  
     height: 12rem;
     
     
