@@ -1,12 +1,9 @@
 @media only screen and (min-width: 35rem) {
-    header,main, footer{
-        width:90%;
-        margin:auto;
-    } 
+  
  
     main{
         width:92%;
-        margin: auto;
+        margin:0px auto;
          
     }
     .logo{
@@ -34,9 +31,7 @@
      nav ul.open{
         display: flex;}
 
-    .home-btn{
-            border-top: none;
-        }
+    
 
     #title-nav{    
        
@@ -47,7 +42,8 @@
         margin: auto;
       } 
     
-      .date-now{width: 92%;}
+      
+    
     
     /*BOXES*/
     div.container{
@@ -166,6 +162,10 @@
     .logo-tit-foot{
         
         display: flex;
+    }
+
+    .logo-footer{
+        width: 45%;
     }
     .data{
         

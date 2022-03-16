@@ -1,7 +1,13 @@
-
-header, footer{ 
-  width:90%;
-  margin:auto;}
+.banner{
+  background-color: #0f85c5;
+  padding: 0.02px;
+  text-align: center;
+  color: #EAE2B7;   
+  width: 100%; 
+  margin: auto;
+  
+  font-size: 1.5rem;
+}
 
 main{ 
   width:95%;
@@ -9,12 +15,12 @@ main{
 }
 
 header{ 
-        
+    padding: 0.1rem;
     display:block;
     background-color:#003049;
-    padding: 1rem;
+
     
-  }
+}
   
 /*rep*/
 #title-nav{    /*ALL TITLE LOGO, NAV, SOCIAL*/
@@ -44,7 +50,7 @@ header{
 
 .section-title{
   margin:auto  0;
-      width:80%;
+  width:80%;
       
   }  
 
@@ -54,27 +60,32 @@ header{
     font-family: 'Roboto', sans-serif; 
     margin-left: 10px ;
   }
-  .subtitle-chamber{
 
+  .subtitle-chamber{
     font-size:0.8rem;
     color: #EAE2B7;
     font-family: 'Noto Serif', serif;
     margin-left: 10px ;
-
 
  }
  
   
   ul{
     margin: 1px auto;
-   
+    text-align: center;
+    font-size: 1rem;
   }
-  
+  nav{
+    margin:auto;
+    width: 90%;
+    
+    }
+
 
   nav ul li{
     display: block;
     
-    text-align: center;
+    
     margin: 0px auto;
    
   }
@@ -83,16 +94,17 @@ header{
     display:block;
     padding: .7rem;
     text-decoration:none;
-    color:white;
+    color:#EAE2B7;
     border-top: 1px solid #EAE2B7;
     margin: 1px auto;
+    
   }
   
   nav ul li:hover{
   background-color: #F77F00;
-  color:#003049;
+  color: #003049;
   border-radius: 5px;
-  padding: 0.3rem;
+  
   transition-duration: 0.5s;
 }
 
@@ -136,16 +148,22 @@ p{
     display: flex;
     justify-content: center;
     
+    margin: 10px;
   }
 
 
 
 .facebook, .linkedin{
-    width: 25px;
+    width: 35px;
     border-radius: 50%;
-    margin: 3px;
+    margin: 8px;
     justify-content: flex-end;
 } 
+
+.facebook:hover, .linkedin:hover{
+  transform:scale(1.5);
+    z-index:2;}
+
 date, aside {
 	margin: 0.5rem;
 	text-align:center;
@@ -159,23 +177,18 @@ date{
     display:none
 }
 .date-now{
+  display: flex;
     margin-top: 0;
     height:30px;
     background-color: #FCBF49;
     justify-content:center;
     align-items:center;
-    width:96%;
-    margin: 0.2rem auto;
+    width:100%;
+    margin: 0px auto;
     height:3rem;
     
   }
-  .meet h3{
-    text-align: center;
-    color: #EAE2B7;    
-    border-top: 1px solid #EAE2B7 ;
-    border-bottom: 1px solid #EAE2B7 ;
-    font-size: 1.5rem;
-  }
+  
 /*-----------------------CSS MAIN-------------------------------------------------*/
 /*CSS MAIN*/
   /*CSS MAIN*/
@@ -616,9 +629,11 @@ textarea{
 
 #grid,#table {
   font-size: 3rem;
+  background-color: #EAE2B7;
   width: 5rem;
   color: #003049;
   border: solid 1px ;
+  border-radius: 1rem;
   
 }
 #grid:hover{
@@ -629,7 +644,7 @@ textarea{
   background-color: #003049;
   color: #EAE2B7;
 }
-#grid:visited {
+#grid:active{
   background-color: #003049;
   color: #EAE2B7;
 }
@@ -640,7 +655,7 @@ div.grid{
   
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-gap: 1rem;
+  grid-gap: 0.6rem;
 }
 
 section.section_company{
@@ -665,11 +680,7 @@ img.logo_img-directory{
   margin:0.5rem auto;
   
 }
-.website{
-  margin-bottom: 1rem;
-  text-decoration: visible;
-  word-break: break-word;
-}
+
 
 /*----table------*/
 table{
@@ -712,9 +723,8 @@ footer{
     justify-content: center;
     text-align: center;
     background-color: #003049;
-    margin: 2rem auto;
-    
-    padding: 1rem;
+    margin: 5px auto;
+    padding: 1px 10px;
     color: #FCBF49;
     font-size: 1.1rem;
         
