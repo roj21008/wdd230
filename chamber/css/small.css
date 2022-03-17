@@ -18,7 +18,7 @@ header{
     padding: 0.1rem;
     display:block;
     background-color:#003049;
-
+border-bottom: 0px;
     
 }
   
@@ -100,14 +100,17 @@ header{
     
   }
   
-  nav ul li:hover{
+  nav ul li a:hover{
   background-color: #F77F00;
   color: #003049;
   border-radius: 5px;
-  
+  font-size: 1.5rem;
   transition-duration: 0.5s;
+  font-weight: bold;
 }
-
+li.selected{
+  background-color: #F77F00;
+}
 
 nav ul {
    display:none;
@@ -162,7 +165,8 @@ p{
 
 .facebook:hover, .linkedin:hover{
   transform:scale(1.5);
-    z-index:2;}
+    z-index:2;
+    transition-duration: 0.7s;}
 
 date, aside {
 	margin: 0.5rem;

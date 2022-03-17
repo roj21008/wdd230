@@ -79,12 +79,18 @@ nav ul li{
   width: 13rem;
   padding: 0.3rem;
 }
+
 nav ul li:hover{
-  background-color: #F77F00; 
+  background-color: #F77F00;
   border-radius: 10px;
 
 }
-
+nav ul li.selected{
+  background-color: #F77F00;
+  border-radius: 10px;
+  width: 13rem;
+  color: #003049;
+}
 
 nav ul li a{
  

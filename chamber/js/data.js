@@ -6,10 +6,12 @@ let dataRequest;
 fetch(requestURL)
     .then(request => request.json())
     .then( ( data ) => {
+        console.log(data);
         const companies = data.companies;
         dataRequest = companies;
         companies.forEach(displayCompany);
     });
+
 
 
 function displayCompany(company){
@@ -20,6 +22,7 @@ function displayCompany(company){
     let Telephone = document.createElement('p');  
     let Website = document.createElement('a');
 
+    
     
     h2Name.textContent = company.name;
     Address.textContent = company.address;
