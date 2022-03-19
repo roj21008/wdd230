@@ -805,6 +805,39 @@ width: 94%;
     color: #EAE2B7;
     font-weight: bold;
 }
+.will-contact, .content-thanks{
+  position: relative;
+  height: 40rem;
+  margin: 0.1rem auto;
+  border-radius: 1px solid red;
+}
+.will-contact img, .content-thanks img{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0.1rem auto;
+  opacity: 0.7;
+}
+.will-contact h1, .content-thanks h1{
+  position: absolute;
+  margin-top: 5rem;
+  text-shadow: 5px 1px 20px rgb(13, 35, 235);
+  
+  font-size: 5rem;
+  color: rgb(235, 231, 13);
+  z-index:4,
+
+}  .will-contact h3{
+  font-size: 3rem;
+  position: absolute;
+  margin-top: 6rem;
+  text-shadow: 5px 1px 20px rgb(13, 35, 235);
+  
+  top: 5rem;
+  color: rgb(235, 231, 13);
+  z-index:4,
+}
+
 /*-----------END CSS MAIN----------*/
 
 
