@@ -105,6 +105,7 @@ nav ul li a{
        display: flex;
        justify-content: center;
        align-items: center;
+       
      }
      
      
@@ -268,12 +269,28 @@ tr{
   grid-gap: 1rem;
 }
 .contact-info{
+  display: grid;
   width: 100%;
   grid-column: 1;
   grid-row: 1/3;
   
-  grid-template-rows:50% 50% ;
+  grid-template-rows:40% 60% ;
   
+}
+.contact-data{
+  grid-row: 2/3;
+  
+  height: 80%;
+  
+}
+.image-contact{
+  height: 100%;
+  grid-row: 1/2;
+}
+
+.image-contact img{
+  width: 100%;
+  height: 100%;
 }
 
 .form-contact{
