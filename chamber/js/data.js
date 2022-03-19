@@ -1,8 +1,7 @@
 const requestURL = "https://roj21008.github.io/wdd230/chamber/js/data.json";
 const grid = document.querySelector('.grid');
 let dataRequest;
-//let gridBtn = document.getElementById('grid').classList.add('selected');
-//let listBtn = document.getElementById('list').classList.add('selected');
+
 fetch(requestURL)
     .then(request => request.json())
     .then( ( data ) => {
@@ -29,7 +28,9 @@ function displayCompany(company){
     Telephone.textContent = company.tel;
     Website.innerHTML = company.website;
 
-     
+    
+    
+
     logo.setAttribute('src',company.image);
     logo.setAttribute('alt',`Company Logo`);
     logo.setAttribute('loading','lazy');
@@ -52,7 +53,8 @@ function displayCompany(company){
 
 
 document.getElementById('table').addEventListener('click', function () {
-    
+   document.getElementById('grid').classList.remove('selected-directory');
+   document.getElementById('table').classList.add('selected-directory'); 
     
     table = `<table>
                 <tbody>
@@ -83,9 +85,10 @@ document.getElementById('table').addEventListener('click', function () {
 });
 
 document.getElementById('grid').addEventListener('click', function(){
+    document.getElementById('grid').classList.add('selected-directory');
+    document.getElementById('table').classList.remove('selected-directory');     
     
     
-    
-    grid.innerHTML = " "
+    grid.innerHTML = " ";
     dataRequest.forEach(displayCompany);
 })

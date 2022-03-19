@@ -18,7 +18,7 @@ header{
     padding: 0.1rem;
     display:block;
     background-color:#003049;
-border-bottom: 0px;
+    border-bottom: 0px;
     
 }
   
@@ -100,15 +100,14 @@ border-bottom: 0px;
     
   }
   
-  nav ul li a:hover{
+  nav ul li:hover{
   background-color: #F77F00;
-  color: #003049;
   border-radius: 5px;
-  font-size: 1.5rem;
+  
   transition-duration: 0.5s;
   font-weight: bold;
 }
-li.selected{
+nav ul li.selected{
   background-color: #F77F00;
 }
 
@@ -281,12 +280,8 @@ h3{
 }
 
 .figure-weather{/*FIGCAPTION*/
-  
   width: 40%;
-  
   text-align: center;
-
-  
 }
 
 #weathericon{
@@ -603,12 +598,12 @@ form label.sbs input{
   margin-right: 2%;
 }
 textarea{
-  max-width: 17rem;
+  max-width:100%;
 }
 
   .submitBtn{
     width: 100%;
-    margin: 0.5rem 0;
+    margin: 0.5rem auto;
     border-radius: 20px;
     border: none;
     background-color: #F77F00;
@@ -646,13 +641,17 @@ textarea{
 }
 #table:hover{
   background-color: #003049;
-  color: #EAE2B7;
-}
-#grid:active{
-  background-color: #003049;
-  color: #EAE2B7;
+  color: #EAE2B7;   
 }
 
+#grid.selected-directory{
+ background-color: #003049;
+ color: #EAE2B7; 
+}
+#table.selected-directory{
+  background-color: #003049;
+ color: #EAE2B7; 
+}
 div.grid{
   width: 100%;
   margin: 1rem auto;
@@ -716,6 +715,95 @@ tr{
 
 /*----END DIRECTORY------------------*/
 
+/*------------CONTACT----------------------*/
+.title-contact{
+  color: #003049;
+margin: 0.2rem 0;
+font-size: 2rem;
+}
+
+.contact-data{  
+  height: 60%;
+  align-items: center;
+  margin: 0.5rem;
+  padding: 1rem;
+  border-top: 3px solid #EAE2B7;
+  border-bottom: 3px solid #EAE2B7;
+}
+.image-contact{
+  height: 40%;
+  text-align: center;
+}
+.image-contact img{
+ 
+ width: 97%;
+
+ height: 85%;
+}
+.subtitle-contact{
+    color: #F77F00;
+    margin: 1rem 0;
+  }
+
+.adress-p{
+  text-align:left;
+}
+.subtitle-form{
+  margin-left: 1.8rem;
+  text-align:left;
+}
+.title-form-contact{
+  color: #003049;
+  margin-left: 3rem;
+  
+  
+}
+
+.form-contact{
+  background-color:#EAE2B7;
+  padding: 0.5rem 0;
+}
+.contact-fieldset{
+  border: 0px;
+}
+form label.sbs-contact{
+  display: block;
+  padding: 0.75rem 0;
+
+}
+form .contact-fieldset label.top-contact{
+ 
+  font-size: 1rem;
+}
+
+
+form label.top-contact input{
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #003049;
+  border-radius: 4px;
+  padding: 0.75rem;
+  width: 90%;
+  
+}
+form label.sbs-contact input{
+  margin-right: 2%;
+}
+form label.top-contact textarea{
+  display: block;
+width: 94%;
+}
+.contact-button{
+  width: 25%;
+  margin-left: 2.1rem;
+  
+  border-radius: 15px;
+    border: none;
+    background-color: #F77F00;
+    padding: 0.7rem;
+    color: #EAE2B7;
+    font-weight: bold;
+}
 /*-----------END CSS MAIN----------*/
 
 

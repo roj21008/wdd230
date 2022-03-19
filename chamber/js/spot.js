@@ -12,5 +12,5 @@ fetch(requestURL)
 
     function spotCompanies(company){
         let spotTitle1 = document.getElementsByClassName('spot-title-1');
-        spotTitle1.textContent = data.company[2].name;
+        spotTitle1.innerHTML = data.company[2].name;
     }

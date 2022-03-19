@@ -39,11 +39,11 @@
         </div>
          <nav>
             <ul id="primaryNav">
-                <li class="selected"><a href="index.html" ></i>Home</a></li>
+                <li><a href="index.html" ></i>Home</a></li>
                 <li><a href="discover.html" >Discovery</a></li>
                 <li><a href="directory.html" >Directory</a></li>
                 <li><a href="join.html" >Join</a></li>
-                <li><a href="contact.html" >Contact</a></li>
+                <li class="selected"><a href="contact.html" >Contact</a></li>
             </ul>
         </nav>
         
@@ -53,95 +53,62 @@
         <p><span class="visits"></span></p>
         <aside></aside>
     </div>
-    <main>
-        <div class="container">
-            <div class="hero"> <!--     Hero with site name and call to action-->
-                <h1 class="hero-subt">Wellcome to Trujillo</h1>
-                <picture>
-                    <source media="(max-width: 594px)" srcset ="image/wdd230-org_small.jpg">
-                    <source media="(max-width: 1019px)" srcset ="image/wdd230-org_medium.jpg">
-                    <source media="(max-width: 1500px)" srcset ="image/wdd230-org_large.jpg">
-                    <img src="image/wdd230-org_large.jpg" alt="Home imgage" class="trujillo-img">
-                </picture>
-                <!--<img src="image/huanchaco.jpg" alt="" class="trujillo-img">-->
-                <a href="join.html" class="hero-link">Join the Chamber</a>
-                
-                
-            </div>
-            <div class="event">
-                <h2>Ribbon Cutting</h2>
-                <h3>The Diamond Shack</h3>
-                <!--<p>Event</p>-->
-                <p class="event-par">Join us for the grand oppening of The Diamond Shack, Thursday at 1:00 p.m.</p>
-            <br>
-                <a href="#">more info</a>
-            </div>
-            <div class="weather"><!--<p>WEATHER</p>-->
-                
-                <h2>Weather</h2>
-                <div class="section-weather">
-                    
-                    <span id="icon-src"></span>
-                    <div class="figure-weather"><img src="#" alt="#" id="weathericon" /></div>
-                    
-                    <div class="show-degrees"><span id="current-temp"></span> &deg;F</div>
-                </div>  
-                <p class="condition-weather"></p>
-                <div class="info-weather">
-                    <p class="text-weather">Wind Speed: <span id="speed"></span> km/h</p>
-                    <p class="text-weather">Wind Chill: <span id="windchill"></span></p>
-                </div>
-            </div>
-            <div class="new">
-                <h2>New Release</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Voluptatibus quas in laudantium quos necessitatibus quam qui maxime,
-                    voluptates consectetur esse, quia velit nulla iure perspiciatis? Saepe, a inventore.
-                    Obcaecati nulla non voluptate magni similique perferendis delectus ipsum animi 
-                    assumenda modi esse, eum blanditiis.
-                        </p>
-            
-            </div> 
-            
-            <div class="join"><!--<p>Join</p>-->
-                
-                <a href="join.html" class="join-link">Join Us!</a>
-                <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
-                    
-            </div>
-            
-            <div class="spotlight">
-                <div class="spot1"><!--<p>Spotlight 1</p>-->
-                    <h2 class="spot-title-1">Thankful Transport</h2> 
-                    <img src="image/truck.png" alt="truck">
-                    <p>"We get it there for you"</p>
-                    <p>hello@thankfulltransport.com</p>
-                    <p class="phone">+999 - 999 - 999 website</p>
-                    </div>
+<main>
     
-                    <div class="spot2"> <!--<p>Spotlight 2</p>-->
-                    <h2 class="spot-title-2">Code Primera</h2>
-                    <img src="image/lapiz.png" alt="pens"><br><br>
-                    <p>"An after school coding institutional program."</p>
-                    <p>contact@codeprimera.com</p>
-                    <p class="phone">+999 - 999 - 999 website</p>        
-                    </div>
-    
-                    <div class="spot3"><!--<p>Spotlight 3</p>-->
-                    <h2 class="spot-title-3">Buil A Treefort</h2>
-                    <img src="image/tree_house.png" alt="tree">
-                    <p>Over 1000 Plans!</p>
-                    <p>build@treefort.com</p>
-                    <p class="phone">+888 - 888 - 888 website</p> 
-                    </div>
-            </div>
-                
-        </div>
-    </main>    
+    <div class="contact-container"> 
+        <div class="contact-info">
+            <div class="contact-data">
+                <h1 class="title-contact">CONTACT US</h1>
+                    <h2 class="subtitle-contact">Adress</h2>
+                    <p class="adress-p">Mz Q Lote 17</p>
+                    <p class="adress-p">Alan Garcia - La Esperanza</p>
+                    <p class="adress-p">Trujillo - Perú</p>
 
-  
+                    <h2 class="subtitle-contact">Phone</h2>    
+                    <p class="adress-p">+51948895989</p>
+                    <h2 class="subtitle-contact">Email</h2>
+                    <p class="adress-p">info@opportunitiessol.org</p>
+            </div>        
+            <div class="image-contact">
+                <img src="image/huanchaco.jpg" alt="plaza de armas">
+            </div>
+        </div>
         
-    
+        <div class="form-contact">
+            <h1 class="title-form-contact">CONTACT FORM</h1>
+            <p class="subtitle-form">* Indicates required field</p>
+            <form action="will-contact.html" method="get" >
+                
+                <fieldset class="contact-fieldset">
+                    <label class="top-contact">Full Name* <input type="text" name="fname" required></label>
+                    <label class="top-contact">Email* <input type="email" name="email" placeholder="someone@mail.com" required></label>
+                    <label class="top-contact">Bussines Name* <input type="text" name="bsns_name" required></label>
+                </fieldset> 
+                <fieldset class="contact-fieldset">
+                    
+                    <label class="top-contact">Are you a member?</label>
+                    <label class="sbs-contact"><input type="radio"  name="value-1" value="Yes">Yes</label>
+                    <label class="sbs-contact"><input type="radio"  name="value-1" value="Not">Not</label>
+                    <label class="sbs-contact"><input type="radio"  name="value-1" value="Not sure">Not sure</label>
+                
+                        
+                </fieldset>
+                <fieldset class="contact-fieldset">
+                    <label class="top-contact">What questions do you have for the Chamber?
+                    <textarea class="textarea-contact" name="send_wuestion" rows="3" cols="50" placeholder="Write your question"></textarea></label>
+                
+                    
+                </fieldset>
+                
+                <input class="contact-button" type="submit" value="Submit" class="submitBtn">   
+            </form>
+
+        </div>
+    </div>    
+
+</main>
+
+   
 
 <footer>
     <div class="logo-tit-foot">
