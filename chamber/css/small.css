@@ -308,7 +308,7 @@ h3{
   
 }
 .info-weather{/*div windchill and windspeed*/
-  
+  display: flex;
   height: 20%;
   
   
@@ -323,9 +323,8 @@ h3{
 
 .text-weather{
   
-  margin-right: 20px;
   font-size:1.6rem ;
-  
+  width: 50%;
   margin-top: 3px;
   color: white;
 }
@@ -339,10 +338,11 @@ h3{
 }
 .new p, .join p{
   line-height: 2;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
-
+.new h3{text-align: center;
+font-size: 1.5rem;}
 
 .trujillo-img{/*image in Hero with.......*/
   position: absolute;
@@ -362,48 +362,49 @@ h3{
     display:grid;
     grid-template-rows: 1fr 1fr;
     grid-row: 5/7;
-    
+    text-align: center;
 } 
+.spotlight h2{
+  margin: 0.3rem auto;
+}
 
+.spotlight img{
+width: 50%;
+height: 32%;
+margin: 0.1rem auto;
+}
+
+.spotlight p{
+  margin: 0.1rem auto;
+}
 .spot1{
   text-align: center;
   grid-row:1 ;
   border:1px solid black;
   margin: 1rem 1rem 0.5rem 1rem;
+  width: 90%;
   
 }
 
-.spot1 img{
-  margin: auto;
-  width: 20%;
-  
-}
+
 
 .spot2{
   text-align: center;
   grid-row:2 ;
   border:1px solid black;
   margin: 0.5rem 1rem 1rem 1rem;
-  
+  width: 90%;
 }
 
-.spot2 img{
-  margin: auto;
-  width: 18%; 
-  
-}
+ 
+
 .spot3{
   text-align: center;
     display: none;
     border:1px solid black;
-    
+    width: 90%;
 }
-.spot3 img{
-  margin: auto;
-  width: 30%; 
-  
-  
-}
+
 
 main div p{
     padding:0.5rem ;

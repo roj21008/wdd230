@@ -159,7 +159,7 @@ nav ul li a{
       z-index: 1;
       
     } 
-    
+    /*-------WEATHER------------*/
     .text-weather{
       font-size: 1rem;
     }
@@ -168,10 +168,16 @@ nav ul li a{
         grid-row: 2/3;
         
     }
+    .weather h2{
+      margin: 1.1rem auto;
+  }
     .section-weather{
       height: 35%;
     }
-
+.info-weather{
+  margin: 1.5rem auto;
+  font-size: 2rem;
+}
     .show-degrees{/*CONTANER OF GRADE*/
       padding-top:1.3rem ;
       font-size: 2rem;
@@ -179,7 +185,7 @@ nav ul li a{
     #current-temp{/*SHOW HOW MANY GRADES*/
       font-size: 2rem;
         }
-       
+       /*-------END WEATHER------------*/
     
     .join{
         grid-column: 1/2;
