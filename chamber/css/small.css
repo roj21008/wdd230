@@ -755,13 +755,13 @@ font-size: 2rem;
 }
 .title-form-contact{
   color: #003049;
-  margin-left: 3rem;
+  margin-left: 40px;
   
   
 }
 
 .form-contact{
-  background-color:rgba(234, 226, 183, 0.3);
+  background-color:rgba(216, 202, 123, 0.3);
   padding: 0.5rem 0;
 }
 .contact-fieldset{
@@ -795,8 +795,8 @@ form label.top-contact textarea{
 width: 94%;
 }
 .contact-button{
-  width: 25%;
-  margin-left: 2.1rem;
+  width: 35%;
+  margin-left: 20px;
   
   border-radius: 15px;
     border: none;
