@@ -1,0 +1,257 @@
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Lora', serif;
+*/
+
+main, header, footer {
+	max-width: 95%;
+	margin: auto;
+	font-size: 0.8rem;
+
+}
+
+body {
+    
+    
+    margin: 1em auto;
+    
+}
+header {
+    text-align: center;
+    background-color: #6C584C;
+    color: #F0EAD2;
+    padding: 5px;
+    margin-bottom: -5px;
+    margin-top: -18px;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #DDE5B6;
+    color: #6C584C;
+    text-align: center;
+    align-items: stretch;
+    padding-inline-start: 0;
+}
+
+nav ul li {
+    border-top: 1px solid #A98467;
+    display: block;
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+    color: #6C584C;
+}
+
+nav a {
+    text-decoration: none;
+    color: #6C584C;
+    font-size: 1.1rem;
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+
+nav li:hover {
+    background-color: #ADC178;
+    
+    
+}
+
+.selected{
+    background-color: #ADC178;
+}
+h1{
+    font-family: 'Lora', serif;
+
+}
+.heading-font{
+    font-family: 'Lora', serif;
+    color: #6C584C;
+    background-color: #DDE5B6;
+}
+.logo{text-align: center;
+    justify-content: center;
+}
+
+
+h2{
+    color: #F0EAD2;
+text-align: center;
+font-family: 'Lora', serif;
+
+}
+
+h3 {font-size: 1.8rem;
+    font-family: 'Lato', sans-serif;
+    color: #ADC178;
+    padding: 6px;
+}
+.subtitles{
+    font-family: 'Lora', serif; 
+    color: #6C584C; 
+    background-color: #DDE5B6;
+}
+h4 {
+    padding: 6px;
+    text-align: center;
+    color: #6C584C;
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+}
+
+.purpose p{
+    margin: 10px;
+   font-size:1.2rem;
+    text-align: justify;
+}
+
+p{
+    font-family: 'Libre Baskerville', serif;
+}
+.paragraph-font{
+    font-family: 'Libre Baskerville', serif;
+    color: #6C584C;
+    font-size: 2rem;
+    background-color: #DDE5B6;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 12rem;
+    border: 1px solid #6C584C;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.15);
+}
+.target h3{
+    font-size: 2rem;
+    
+}
+.target h4{
+    background-color: #ADC178;
+}
+.target p{
+    font-size: 1.1rem;
+    margin:10px;
+    text-align: justify;
+}
+
+td{
+    height: 4.5rem;
+    
+}
+
+
+.center{
+    border: 1px solid #4A7C59;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.15);
+    
+    margin:auto;
+    width: 90%;
+    height: 250px;
+   
+    }   
+
+.url-palet{
+        display: flex;
+        justify-content: center;
+        padding-top:4rem;
+        
+       
+    }
+.colors td{
+    align-items: center;
+    
+}
+.colors td:hover{
+    transform:scale(1.14);
+    z-index:2;
+}
+.colors {
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 6px;
+
+}
+
+.primary {
+    background-color: #6C584C;
+    color:white;
+    text-align: center;
+  }
+  .secondary {
+    background-color: #A98467;
+    color:white;
+    text-align: center;
+  }
+  .accent1 {
+    background-color: #ADC178;
+    color:white;
+    text-align: center;
+  }
+  .accent2{
+    background-color: #DDE5B6;
+    color:#003049;
+    text-align: center;
+  }
+  .accent3{
+    background-color:#F0EAD2;
+    color:#003049;
+    text-align: center;
+  }
+.image-map{
+    margin: 1rem auto;
+    text-align: center;
+}
+.map-title{
+    color: #6C584C;
+    
+}
+.image-map img{
+    width: 90%;
+    
+    margin:1px  auto;
+}
+
+/*------------------WIREFRAMES----------------*/
+
+.wireframes{
+    margin: 1rem auto;
+     text-align: center;
+    width: 95%;
+    
+}
+.small, .medium, .large{
+    box-shadow: 5px 10px 8px rgba(136, 136, 136, 0.4);
+}
+.wireframe-large{
+    width: 95%;
+}
+.wireframe-medium{
+    width: 85%;
+}
+
+.wireframes h2{
+    color: #ADC178;
+    font-size: 2.5rem;
+}
+footer{
+    background-color: #6C584C;
+    margin-bottom: -18px;
+    margin-top:0px;
+    text-align: center;
+    color: #F0EAD2;
+    
+    padding: 5px;
+    font-size: 1.1rem;
+
+}
+footer p{
+    font-family: 'Libre Baskerville', serif;
+}
