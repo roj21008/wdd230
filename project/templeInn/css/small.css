@@ -1,0 +1,103 @@
+header, footer{
+    background-color: #6C584C;
+}
+
+
+
+.head{
+    border: 1px solid purple;
+    height: 13rem;
+}
+.logo-title{
+    border: 1px solid red;
+    display: flex;
+    width: 80%;
+}
+.logo{
+    border: 1px solid pink;
+    width: 15%;
+    text-align: center;
+    align-items: center;
+}
+.logo img{
+    width: 90%;
+    margin: 1rem auto;
+}
+.book{
+    border: 1px solid white;
+}
+.book button{
+    width: 40%;
+    height: 3rem;
+    border-radius: 10px;
+}
+.social{
+    border: 1px solid white;
+    margin-top: 4rem;
+
+}
+.social a img{
+    width: 65px;
+    margin: 1rem;
+}
+.title-of-site{
+    border: 1px solid pink;
+    width: 50%;
+}
+.title-of-site h1{
+    color: #F0EAD2;
+    font-size: 4rem;
+    font-family: 'Lora', serif;
+}
+.connect{
+    display: flex;
+    border: 1px solid skyblue;
+    text-align: center;
+    
+    display: block;
+    align-items: center;
+}    
+.call{
+    border: 1px solid white;
+    width: 40%;
+    text-align: center;
+    margin: 3.5rem auto;
+}
+.call h2{
+    color: #F0EAD2;
+    font-size: 2.3rem;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #DDE5B6;
+    color: #6C584C;
+    text-align: center;
+    align-items: stretch;
+    padding-inline-start: 0;
+    height: 3rem;
+}
+
+nav ul li {
+    border-top: 1px solid #A98467;
+    display: block;
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+    color: #6C584C;
+}
+
+nav a {
+    text-decoration: none;
+    color: #6C584C;
+    font-size: 1.1rem;
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+
+nav li:hover {
+    background-color: #ADC178;
+    height: 2.5rem;
+    
+}
