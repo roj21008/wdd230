@@ -1,18 +1,174 @@
 @media only screen and (min-width: 35rem) {
-   
     .head{
         display: flex;
+        align-items: center;
     }
+    .logo img{
+        width: 6rem;
+    } 
     .logo-title{
+        width: 70%;    
         display: flex;
-        width: 70%;
+        
     }
-    .connect{
-        width: 30%;
+
+    .call{
+        display: none;
+    }
+    .title-of-site  h1{
+        font-size: 2.5rem;
+        text-align: left;
+    }
+    .book button{
+        padding: 0.4rem 1rem;
+    }
+    .facebook,.linkedin,.instagram,.youtube{
+        margin: 0.6rem;
+        width: 28px;
+    }
+    nav ul {
+        display: flex;
+    }
+    nav ul li {
+        flex: 1 1 auto;
+        justify-content: center;
+        font-size: 1rem;
+        border-top: 0px solid #A98467;
+        width: 16.7%;
+        padding: 0.5rem 0.1rem;
+    }
+/*-------------END HEADER--------------------*/
+/*------------------MAIN-------------------*/
+
+.home-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:  16rem 21.5rem 15rem;
+    grid-gap: 0.5rem;
+}
+.home-image-room{
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+.home-image-room button{
+    width: 13rem;
+    padding: 1rem;
+    right: 20px;
+    top: 20 0px;
+}
+
+.home-image-temple{
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+.home-info-temple{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.home-weather{
+    grid-column: 1/3;
+    
+}
+
+/*-------------FOOTER--------------------*/
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+    .footer-logo{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        }
+    .footer-logo img{
+        width: 3rem;
+        margin: 1rem auto 2px auto;
+    }    
+    .footer-title{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        
+    }
+    .footer-title h1{
+        font-size: 1.5rem;
+        margin: 16px auto 1px auto;
+    }
+        
+    
+    .footer-address{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .footer-address h3{
+        font-size: 1rem;
+        margin: 1px 5rem;
+    }
+    .footer-call{
+        grid-column: 2/3;
+        grid-row: 3/4;
+        
+    }
+    .footer-call h2{
+        margin: 2rem auto 1px auto;
+        font-size: 1rem;
+    }
+    .footer-social{
+        grid-column: 2/3;
+        grid-row: 2/3;
+        
+    }
+  
+    .site-map{
+        grid-column: 1/2;
+        grid-row: 4/5;
+        align-items: center;  
+        
+    }
+
+    .site-map a{
+        font-size: 1.5rem;
+        
+        
+    }
+    .image-footer{
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+   
+   
+    .footer-form{
+        grid-column: 2/4;
+        grid-row: 4/6;  
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+    .footer-div-form{
+        grid-column: 3/4;
+        grid-row: 3/4;  
+    }
+    
+    .footer-form form {
+        grid-column: 3;
+        grid-row: 4/5;  
         display: block;
+        
     }
-    .social a img{
-        width: 35px;
+    .footer-title-form{
+        
+        font-size: 1.8rem;
+        
+    }
+    .top input, textarea{
+        display: block;
+        width: 100%;
+    }
+    .footer-form input.button{
+        padding: 0.4rem 2.6rem;
     }
 
 }

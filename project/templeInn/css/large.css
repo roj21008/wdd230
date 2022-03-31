@@ -1,22 +1,95 @@
 @media only screen and (min-width: 60em){ 
+.head{
+    justify-content: left;
+   padding: 1rem; 
+}
 
+    .logo img{
+        width: 10rem;
+    } 
+   
+.logo-title{
+    width: 80%;
+    text-align: left;
+    margin: auto 2rem auto 0.5rem;
+    align-items: center;
+}
+.title-of-site h1{
+    font-size: 3.7rem;
+    text-align: left;
+    
+}
 
+.title-of-site {
+    width: 70%;
+    border: none;
+    margin: auto 0.2rem auto 0.5rem;
+} 
+.call{
+    margin-left: 5rem;
+    display: flex;
+    
+}
+.call h2{
+    font-size: 1.2rem;
+}
+.connect{
+    margin-right: 1rem;
+    width: 30%;
+    text-align: right;
+}
+.facebook,.linkedin,.instagram,.youtube{
+    margin: 0.4rem;
+    width: 35px;
+}
+.book button{
+    padding: 0.8rem 2.2rem;
+    font-size: 1rem;
+    
+}
     nav ul {
         display: flex; 
-        font-size: 1.2rem;
-        margin:-5px;
+        
+        
     }
 
-    nav ul li {
-        flex: 1 1 auto;
-        justify-content: center;
-        font-size: 1.2rem;
-        border-top: 0px solid #A98467;
-        width: 16.7%;
-    }
-    nav a {
-        font-size: 1.2rem;
+ 
+    nav ul li  a {
+        font-size: 1rem;
     }
 
+    .home-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows:  22rem 18rem ;
+        grid-gap: 0.5rem;
+        margin: 1rem auto;
+    }
+    .home-image-room{
+        grid-column: 1/4;
+        grid-row: 1/2;
+    }
+    .home-image-room button{
+        
+        
+        
+        top: 270px;
+        
+    }
+    .home-weather{
+        grid-column: 3/4;
+        width: 90%;
+
+    }
+    .home-info-temple{
+        font-size: 0.7rem;
+    }
+   
+    .home-info-temple{
+        
+        grid-column: 2/3;
+        
+    }
+/*FOOTER*/
 
 }
