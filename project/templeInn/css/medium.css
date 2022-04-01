@@ -72,6 +72,16 @@
     
 }
 
+/*-----------------RESERVATION--------------------*/
+
+.reservation-container{
+    max-width: 700px;
+    margin: auto;
+}
+.reservation-container h1{
+    text-align: center;
+}
+
 /*-------------FOOTER--------------------*/
 
 footer{

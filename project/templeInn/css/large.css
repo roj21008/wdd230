@@ -63,7 +63,7 @@
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows:  22rem 18rem ;
         grid-gap: 0.5rem;
-        margin: 1rem auto;
+        margin: 0 auto;
     }
     .home-image-room{
         grid-column: 1/4;

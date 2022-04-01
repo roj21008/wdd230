@@ -198,6 +198,18 @@ grid-column: 1;
     grid-column: 2;
     grid-row: 2;
 }
+/*---------------------RESERVATION---------*/
+main {
+    background-image: url("images/reception.png");
+    width: 100%;
+    margin: auto;
+    background-attachment: fixed;
+   }
+form{
+    background-color: rgba(138, 28, 28, 0.5);
+}
+
+
 /*--------FOOTER------------------*/
 footer{
     
