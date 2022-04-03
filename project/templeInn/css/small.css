@@ -199,14 +199,71 @@ grid-column: 1;
     grid-row: 2;
 }
 /*---------------------RESERVATION---------*/
-main {
-    background-image: url("images/reception.png");
+#reservation {
+    
     width: 100%;
-    margin: auto;
+    margin: 0 auto;
     background-attachment: fixed;
    }
-form{
-    background-color: rgba(138, 28, 28, 0.5);
+
+.reservation-container form{
+    display: block;
+    background-color: rgba(240,234,210, 0.6);
+}
+.reservation-container h1{
+    margin: 0 auto;
+    padding: 1rem auto;
+    text-align: center;
+    color: #6C584C;
+    background-color: rgba(240,234,210, 0.6);
+    font-family: 'Lora', serif;
+}
+.reservation-container .top input{
+    display: block;
+}
+.reservation-container {
+    color: #6C584C;
+    
+}
+
+.reservation-container form input{
+border-radius: 8px;
+border: none;
+height: 1.8rem;
+}
+
+.reservation-container form .top{
+    display: block;
+    margin: 1rem auto;
+    font-weight: bold;
+}
+
+.form-booking select{
+    height: 1.8rem;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.form-booking option{
+    height: 1.8rem;
+}
+
+.reservation-container form .submitBtn{
+    background-color: #F0EAD2;
+    color: #6C584C;
+    font-family: 'Lora', serif;
+    border-radius: 15px;
+    color: #6C584C;
+    padding: 0.4rem 1.2rem;
+    font-weight: bold;
+    margin: 1rem auto 1rem auto;
+}
+.button-booking{
+    text-align: center;
+    
+}
+.reservation-container fieldset{
+    border: none;
 }
 
 
@@ -276,7 +333,7 @@ width: 3.5rem;
 .top input, textarea{
     width: 98%;
 }
-.top input{
+footer .top input{
     height: 1.7rem;
 }
 .footer-form form .fieldset{
@@ -294,7 +351,7 @@ width: 3.5rem;
 .footer-form input.button{
     margin: 1rem auto;
     background-color: #F0EAD2;
-    border-radius: 15px;
+    border-radius: 10px;
     color: #6C584C;
     
     padding: 0.4rem 1.2rem;

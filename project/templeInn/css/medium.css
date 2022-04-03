@@ -10,7 +10,7 @@
         width: 70%;    
         display: flex;
         
-    }
+    } 
 
     .call{
         display: none;
@@ -74,14 +74,18 @@
 
 /*-----------------RESERVATION--------------------*/
 
-.reservation-container{
+form{
     max-width: 700px;
     margin: auto;
 }
 .reservation-container h1{
-    text-align: center;
+    width: 700px;
 }
 
+
+.reservation-container .top .medium, select.medium{
+    width:55%
+}
 /*-------------FOOTER--------------------*/
 
 footer{
@@ -173,7 +177,7 @@ footer{
         font-size: 1.8rem;
         
     }
-    .top input, textarea{
+    footer.top input, textarea{
         display: block;
         width: 100%;
     }

@@ -44,7 +44,7 @@
                 </div>
 
             </div> 
-        </div>
+        </div> 
         <nav><!-- azul--> 
             <ul>
                 <li><a href="index.html" >HOME</a></li>
@@ -55,111 +55,119 @@
         </nav>
     </header>
 <main>
-<div id="reservation">
-    <div class="reservation-container">
-        <h1>MAKE A RESERVATION</h1>
-        <form action="">
-        <label for="room">Choose a room:</label>
+<div id="reservation" style='background-image: url("images/reception.png"); background-position: center; /* Center the image */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover; /* Resize the background image to cover the entire container */'>
+<div class="reservation-container">
+    <h1>MAKE A RESERVATION</h1>
+    <form action="thanks.html" method="get">
+    <fieldset>
+        <label class="top">* Required</label>
+    </fieldset>
+    <fieldset class="form-name">
+        <h2>Name</h2>
+        
+            <label class="top">Name* <input class="medium"   type="text" name="name" required></label>
+            <label class="top">Last Name* <input class="medium"type="text" name="last-name" required></label>
+        
+    </fieldset>
 
-        <fieldset class="fieldset">
-            <h2>Name</h2>
-            <label class="">Name <input type="text" name="name" required></label>
-            <label class="">Last Name <input type="text" name="last-name" required></label>
-        </fieldset>
+    <fieldset class="form-address">
+        <h2>Address</h2>
+        <label class="top">Street Address* <input type="text" name="address"  required></label>
+        <label class="top">Street Address Line 2<input type="text" name="address"></label>
+        <label class="top">Country* <input class="medium" type="text" name="country" required></label>
+        <label class="top">City* <input class="medium" type="text" name="city" required></label>
+        <label class="top">State/Province* <input class="medium" type="text" name="state" required></label>
+    </fieldset>
 
-        <fieldset>
-            <h2>Address</h2>
-            <label class="">Street Address <input type="text" name="address"  required></label>
-            <label class="">Country <input type="text" name="country" required></label>
-            <label class="">City <input type="text" name="city" required></label>
-            <label class="">State/Province <input type="text" name="state" required></label>
-        </fieldset>
+    <fieldset class="form-email">
+        <h2>Email</h2>
+        <label class="top">Email <input class="medium" placeholder="xxx@xxxx.xxx" type="email" name="email"  required></label>
+    </fieldset>
 
-        <fieldset>
-            <h2>Email</h2>
-            <label class="">Email <input type="email" name="email"  required></label>
-        </fieldset>
+    <fieldset class="form-mobile">
+        <h2>Mobile Number*</h2>
+        <label class="top">Phone <input class="medium" type="tel" name="phone" placeholder="(000)-000 0000" required></label>
+    </fieldset>
 
-        <fieldset>
-            <h2>Mobile Number</h2>
-            <label class="">Phone <input type="tel" name="phone"  required></label>
-        </fieldset>
+    <fieldset class="form-booking">
+        <h2>Booking Information</h2>
+        <label class="top">Check-in-Date<input class="medium" type="date"></label>
+        <label class="top">Check-out-Date<input class="medium" type="date"></label>
+        <label class="top">Number of Guests in Room<input min="1" class="medium" type="number" name="number-guests"></label>
+        <label class="top">Room Type</label>
+        <select id="rooms" class="medium" name="type-rooms">
+            <option value="single">Single ($100)</option>
+            <option value="double">Double ($150)</option>
+            <option value="2-beds">2-Bedroom ($200)</option>
+            <option value="suite">Suite ($350)</option>
+        </select>
+    </fieldset>
 
-        <fieldset>
-            <h2>Booking Information</h2>
-            <label class=""><input type="date">Check-in-Date</label>
-            <label class=""><input type="date">Check-out-Date</label>
-            <label class=""><input type="number" name="number-guests">Number of Guests in Room</label>
-            <label for="">Room Type</label>
-            <select id="rooms" name="type-rooms">
-                <option value="single">Single ($100)</option>
-                <option value="double">Double ($150)</option>
-                <option value="2-beds">2-Bedroom ($200)</option>
-                <option value="suite">Suite ($350)</option>
-            </select>
-        </fieldset>
-
-        <fieldset>
-            <h2>Notes/Special requirements</h2>
-            <textarea  name="comments" rows="10" cols="30"></textarea>
-        </fieldset>
-        <input type="submit" value="BOOK" class="submitBtn">
-        </form>
-    </div>
+    <fieldset class="form-notes">
+        <h2>Notes/Special requirements</h2>
+        <textarea  name="comments" rows="10" cols="30"></textarea>
+    </fieldset>
+   <div class="button-booking">
+       <input type="submit" value="BOOK" class="submitBtn">
+   </div>
+    </form>
+</div>
 </div>
 
 </main>
-    <footer>
-        <div class="footer-logo"><!-- azul-->
-            <img src="images/logo.webp" alt="logo">
+<footer>
+    <div class="footer-logo"><!-- azul-->
+        <img src="images/logo.webp" alt="logo">
+    </div>
+    <div class="footer-title"><!-- azul-->
+        <h1>The Temple Inn & Suites</h1>
+    </div>
+    <div class="footer-address"><!-- celeste-->
+        <h3>4800 Montgomery Ln #300,
+            Bethesda, MD 20814 </h3>
+    </div>
+    
+    <div class="footer-social"><!-- rojo-->
+        <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook" class="facebook"></a>
+        <a href="https://pe.linkedin.com/"><img src="images/linkedin.png" alt="linkedin" class="linkedin"></a>
+        <a href="#"><img src="images/instagram.png" alt="instagram" class="instagram"></a>
+        <a href="#"><img src="images/youtube.png" alt="youtube" class="youtube"></a>
+    </div>
+    <div class="site-map"><!-- morado-->
+        <a href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814,+EE.+UU./
+        @38.9832559,-77.0977205,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.
+        9832518!4d-77.0955318">📍  Site Map</a>
+    </div>
+    <div class="footer-call"><!-- marron-->
+        <h2>Call +51948895989</h2>
+    </div>
+    <div class="image-footer">
+        <img src="images/hotel-lobby.jpg" alt="">
+    </div>
+    <div class="footer-form"><!-- negro -->
+        <div class="footer-div-form">
+            <h1 class="footer-title-form">CONTACT US</h1>
         </div>
-        <div class="footer-title"><!-- azul-->
-            <h1>The Temple Inn & Suites</h1>
-        </div>
-        <div class="footer-address"><!-- celeste-->
-            <h3>4800 Montgomery Ln #300,
-                Bethesda, MD 20814 </h3>
-        </div>
-        
-        <div class="footer-social"><!-- rojo-->
-            <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook" class="facebook"></a>
-            <a href="https://pe.linkedin.com/"><img src="images/linkedin.png" alt="linkedin" class="linkedin"></a>
-            <a href="#"><img src="images/instagram.png" alt="instagram" class="instagram"></a>
-            <a href="#"><img src="images/youtube.png" alt="youtube" class="youtube"></a>
-        </div>
-        <div class="site-map"><!-- morado-->
-            <a href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814,+EE.+UU./
-            @38.9832559,-77.0977205,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.
-            9832518!4d-77.0955318">📍  Site Map</a>
-        </div>
-        <div class="footer-call"><!-- marron-->
-            <h2>Call +51948895989</h2>
-        </div>
-        <div class="image-footer">
-            <img src="images/hotel-lobby.jpg" alt="">
-        </div>
-        <div class="footer-form"><!-- negro -->
-            <div class="footer-div-form">
-                <h1 class="footer-title-form">CONTACT US</h1>
-            </div>
-            <form action="#" method="get" >
+        <form action="#" method="get" >
+            
+            <fieldset class="fieldset">
+                <label class="top">Full Name* <input type="text" name="fname" required></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="someone@mail.com" required></label>
                 
-                <fieldset class="fieldset">
-                    <label class="top">Full Name* <input type="text" name="fname" required></label>
-                    <label class="top">Email* <input type="email" name="email" placeholder="someone@mail.com" required></label>
-                    
-                </fieldset> 
+            </fieldset> 
+            
+            <fieldset class="fieldset">
+                <label class="top">Make a question
+                <textarea class="textarea" name="send_wuestion" rows="3" cols="30" placeholder="Write your question"></textarea></label>
+            
                 
-                <fieldset class="fieldset">
-                    <label class="top">Make a question
-                    <textarea class="textarea" name="send_wuestion" rows="3" cols="30" placeholder="Write your question"></textarea></label>
-                
-                    
-                </fieldset>
-                
-                <input class="button" type="submit" value="Submit" class="submitBtn">   
-            </form>
-        </div>
-    </footer>
+            </fieldset>
+            
+            <input class="button" type="submit" value="Submit" class="submitBtn">   
+        </form>
+    </div>
+</footer>
 </body>
 </html>
