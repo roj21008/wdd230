@@ -90,6 +90,51 @@
         grid-column: 2/3;
         
     }
+
+
+
+  /*-------RECEPTION---------------------*/  
+
+  .img-1{
+   display: flex;
+   align-items: center;
+}
+.img-1 img{
+    width: 50%;
+    margin: 2rem;
+}
+.par-1 p{
+    margin: 2rem;
+}
+.img-2{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.img-2 img{
+    width: 50%;
+    margin: 2rem;
+}
+.par-2 p{
+    margin: 2rem;
+}
+  .grid-img-catering{
+    
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.img-food-galery img{
+    width: 100%;
+}
+
+.caterings{
+    width: 80%;
+}
+.grid-img-catering img{
+    width: 60%;
+}
+
+
+
 /*FOOTER*/
 
 }
