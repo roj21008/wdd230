@@ -93,6 +93,13 @@ nav ul li:hover {
         
     transition-duration: 0.5s;
 }
+.services-menu{
+    text-align: center;
+}
+.services-menu nav {
+    display: block;
+    text-align: center;
+}
 .selected{
     background-color: #ADC178;
 }
@@ -339,6 +346,94 @@ height: 1.8rem;
     padding: 0.8rem 1.5rem;
 }
 
+
+/*---------------MISSIONARY------------------*/
+
+.title-missionary{
+text-align: center;
+
+}
+.title-missionary img{
+    width: 100%;
+}
+.title-missionary h1 {
+    text-align: center;
+    margin: 2rem auto;
+    color: #6C584C;
+}
+.placas img{
+    width: 100%;
+    height: 15rem;
+}
+.missionary-text-1 p{
+    text-align: justify;
+    margin: 1rem;
+}
+.missionary-container img{
+    width: 100%;
+}
+.missionary-container p{
+    color: #A98467;
+}
+.missionary-text-2 h2{
+    text-align: center;
+    margin: 2rem auto;
+    color: #6C584C;
+}
+.missionary-text-2 p{
+    text-align: justify;
+    margin: 1rem;
+    
+}
+.suite-img-2 img{
+    margin: 1rem auto;
+}
+
+.missionary-div-form {
+    text-align: center;
+    color: #6C584C;
+}
+.forn-missionary form .top {
+    margin: 2rem auto;
+    color: #6C584C;
+}
+.forn-missionary form .top input{
+    border-radius: 5px;
+    height: 1.5rem;
+}
+
+.forn-missionary form fieldset{
+    border: none;
+}
+.forn-missionary form fieldset textarea{
+    border-radius: 5px;
+}
+.forn-missionary form div.btn{
+    text-align: center;
+}
+.forn-missionary form .button{
+    margin: 1rem auto;
+    background-color: #F0EAD2;
+    border-radius: 10px;
+    color: #6C584C;
+    padding: 0.4rem 1.2rem;
+    font-weight: bold;
+    
+}
+.four-images{
+    display: none;
+}
+
+.follow{
+    text-align: center;
+    
+}
+.follow h2{
+    color: #6C584C;
+    background-color: #DDE5B6;
+    padding: 0.7rem;
+    font-size: 1rem;
+}
 /*--------FOOTER------------------*/
 footer{
     

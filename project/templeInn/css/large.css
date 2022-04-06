@@ -133,7 +133,36 @@
     width: 60%;
 }
 
+/*-------------MISSIONARY-------------------*/
+.title-missionary{
+    height: 24rem;
+    margin-bottom: 8rem;
+}
+.title-missionary img{
+    height: 100%;
+}
 
+.missionary-container{
+    width: 65%;
+    margin: 4rem AUTO;
+}
+
+
+.four-images{
+    margin: 2rem auto;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.four-images .inside {
+    text-align: center;
+}
+
+.four-images .inside img{
+    width: 90%;
+margin: 10px;
+}
 
 /*FOOTER*/
 
