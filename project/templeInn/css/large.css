@@ -72,8 +72,13 @@
     .home-image-room button{
         
         
-        
         top: 270px;
+        
+    }
+    
+    .home-info-temple{
+        
+        grid-column: 1/2;
         
     }
     .home-weather{
@@ -85,13 +90,14 @@
         font-size: 0.7rem;
     }
    
-    .home-info-temple{
-        
-        grid-column: 2/3;
-        
+    
+    .section-weather img{
+        width: 20%;
     }
-
-
+    .three-weathers{
+        
+        width: 80%;
+    }
 
   /*-------RECEPTION---------------------*/  
 

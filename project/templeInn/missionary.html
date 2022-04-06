@@ -46,15 +46,16 @@
             </div> 
         </div>
         <nav><!-- azul--> 
-            <ul>
-                <li class="selected"><a href="index.html" >HOME</a></li>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>                   
+            <ul id="primaryNav">
+                <li><a href="index.html" >HOME</a></li>
                 <li><a href="temple.html" >TEMPLE</a></li>
                 <li><a href="reservation.html" >RESERVATION</a></li>
-                <li><a href="#" >SERVICES</a>
+                <li class="selected"><a href="#" >SERVICES</a>
                     <div class="services-menu">
                         <ul>
                             <li> <a href="reception.html">Reception</a> </li>
-                            <li> <a href="missionary.html">Full time Temple Missionary</a></li>
+                            <li class="selected"> <a href="missionary.html">Full time Temple Missionary</a></li>
                         </ul>
                     </div>
                 </li>
@@ -202,5 +203,7 @@
             </form>
         </div>
     </footer>
+    <script src="js/last-modified.js" ></script>
+    <script  src="js/weather.js" ></script>
 </body>
 </html>

@@ -44,9 +44,11 @@
                 </div>
 
             </div> 
+            
         </div>
         <nav><!-- azul--> 
-            <ul>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>                   
+            <ul id="primaryNav">
                 <li class="selected"><a href="index.html" >HOME</a></li>
                 <li><a href="temple.html" >TEMPLE</a></li>
                 <li><a href="reservation.html" >RESERVATION</a></li>
@@ -65,7 +67,13 @@
     <main>
     <div class="home-container">
         <div class="home-image-room">
-            <img src="images/double-bedroom.jpg" alt="">
+            <picture>
+                <source media="(max-width: 594px)" srcset ="images/double-bedroom_small.jpg">
+                <source media="(max-width: 1019px)" srcset ="images/double-bedroom_medium.jpg">
+                <source media="(max-width: 1500px)" srcset ="images/double-bedroom.jpg">
+                <img src="images/double-bedroom.jpg" alt="Home imgage" class="trujillo-img">
+            </picture>
+            
             <button>BOOK NOW</button>
         </div>
         
@@ -89,18 +97,38 @@
             <h1 class="weather-title">
                 WEATHER
             </h1>
-            <div class="icons-weather">
-                <div class="weather-yesterday">
-aaa
+            <div class="weather">
+                <div class="section-weather">
+                    
+                    <span id="icon-src"></span>
+                    <div class="figure-weather"><img src="#" alt="#" id="weathericon" /></div>
+                    
+                    <div class="show-degrees"><span id="current-temp"></span> <span>&deg;F</span></div>
+                </div>  
+                <p >Condition: <span class="condition-weather"></span></p>
+                <p >Humidity: <span class="humidity"></span>%</p>
+
+
+            </div>
+        </div>
+        <div class="three-weathers">
+            <h1>Forecast</h1>
+            <div class="forecast-days">
+                <div class="day-0">
+                    <h4>Today</h4><p>Min: <span id="current-temp-0-min"></span> <span>&deg;F / Max: </span>
+                    <span id="current-temp-0-max"></span> <span>&deg;F</span></p>
                 </div>
-                <div class="weather-now">   
-aaa
+                <div class="day-1">
+                    <h4>Tomorrow</h4><p>Min: <span id="current-temp-1-min"></span> <span>&deg;F / Max:  </span>
+                    <span id="current-temp-1-max"></span> <span>&deg;F</span>
                 </div>
-                <div class="weather-tomorrow">
-aa
+                <div class="day-2">
+                    <h4>Past-tomorrow</h4><p>Min: <span id="current-temp-2-min"></span> <span>&deg;F /  Max: </span>
+                    <span id="current-temp-2-max"></span> <span>&deg;F</span>
                 </div>
             </div>
         </div>
+        
     </div>
     </main>
     <footer>
@@ -131,6 +159,7 @@ aa
         </div>
         <div class="image-footer">
             <img src="images/hotel-lobby.jpg" alt="">
+            <p class="last-modified" id="lastmodified"></p>
         </div>
         <div class="footer-form"><!-- negro -->
             <div class="footer-div-form">
@@ -155,5 +184,7 @@ aa
             </form>
         </div>
     </footer>
+    <script src="js/last-modified.js" ></script>
+    <script  src="js/weather.js" ></script>
 </body>
 </html>
