@@ -37,6 +37,13 @@
         width: 16.7%;
         padding: 0.5rem 0.1rem;
     }
+
+    .services-menu{
+    
+     
+        width: 25%;
+        
+    }
 /*-------------END HEADER--------------------*/
 /*------------------MAIN-------------------*/
 
@@ -88,14 +95,19 @@ form{
 }
 
 /*-------------RECEPTION------------------*/
+
+
 .reception-container{
 
-width: 80%;
+width: 70%;
 margin:2rem auto;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 grid-gap: 0.2rem;
 
+}
+.title-reception img{
+    height: 22rem;
 }
 .title-reception h1{
 font-size: 4rem;

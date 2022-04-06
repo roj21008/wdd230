@@ -94,15 +94,40 @@ nav ul li:hover {
     transition-duration: 0.5s;
 }
 .services-menu{
-    text-align: center;
+    
+    display: none;
+    width: 95%;
+    
 }
-.services-menu nav {
-    display: block;
-    text-align: center;
+.services-menu ul {
+text-align: center;    
+    
 }
-.selected{
+.services-menu ul li{
+width: 100%; 
+text-align: center;
+
+}
+
+.services-menu ul li a{
+    width: 100%;
+    margin: 0;
+padding: 0;
+}
+
+nav ul li:hover .services-menu{
+    display:block;
+    position: absolute;
     background-color: #ADC178;
+    
+    z-index: 3;
 }
+nav ul li:hover .services-menu ul{
+    display: block;
+}
+
+
+
 
 /*-----------MAIN----------------*/
 .home-container{
