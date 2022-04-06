@@ -65,9 +65,16 @@
 }
 
 .home-image-temple{
+    display: flex;
+    align-items: center;
     grid-row: 2/3;
     grid-column: 2/3;
 }
+.home-image-temple img{
+    height: 80%;
+    
+}
+
 
 .home-info-temple{
     grid-column: 1/2;

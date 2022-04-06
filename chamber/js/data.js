@@ -37,7 +37,7 @@ function displayCompany(company){
     logo.classList.add("logo_img-directory");
     card.classList.add("section_company");
     Address.classList.add("address");
-    Telephone.classList.add("telephone");
+    Telephone.classList.add("telephone");  
     Website.classList.add("website");
 
     card.appendChild(logo);
