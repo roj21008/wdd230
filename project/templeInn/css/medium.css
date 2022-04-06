@@ -26,9 +26,7 @@
         margin: 0.6rem;
         width: 28px;
     }
-    nav ul {
-        display: flex;
-    }
+   
     nav ul li {
         flex: 1 1 auto;
         justify-content: center;
@@ -114,7 +112,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
+    margin: 1rem auto;
 }
+.temple-container .grid .card-temple{
+    box-shadow: 5px 4px #bbb7b7;
+}
+
 
 /*-----------------RESERVATION--------------------*/
 
