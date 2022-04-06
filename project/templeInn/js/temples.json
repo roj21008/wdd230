@@ -42,10 +42,8 @@
                                 "Saturday, 24 December 2022",
                                 "Saturday, 31 December 2022 - Sunday, 1 January 2023"],
             "session_schedule":["09:30 - Regular Session",
-                                "10:30 - Regular Session",
                                 "11:30 - Regular Session",
                                 "15:00 - Regular Session",
-                                "16:00 - Regular Session",
                                 "18:00 - Regular Session"]
              
         },
@@ -68,8 +66,7 @@
             "session_schedule":["09:00 - Regular Session",
                                 "10:0 - Regular Session",
                                 "18:00 - Regular Session",
-                                "19:00 - Regular Session",
-                                "20:00 - Regular Session"]
+                                "19:00 - Regular Session"]
              
         },
         {   "name":"Freiberg Germany Temple",
