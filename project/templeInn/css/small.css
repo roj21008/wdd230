@@ -137,6 +137,37 @@ nav ul li:hover .services-menu ul{
 }
 
 
+nav ul {
+    display:none;
+ }
+ 
+ nav ul.open{
+     display: block;
+     list-style-type:none;
+     
+     text-align: center;
+     align-items: stretch;
+     
+     
+     width: 100%;
+     
+  
+ }
+ #hamburgerBtn{
+     width: 2rem;
+     background-color: #6C584C;
+     border: none;
+     color: #F0EAD2;
+     font-size: 1.5rem;
+   margin:0.5rem 1.5rem;
+ }
+ 
+ #hamburgerBtn span:nth-child(1) {display:block;}
+ #hamburgerBtn span:nth-child(2) {display:none;}
+ 
+ #hamburgerBtn.open span:nth-child(1) {display:none;}
+ #hamburgerBtn.open span:nth-child(2) {display:block;}
+ 
 
 
 /*-----------MAIN----------------*/
