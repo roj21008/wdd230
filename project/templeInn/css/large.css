@@ -98,7 +98,16 @@
         
         width: 80%;
     }
+/*-------------TEMPLE--------------------*/
 
+.temple-container .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+.card-info-temple {
+    margin: 1rem auto 5rem auto;
+}
   /*-------RECEPTION---------------------*/  
 
   .img-1{

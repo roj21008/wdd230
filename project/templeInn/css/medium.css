@@ -103,6 +103,13 @@
     margin: 1rem;
 }
 
+/*--------------TEMPLE------------------------*/
+.temple-container .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
 /*-----------------RESERVATION--------------------*/
 
 form{

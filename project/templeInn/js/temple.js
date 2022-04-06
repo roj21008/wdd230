@@ -13,6 +13,7 @@ fetch(requestURL)
 
 function displayTemple(temples){
     let card = document.createElement('div');
+    let Subcard = document.createElement('div');
     let h2Name =  document.createElement('h2');
     let logo =  document.createElement('img');
     let address = document.createElement('p');
@@ -91,50 +92,48 @@ function displayTemple(temples){
     logo.setAttribute('alt',`temple image`);
     logo.setAttribute('loading','lazy');
     logo.classList.add("temple-image");
-    card.classList.add("card-info-temple");
+    card.classList.add("card-temple");
+    Subcard.classList.add("card-info-temple");
     address.classList.add("address");
     tel.classList.add("telephone");
-    services.classList.add("services-title")
+    
 
     card.appendChild(logo);
-    card.appendChild(h2Name);
-    card.appendChild(addressSubt);
-    card.appendChild(address)
-    card.appendChild(telSubt);
-    card.appendChild(tel)
+    Subcard.appendChild(h2Name);
+    Subcard.appendChild(addressSubt);
+    Subcard.appendChild(address)
+    Subcard.appendChild(telSubt);
+    Subcard.appendChild(tel)
 
-    card.appendChild(services)
+    Subcard.appendChild(services)
     servicesList.appendChild(servicesLine0)
     servicesList.appendChild(servicesLine1)
     servicesList.appendChild(servicesLine2)
     servicesList.appendChild(servicesLine3)
-    card.appendChild(servicesList)
+    Subcard.appendChild(servicesList)
 
-    card.appendChild(milestones)
+    Subcard.appendChild(milestones)
     milestonesList.appendChild(milestonesLine0)
     milestonesList.appendChild(milestonesLine1)
     milestonesList.appendChild(milestonesLine2)
-    milestonesList.appendChild(milestonesLine3)
-    card.appendChild(milestonesList)
+    
+    Subcard.appendChild(milestonesList)
 
-    card.appendChild(closures)
+    Subcard.appendChild(closures)
     closuresList.appendChild(closuresLine0)
     closuresList.appendChild(closuresLine1)
     closuresList.appendChild(closuresLine2)
     closuresList.appendChild(closuresLine3)
-    closuresList.appendChild(closuresLine4)
-    closuresList.appendChild(closuresLine5)
-    card.appendChild(closuresList)
+    Subcard.appendChild(closuresList)
  
-    card.appendChild(session)
+    Subcard.appendChild(session)
     sessionList.appendChild(sessionLine0)
     sessionList.appendChild(sessionLine1)
     sessionList.appendChild(sessionLine2)
     sessionList.appendChild(sessionLine3)
-    card.appendChild(sessionList)
+    Subcard.appendChild(sessionList)
     
-    
-
+    card.appendChild(Subcard)
 
     grid.appendChild(card);
     }
