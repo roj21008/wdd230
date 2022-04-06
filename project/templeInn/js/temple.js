@@ -17,30 +17,34 @@ function displayTemple(temples){
     let logo =  document.createElement('img');
     let address = document.createElement('p');
     let tel = document.createElement('p');  
+    let addressSubt = document.createElement('h3');
+    let telSubt = document.createElement('h3');
 
     let services = document.createElement('h3');
+    let servicesList = document.createElement('ul');
     let servicesLine0 = document.createElement('li');
     let servicesLine1 = document.createElement('li');
     let servicesLine2 = document.createElement('li');
     let servicesLine3 = document.createElement('li');
 
     let milestones = document.createElement('h3');
+    let milestonesList = document.createElement('ul');
     let milestonesLine0 = document.createElement('li');
     let milestonesLine1 = document.createElement('li');
     let milestonesLine2 = document.createElement('li');
-    let milestonesLine3 = document.createElement('li');
-    let milestonesLine4 = document.createElement('li');
+   
 
     let closures = document.createElement('h3');
+    let closuresList = document.createElement('ul');
     let closuresLine0 = document.createElement('li');
     let closuresLine1 = document.createElement('li');
     let closuresLine2 = document.createElement('li');
     let closuresLine3 = document.createElement('li');
-    let closuresLine4 = document.createElement('li');
-    let closuresLine5 = document.createElement('li');
+    
 
     
     let session = document.createElement('h3');
+    let sessionList = document.createElement('ul');
     let sessionLine0 = document.createElement('li');
     let sessionLine1 = document.createElement('li');
     let sessionLine2 = document.createElement('li');
@@ -50,7 +54,9 @@ function displayTemple(temples){
     
     
     h2Name.textContent = temples.name;
+    addressSubt.textContent = 'Address'
     address.textContent = temples.address;
+    telSubt.textContent = 'Telephone'
     tel.textContent = temples.tel;
     
     services.textContent = 'Services'
@@ -63,16 +69,14 @@ function displayTemple(temples){
     milestonesLine0.innerHTML = temples.milestones[0];
     milestonesLine1.innerHTML = temples.milestones[1];
     milestonesLine2.innerHTML = temples.milestones[2];
-    milestonesLine3.innerHTML = temples.milestones[3];
-    milestonesLine4.innerHTML = temples.milestones[4];
+    
     
     closures.textContent = 'Temple Closures'
     closuresLine0.innerHTML = temples.temple_closures[0];
     closuresLine1.innerHTML = temples.temple_closures[1];
     closuresLine2.innerHTML = temples.temple_closures[2];
     closuresLine3.innerHTML = temples.temple_closures[3];  
-    closuresLine4.innerHTML = temples.temple_closures[4];
-    closuresLine5.innerHTML = temples.temple_closures[5];
+    
 
     session.textContent = 'Session Schedule'
     sessionLine0.innerHTML = temples.session_schedule[0];
@@ -94,35 +98,40 @@ function displayTemple(temples){
 
     card.appendChild(logo);
     card.appendChild(h2Name);
+    card.appendChild(addressSubt);
     card.appendChild(address)
+    card.appendChild(telSubt);
     card.appendChild(tel)
 
     card.appendChild(services)
-    card.appendChild(servicesLine0)
-    card.appendChild(servicesLine1)
-    card.appendChild(servicesLine2)
-    card.appendChild(servicesLine3)
+    servicesList.appendChild(servicesLine0)
+    servicesList.appendChild(servicesLine1)
+    servicesList.appendChild(servicesLine2)
+    servicesList.appendChild(servicesLine3)
+    card.appendChild(servicesList)
 
     card.appendChild(milestones)
-    card.appendChild(milestonesLine0)
-    card.appendChild(milestonesLine1)
-    card.appendChild(milestonesLine2)
-    card.appendChild(milestonesLine3)
+    milestonesList.appendChild(milestonesLine0)
+    milestonesList.appendChild(milestonesLine1)
+    milestonesList.appendChild(milestonesLine2)
+    milestonesList.appendChild(milestonesLine3)
+    card.appendChild(milestonesList)
 
     card.appendChild(closures)
-    card.appendChild(closuresLine0)
-    card.appendChild(closuresLine1)
-    card.appendChild(closuresLine2)
-    card.appendChild(closuresLine3)
-    card.appendChild(closuresLine4)
-    card.appendChild(closuresLine5)
+    closuresList.appendChild(closuresLine0)
+    closuresList.appendChild(closuresLine1)
+    closuresList.appendChild(closuresLine2)
+    closuresList.appendChild(closuresLine3)
+    closuresList.appendChild(closuresLine4)
+    closuresList.appendChild(closuresLine5)
+    card.appendChild(closuresList)
  
     card.appendChild(session)
-    card.appendChild(sessionLine0)
-    card.appendChild(sessionLine1)
-    card.appendChild(sessionLine2)
-    card.appendChild(sessionLine3)
-    
+    sessionList.appendChild(sessionLine0)
+    sessionList.appendChild(sessionLine1)
+    sessionList.appendChild(sessionLine2)
+    sessionList.appendChild(sessionLine3)
+    card.appendChild(sessionList)
     
     
 

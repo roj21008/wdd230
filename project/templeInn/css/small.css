@@ -32,7 +32,7 @@ font-size: 2rem;
     
     height: 25px;
 }
-.call h2{
+.call h2{ 
     margin: 0.1rem auto;
     font-size: 1rem;
     color: #F0EAD2;
@@ -269,7 +269,31 @@ nav ul li:hover .services-menu ul{
     color: #6C584C;
     font-family: 'Libre Baskerville', serif;
 }
+/*-----------------------TEMPLE------------------*/
 
+.card-info-temple h2{
+    text-align: center;
+    color: #6C584C;
+    font-family: 'Lora', serif;
+    margin: 0.5rem;
+}
+.card-info-temple h3{
+    color: #6C584C;
+    font-family: 'Libre Baskerville', serif;
+    margin: 0.5rem;
+}
+.temple-image{
+    width: 100%;
+}
+.card-info-temple p{
+    margin: 0.5rem;
+}
+.temple-container .card-info-temple ul li {
+    list-style-type: none;
+    color: #A98467;
+    font-size: 0.8rem;
+
+}
 
 /*---------------------RESERVATION---------*/
 #reservation {

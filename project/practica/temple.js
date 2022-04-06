@@ -1,4 +1,4 @@
-const requestURL = "https://roj21008.github.io/wdd230/project/templeInn/js/temples.json";
+const requestURL = "https://roj21008.github.io/wdd230/project/practica/temples.json";
 const grid = document.querySelector('.grid');
 let dataRequest;
 
@@ -12,12 +12,24 @@ fetch(requestURL)
     });
 
 function displayTemple(temples){
+
+    
     let card = document.createElement('div');
     let h2Name =  document.createElement('h2');
     let logo =  document.createElement('img');
     let address = document.createElement('p');
     let tel = document.createElement('p');  
+    let services = document.createElement('p');  
+    let milestones = document.createElement('p');  
+    let closures = document.createElement('p');
+    let session = document.createElement('p');
 
+    h2Name.textContent = temples.name[0];
+    card.appendChild(h2Name)
+
+
+
+/*
     let services = document.createElement('h3');
     let servicesLine0 = document.createElement('li');
     let servicesLine1 = document.createElement('li');
@@ -121,7 +133,7 @@ function displayTemple(temples){
     card.appendChild(sessionLine0)
     card.appendChild(sessionLine1)
     card.appendChild(sessionLine2)
-    card.appendChild(sessionLine3)
+    card.appendChild(sessionLine3)*/
     
     
     
