@@ -108,7 +108,7 @@ nav ul li:hover {
     
 }
 .services-menu ul {
-text-align: center;    
+text-align: center;     
     
 }
 .services-menu ul li{
@@ -289,7 +289,7 @@ nav ul {
     height: 95%;
 }
 .three-weathers{
-    background-color: #DDE5B6;
+    border:2px solid #b8c47c;
 }
 .three-weathers h1{
     color: #6C584C;

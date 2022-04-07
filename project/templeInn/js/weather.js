@@ -14,7 +14,7 @@ fetch(apiURL)
       document.querySelector('.condition-weather').textContent = desc; 
       document.querySelector('.humidity').textContent = humidity; 
       
-    //DAY 0
+    //DAY 0 
 
     document.querySelector('#current-temp-0-min').textContent = jsObject.daily[0].temp.min;
     document.querySelector('#current-temp-0-max').textContent = jsObject.daily[0].temp.max;
