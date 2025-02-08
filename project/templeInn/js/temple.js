@@ -2,7 +2,7 @@ const requestURL = "https://roj21008.github.io/wdd230/project/templeInn/js/templ
 const grid = document.querySelector('.grid');
 let dataRequest;
 
-fetch(requestURL)
+fetch(requestURL) 
     .then(request => request.json())
     .then( ( data ) => {
         console.log(data);

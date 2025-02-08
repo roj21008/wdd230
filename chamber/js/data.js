@@ -11,7 +11,7 @@ fetch(requestURL)
         companies.forEach(displayCompany);
     });
 
-
+ 
 
 function displayCompany(company){
     let card = document.createElement('section');
