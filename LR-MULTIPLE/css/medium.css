@@ -1,0 +1,225 @@
+@media only screen and (min-width: 35rem) {
+  
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    main{
+        width:92%;
+        margin:0px auto;
+         
+    }
+    .logo{
+        width: 120px;
+        margin:auto;
+        
+      } 
+
+      nav{
+        
+        margin:0 10rem 0 10rem;
+      }
+
+      nav ul li a{
+        padding: 20px 25px;
+      }
+    nav ul.open{
+        display: flex;}
+
+    
+
+    #title-nav{    
+       
+        display:flex;
+        flex-direction:row;
+        justify-content: center;
+        width: 100%;
+        margin: auto;
+      } 
+    
+      
+    
+    
+    /*BOXES*/
+    div.container{
+        display:grid;
+        grid-template-columns: 1.5fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+        grid-gap:0.6rem ;
+        margin: 0.5rem auto;
+        width: 100%;
+
+    }
+
+    .hero  {
+        width: 100%;
+        grid-column: 1/3;
+        grid-row: 1;
+        
+    }
+    .hero-subt{/*WELLCOME TO TRUJILLO*/
+        font-size: 3rem;    
+    }
+    .new{
+        grid-column: 1/3;
+        grid-row: 2/3;
+        height: 100%;
+    }
+    .spotlight{
+
+        grid-column: 1/3;
+        grid-row: 3/4;
+        display: flex;
+        width: 100%;
+        
+        
+    }
+    
+    .spot1,.spot2{
+        margin: 0.5rem;
+    }
+    
+    .event{
+        grid-column: 1/2;
+        grid-row: 5/6;
+        width: 100%;
+    }
+    .event-par{
+        font-size: 1.2rem;
+      }
+    .join{
+        grid-column: 1/3;
+        grid-row: 4/5;
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .join-link{
+        background-color: #EAE2B7;
+        text-align: center;
+        margin: 1.5rem 0.6rem;
+        box-shadow: 1px 2px #888888;
+        color:#F77F00; 
+        padding: 15px;
+        border-radius: 1rem;
+        font-weight: bold;
+        font-size: 2rem;
+        text-decoration: none;
+      }
+      .join-link:active{
+        box-shadow: 2px 3px 10px 8px #888888;
+      }
+
+
+    /*----SECTION WEATHER-----------*/  
+    .weather{
+        grid-column: 2/3;
+        grid-row: 5/6;
+        width: 100%;
+        
+        }
+        .weather h2{
+            margin: 0.1rem auto;
+        }
+    .section-weather{
+        margin-bottom: 0.1rem;
+        height: 35%;
+        }
+    .show-degrees{/*CONTANER OF GRADE*/
+    padding-top: 1rem;}
+    #current-temp{/*SHOW HOW MANY GRADES*/
+        font-size: 2rem;
+        
+        text-align: center;
+      }
+
+      .info-weather{/*div windchill and windspeed*/
+        height: 25%;
+        padding-bottom: 0.1rem;
+        
+    }
+    .text-weather{
+        font-size: 1.5rem;
+        
+    }
+     
+ /*------------------------------------------------*/     
+/*DISCOVER PAGE*/
+/*DISCOVER PAGE*/
+/*DISCOVER PAGE*/
+/*DISCOVER PAGE*/
+/*DISCOVER PAGE*/
+
+
+.trujillo-images{  /*picture element*/
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;  
+    grid-gap: 1rem;
+    justify-content: center;
+  }
+  
+/*---------------------------------------------*/
+    /*DESIGN FOOTER*/
+    .logo-tit-foot{
+        border: solid 1px red;
+        display: flex;
+    }
+
+    .logo-footer{
+        width: 45%;
+        
+    }
+    .data{
+        border: solid 4px green;
+        display: flex;
+        align-items: center;
+
+    }
+    
+    
+    .footer-title{
+        text-align: left;
+        font-size: 1.15rem;
+    }
+    .footer-subt{
+        text-align: left;
+        font-size: 0.8rem;
+    }
+    .title-subt{
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+        border: solid 1px black;
+    }
+    .location h2, .location a{
+        font-size: 0.7rem;
+        
+        letter-spacing:0.1rem;
+        
+    }
+.location{
+    border: solid 1px yellow;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+    .first-par,.separator{
+        display: flex;
+        justify-content: center;     
+        
+        
+    }
+    .info p{
+        margin: auto 0.2rem;
+    }
+.info{
+    border: solid 1px white;
+}
+
+
+
+    }
+    

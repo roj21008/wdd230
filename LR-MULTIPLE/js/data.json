@@ -1,0 +1,112 @@
+{
+    "companies": [ 
+        {
+            "name":"Danper Trujillo SAC",
+            "address":"Carretera Industrial s/n, Sector Barrio Nuevo, Moche",
+            "tel":"(044) 252574",
+            "website":"https://danper.com",
+            "image":"image/danper.svg",
+            "membership": "gold",
+            "slogan": "Committed to the development of our country"
+        },
+        {
+            "name":"Camposol",
+            "address":"Chao",
+            "tel":null,
+            "website":"https://www.camposol.com",
+            "image":"image/camposol.png",
+            "membership": "silver",
+            "slogan": "The Farm-To-Family Philosophy"
+        },
+        {
+            "name":"El Rincon de Vallejo",
+            "address":"Jirón Orbegoso 311",
+            "tel":" 915 111 386",
+            "website":"http://www.rincondevallejo.pe",
+            "image":"image/rincon_vallejo.jpg",
+            "membership": "bronze",
+            "slogan": "Variety of typical dishes from Trujillo"
+        },
+        {
+            "name":"El Paisa",
+            "address":"Las Gemas 418,",
+            "tel":"044-200450",
+            "website":"https://www.restaurantturisticoelpaisa.com/",
+            "image":"image/el-paisa.jpg",
+            "membership": "gold",
+            "slogan": "Our Best Dishes At Your Disposal"
+        },
+        {
+            "name":"Clínica SANNA",
+            "address":"Av Los Laureles 430",
+            "tel":" (044) 601050",
+            "website":"https://www.sanna.pe",
+            "image":"image/sanna.png",
+            "membership": "silver",
+            "slogan": "Protect yourself and your family"
+        },
+        {
+            "name":"Caja Trujillo",
+            "address":"Trujillo Perú-Cercado",
+            "tel":null,
+            "website":"https://www.cajatrujillo.com.pe",           
+            "image":"image/Caja-Trujillo.png",
+            "membership": "bronze",
+            "slogan": "Think Big"
+        },
+        {
+            "name":"COAM - Contratistas",
+            "address":" Av. Fátima 127",
+            "tel":"044-286045",
+            "website":"https://coamcontratistas.pe",
+            "image":"image/coam.png",
+            "membership": "gold",
+            "slogan": "We build your dreams and goals"
+        },
+        {
+            "name":"Chimu Agropecuaria",
+            "address":"Av. América Nte. 2213,",
+            "tel":"044-224309",
+            "website":"https://www.chimuagropecuaria.com.pe",
+            "image":"https://roj21008.github.io/wdd230/chamber/image/chimu.jpg",
+            "membership": "silver",
+            "slogan": "Leader in commercialization of Poultry"
+        },
+        {
+            "name":"Berman Lab",
+            "address":"Almagro 607 - Trujillo",
+            "tel":" 950206241",
+            "website":"https://www.bermanlab.com",
+            "image":"image/bermanlab.png" ,
+            "membership": "bronze",
+            "slogan": "Reliable clinical diagnoses"
+        },{
+            "name":"Molinorte",
+            "address":"Panamericana Norte Km. 561",
+            "tel":"(044) 205378",
+            "website":"https://molinortesac.com",
+            "image":"image/molinorte.png",
+            "membership": "gold",
+            "slogan": "Balanced food of optimum quality"
+        },
+        {
+            "name":"UPAO",
+            "address":"Av. América Sur 3145",
+            "tel":"044 604444",  
+            "website":"https://upao.edu.pe/",
+            "image":"image/upao.jpg",
+            "membership": "silver",
+            "slogan": "Quality and academic demand"
+        },
+        {
+            "name":"CV COVESA",
+            "address":"Av. Larco 1525, Distrito de Víctor Larco Herrera",
+            "tel":"044  295072",
+            "website":"http://cvcovesa.com/",
+            "image":"image/covesa.png",
+            "membership": "bronze",
+            "slogan": "Leader in real estate and construction."
+        }
+    ]
+  }
+  
