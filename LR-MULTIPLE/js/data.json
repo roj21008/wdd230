@@ -1,7 +1,7 @@
 {
     "companies": [ 
         {
-            "name":"Danper Trujillo SAC",
+            "name":"Pintura y acabados",
             "address":"Carretera Industrial s/n, Sector Barrio Nuevo, Moche",
             "tel":"(044) 252574",
             "website":"https://danper.com",
@@ -10,7 +10,7 @@
             "slogan": "Committed to the development of our country"
         },
         {
-            "name":"Camposol",
+            "name":" Gasfitería y reparación de tuberías",
             "address":"Chao",
             "tel":null,
             "website":"https://www.camposol.com",
@@ -19,7 +19,7 @@
             "slogan": "The Farm-To-Family Philosophy"
         },
         {
-            "name":"El Rincon de Vallejo",
+            "name":"Mantenimiento integral de edificios",
             "address":"Jirón Orbegoso 311",
             "tel":" 915 111 386",
             "website":"http://www.rincondevallejo.pe",
@@ -28,7 +28,7 @@
             "slogan": "Variety of typical dishes from Trujillo"
         },
         {
-            "name":"El Paisa",
+            "name":"Servicio de mudanzas y traslado de bienes ",
             "address":"Las Gemas 418,",
             "tel":"044-200450",
             "website":"https://www.restaurantturisticoelpaisa.com/",
@@ -37,7 +37,7 @@
             "slogan": "Our Best Dishes At Your Disposal"
         },
         {
-            "name":"Clínica SANNA",
+            "name":"Cerrajería y seguridad residencial",
             "address":"Av Los Laureles 430",
             "tel":" (044) 601050",
             "website":"https://www.sanna.pe",
@@ -46,7 +46,7 @@
             "slogan": "Protect yourself and your family"
         },
         {
-            "name":"Caja Trujillo",
+            "name":"Carpintería",
             "address":"Trujillo Perú-Cercado",
             "tel":null,
             "website":"https://www.cajatrujillo.com.pe",           
@@ -55,7 +55,7 @@
             "slogan": "Think Big"
         },
         {
-            "name":"COAM - Contratistas",
+            "name":"Jardinería y mantenimiento de áreas verdes",
             "address":" Av. Fátima 127",
             "tel":"044-286045",
             "website":"https://coamcontratistas.pe",
@@ -64,7 +64,7 @@
             "slogan": "We build your dreams and goals"
         },
         {
-            "name":"Chimu Agropecuaria",
+            "name":"Construcción y remodelaciones ",
             "address":"Av. América Nte. 2213,",
             "tel":"044-224309",
             "website":"https://www.chimuagropecuaria.com.pe",
@@ -73,7 +73,7 @@
             "slogan": "Leader in commercialization of Poultry"
         },
         {
-            "name":"Berman Lab",
+            "name":"Limpieza profunda de hogares y oficinas",
             "address":"Almagro 607 - Trujillo",
             "tel":" 950206241",
             "website":"https://www.bermanlab.com",
@@ -81,7 +81,7 @@
             "membership": "bronze",
             "slogan": "Reliable clinical diagnoses"
         },{
-            "name":"Molinorte",
+            "name":"Servicio de software y desarrollo web",
             "address":"Panamericana Norte Km. 561",
             "tel":"(044) 205378",
             "website":"https://molinortesac.com",
@@ -90,7 +90,7 @@
             "slogan": "Balanced food of optimum quality"
         },
         {
-            "name":"UPAO",
+            "name":"Instalación y mantenimiento de pisos",
             "address":"Av. América Sur 3145",
             "tel":"044 604444",  
             "website":"https://upao.edu.pe/",
@@ -99,7 +99,7 @@
             "slogan": "Quality and academic demand"
         },
         {
-            "name":"CV COVESA",
+            "name":"Asesoría y gestión de proyectos de construcción y mantenimiento",
             "address":"Av. Larco 1525, Distrito de Víctor Larco Herrera",
             "tel":"044  295072",
             "website":"http://cvcovesa.com/",
