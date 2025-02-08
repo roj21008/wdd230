@@ -2,110 +2,108 @@
     "companies": [ 
         {
             "name":"Pintura y acabados",
-            "address":"Carretera Industrial s/n, Sector Barrio Nuevo, Moche",
-            "tel":"(044) 252574",
-            "website":"https://danper.com",
+            "services":"Interiores, exteriores, estuco, impermeabilización)",
+            "tel":"+51999999999",
             "image":"image/danper.svg",
-            "membership": "gold",
-            "slogan": "Committed to the development of our country"
+            "membership": "gold"
         },
+
         {
             "name":" Gasfitería y reparación de tuberías",
-            "address":"Chao",
-            "tel":null,
-            "website":"https://www.camposol.com",
+            "services":"Instalación y mantenimiento de cañerías, detección de fugas",
+            "tel":"+51999999999",
             "image":"image/camposol.png",
-            "membership": "silver",
-            "slogan": "The Farm-To-Family Philosophy"
+            "membership": "silver"
+            
         },
         {
             "name":"Mantenimiento integral de edificios",
-            "address":"Jirón Orbegoso 311",
-            "tel":" 915 111 386",
-            "website":"http://www.rincondevallejo.pe",
+            "services":"Reparaciones, supervisión de sistemas eléctricos e hidráulicos",
+            "tel":"+51999999999",
+            
             "image":"image/rincon_vallejo.jpg",
-            "membership": "bronze",
-            "slogan": "Variety of typical dishes from Trujillo"
+            "membership": "bronze"
+            
         },
         {
             "name":"Servicio de mudanzas y traslado de bienes ",
-            "address":"Las Gemas 418,",
-            "tel":"044-200450",
-            "website":"https://www.restaurantturisticoelpaisa.com/",
+            "services":"Empaque, transporte, desembalaje",
+            "tel":"+51999999999",
+            
             "image":"image/el-paisa.jpg",
-            "membership": "gold",
-            "slogan": "Our Best Dishes At Your Disposal"
+            "membership": "gold"
+            
         },
         {
             "name":"Cerrajería y seguridad residencial",
-            "address":"Av Los Laureles 430",
-            "tel":" (044) 601050",
-            "website":"https://www.sanna.pe",
+            "services":"Copias de llaves, apertura de puertas, cambio de cerraduras",
+            "tel":"+51999999999",
+            
             "image":"image/sanna.png",
-            "membership": "silver",
-            "slogan": "Protect yourself and your family"
+            "membership": "silver"
+            
         },
         {
             "name":"Carpintería",
-            "address":"Trujillo Perú-Cercado",
-            "tel":null,
-            "website":"https://www.cajatrujillo.com.pe",           
+            "services":"Muebles, closets, puertas, restauración de madera",
+            "tel":"+51999999999",
+            
             "image":"image/Caja-Trujillo.png",
-            "membership": "bronze",
-            "slogan": "Think Big"
+            "membership": "bronze"
+            
         },
         {
             "name":"Jardinería y mantenimiento de áreas verdes",
-            "address":" Av. Fátima 127",
-            "tel":"044-286045",
-            "website":"https://coamcontratistas.pe",
+            "services":"Poda, diseño de jardines, sistemas de riego",
+            "tel":"+51999999999",
+            
             "image":"image/coam.png",
-            "membership": "gold",
-            "slogan": "We build your dreams and goals"
+            "membership": "gold"
+            
         },
         {
             "name":"Construcción y remodelaciones ",
-            "address":"Av. América Nte. 2213,",
-            "tel":"044-224309",
-            "website":"https://www.chimuagropecuaria.com.pe",
+            "services":"Drywall, ampliaciones, refacción de espacios",
+            "tel":"+51999999999",
+            
             "image":"https://roj21008.github.io/wdd230/chamber/image/chimu.jpg",
-            "membership": "silver",
-            "slogan": "Leader in commercialization of Poultry"
+            "membership": "silver"
+            
         },
         {
             "name":"Limpieza profunda de hogares y oficinas",
-            "address":"Almagro 607 - Trujillo",
-            "tel":" 950206241",
-            "website":"https://www.bermanlab.com",
+            "services":"Alfombras, vidrios, mantenimiento post-obra",
+            "tel":"+51999999999",
+            
             "image":"image/bermanlab.png" ,
-            "membership": "bronze",
-            "slogan": "Reliable clinical diagnoses"
+            "membership": "bronze"
+            
         },{
             "name":"Servicio de software y desarrollo web",
-            "address":"Panamericana Norte Km. 561",
-            "tel":"(044) 205378",
-            "website":"https://molinortesac.com",
+            "services":"Páginas web, aplicaciones, soporte técnico",
+            "tel":"+51999999999",
+            
             "image":"image/molinorte.png",
-            "membership": "gold",
-            "slogan": "Balanced food of optimum quality"
+            "membership": "gold"
+            
         },
         {
             "name":"Instalación y mantenimiento de pisos",
-            "address":"Av. América Sur 3145",
-            "tel":"044 604444",  
-            "website":"https://upao.edu.pe/",
+            "services":"Cerámica, parquet, laminados, porcelanato",
+            "tel":"+51999999999",
+            
             "image":"image/upao.jpg",
-            "membership": "silver",
-            "slogan": "Quality and academic demand"
+            "membership": "silver"
+            
         },
         {
             "name":"Asesoría y gestión de proyectos de construcción y mantenimiento",
-            "address":"Av. Larco 1525, Distrito de Víctor Larco Herrera",
-            "tel":"044  295072",
-            "website":"http://cvcovesa.com/",
+            "services":"Estudio de expedientes tecnicos",
+            "tel":"+51999999999",
+            
             "image":"image/covesa.png",
-            "membership": "bronze",
-            "slogan": "Leader in real estate and construction."
+            "membership": "bronze"
+            
         }
     ]
   }

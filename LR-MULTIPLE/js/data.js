@@ -17,16 +17,16 @@ function displayCompany(company){
     let card = document.createElement('section');
     let h2Name =  document.createElement('h2');
     let logo =  document.createElement('img');
-    let Address = document.createElement('p');
+    let Services = document.createElement('p');
     let Telephone = document.createElement('p');  
-    let Website = document.createElement('a');
+    
 
     
     
     h2Name.textContent = company.name;
-    Address.textContent = company.address;
+    Services.textContent = company.services;
     Telephone.textContent = company.tel;
-    Website.innerHTML = company.website;
+   
 
     
     
@@ -36,15 +36,15 @@ function displayCompany(company){
     logo.setAttribute('loading','lazy');
     logo.classList.add("logo_img-directory");
     card.classList.add("section_company");
-    Address.classList.add("address");
+    Services.classList.add("services");
     Telephone.classList.add("telephone");  
-    Website.classList.add("website");
+    
 
     card.appendChild(logo);
     card.appendChild(h2Name);
-    card.appendChild(Address)
+    card.appendChild(Services)
     card.appendChild(Telephone)
-    card.appendChild(Website);
+    
     
     grid.appendChild(card);
     }
@@ -65,19 +65,19 @@ document.getElementById('table').addEventListener('click', function () {
     dataRequest.forEach((c) => {
         let tr = document.createElement('tr');
         let name = document.createElement('th');
-        let address = document.createElement('th');
+        let services = document.createElement('th');
         let tel = document.createElement('th');
-        let website = document.createElement('th');
+        
 
         name.textContent = c.name;
-        address.textContent = c.address;
+        services.textContent = c.services;
         tel.textContent = c.tel;
-        website.textContent = c.website;
+        
 
         tr.appendChild(name);
-        tr.appendChild(address);
+        tr.appendChild(services);
         tr.appendChild(tel);
-        tr.appendChild(website);
+        
         
         document.querySelector('table ').appendChild(tr);
     });
