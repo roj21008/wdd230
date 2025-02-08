@@ -89,8 +89,8 @@ nav ul li a{
     /*section grid*/
     div.container{
     
-    grid-template-columns: 1.1fr 2.3fr 1.1fr;
-    grid-template-rows: 17rem 17rem 17rem  ;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows:33% 33% 33% ;
     grid-gap: 0.5rem;
     margin: 1rem auto ;
 
@@ -178,28 +178,29 @@ nav ul li a{
     grid-column: 3;
     grid-row: 1/4;
     display: grid;
+    grid-template-rows: 33.33% 33.33% 33.33%;
     width: 100%;
-      
+    
       }
 
   .spot1{
     width: 95%;
     grid-row: 1;
-    margin: 0.5rem auto 0.25rem auto;  
-    height: 95%;
+    
+    
   }
   .spot2{
     width: 95%;
+    margin:0.5em;
     grid-row: 2;
-    margin:  0.25rem auto 0.25rem auto;
-    height: 95%;
+   
   }
   .spot3{
-    width: 95%; 
+    width: 95%;
+    margin:0.5em;
     display:block;
-    margin:  0.25rem auto 0.5rem auto;
     grid-row: 3;
-    height: 95%;
+   
     
   }
 
