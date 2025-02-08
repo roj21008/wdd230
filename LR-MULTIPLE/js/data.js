@@ -1,4 +1,4 @@
-const requestURL = "https://roj21008.github.io/wdd230/chamber/js/data.json";
+const requestURL = `https://roj21008.github.io/wdd230/chamber/js/data.json?t=${new Date().getTime()}`;
 const grid = document.querySelector('.grid');
 let dataRequest;
 
@@ -9,7 +9,8 @@ fetch(requestURL)
         const companies = data.companies;
         dataRequest = companies;
         companies.forEach(displayCompany);
-    });
+    })
+    .catch(error => console.error("Error cargando JSON:", error));;
 
  
 
