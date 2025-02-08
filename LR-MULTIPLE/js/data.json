@@ -4,7 +4,7 @@
             "name":"Pintura y acabados",
             "services":"Interiores, exteriores, estuco, impermeabilización)",
             "tel":"+51999999999",
-            "image":"image/danper.svg",
+            "image":"image/pintura.png",
             "membership": "gold"
         },
 
@@ -12,7 +12,7 @@
             "name":" Gasfitería y reparación de tuberías",
             "services":"Instalación y mantenimiento de cañerías, detección de fugas",
             "tel":"+51999999999",
-            "image":"image/camposol.png",
+            "image":"image/gasfiteria.png",
             "membership": "silver"
             
         },
@@ -21,7 +21,7 @@
             "services":"Reparaciones, supervisión de sistemas eléctricos e hidráulicos",
             "tel":"+51999999999",
             
-            "image":"image/rincon_vallejo.jpg",
+            "image":"image/mantenimiento.jpg",
             "membership": "bronze"
             
         },
@@ -30,7 +30,7 @@
             "services":"Empaque, transporte, desembalaje",
             "tel":"+51999999999",
             
-            "image":"image/el-paisa.jpg",
+            "image":"image/mudanzas.png",
             "membership": "gold"
             
         },
@@ -39,7 +39,7 @@
             "services":"Copias de llaves, apertura de puertas, cambio de cerraduras",
             "tel":"+51999999999",
             
-            "image":"image/sanna.png",
+            "image":"image/cerrajeria.png",
             "membership": "silver"
             
         },
@@ -48,7 +48,7 @@
             "services":"Muebles, closets, puertas, restauración de madera",
             "tel":"+51999999999",
             
-            "image":"image/Caja-Trujillo.png",
+            "image":"image/carpinteria.png",
             "membership": "bronze"
             
         },
@@ -57,7 +57,7 @@
             "services":"Poda, diseño de jardines, sistemas de riego",
             "tel":"+51999999999",
             
-            "image":"image/coam.png",
+            "image":"image/jardineria.png",
             "membership": "gold"
             
         },
@@ -66,7 +66,7 @@
             "services":"Drywall, ampliaciones, refacción de espacios",
             "tel":"+51999999999",
             
-            "image":"https://roj21008.github.io/wdd230/chamber/image/chimu.jpg",
+            "image":"image/construccion",
             "membership": "silver"
             
         },
@@ -75,7 +75,7 @@
             "services":"Alfombras, vidrios, mantenimiento post-obra",
             "tel":"+51999999999",
             
-            "image":"image/bermanlab.png" ,
+            "image":"image/limpieza.png" ,
             "membership": "bronze"
             
         },{
@@ -83,7 +83,7 @@
             "services":"Páginas web, aplicaciones, soporte técnico",
             "tel":"+51999999999",
             
-            "image":"image/molinorte.png",
+            "image":"image/desarrollo web.png",
             "membership": "gold"
             
         },
@@ -92,7 +92,7 @@
             "services":"Cerámica, parquet, laminados, porcelanato",
             "tel":"+51999999999",
             
-            "image":"image/upao.jpg",
+            "image":"image/pisos.jpg",
             "membership": "silver"
             
         },
@@ -101,7 +101,7 @@
             "services":"Desarrollo y ejecución de expedientes tecnicos",
             "tel":"+51999999999",
             
-            "image":"image/covesa.png",
+            "image":"image/asesoria.png",
             "membership": "bronze"
             
         }
