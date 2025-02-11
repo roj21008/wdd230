@@ -21,27 +21,25 @@
 <body>
     <div class="banner"><span class="meet"></span></div>  
     <header>
-        <div id="title-nav">
-            <div class="logo-title">
+       
+            <div class="logo-div">
                <img class="logo" src="image/LR-logo.png" alt="logo">
-               <nav>
-                    <ul >
-                        <li ><a href="index.html" class="selected" >HOME</a></li>
-                        <li><a href="discover.html" >DISCOVERY</a></li>
-                        <li><a href="directory.html" >DIRECTORY</a></li>
-                        <li><a href="join.html" >JOIN</a></li>
-                        <li><a href="contact.html" >CONTACT</a></li>
-                    </ul>
-                </nav>
-                <div class="whatsapp-mail">
-                    <a href="mailto:lrmultipleservice@gmail.com"><img src="image/gmail.png" alt="gmail" class="contact-us"></a>
-                    <a href="https://wa.me/51948895989" target="_blank"><img src="image/whatsapp.png" alt="whatsapp" class="contact-us"></a>
-                </div>   
+            </div>   
+            <nav>
+                <ul >
+                    <li ><a href="index.html" class="selected" >HOME</a></li>
+                    <li><a href="discover.html" >DISCOVERY</a></li>
+                    <li><a href="directory.html" >DIRECTORY</a></li>
+                    <li><a href="join.html" >JOIN</a></li>
+                    <li><a href="contact.html" >CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="whatsapp-mail">
+                <a href="mailto:lrmultipleservice@gmail.com"><img src="image/gmail.png" alt="gmail" class="contact-us"></a>
+                <a href="https://wa.me/51948895989" target="_blank"><img src="image/whatsapp.png" alt="whatsapp" class="contact-us"></a>
+            </div>   
                
-            </div>    
             
-        </div>
-            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>                   
              
              
         
@@ -49,91 +47,59 @@
         
     </header>
     <div class="date-now">
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>                   
         <date></date>
        
         <aside></aside>
     </div>
     <main>
         <div class="container">
-            <div class="hero"> <!--     Hero with site name and call to action-->
-                <h1 class="hero-subt">Wellcome to Trujillo</h1>
+           
+             
                 <picture>
-                    <source media="(max-width: 594px)" srcset ="image/wdd230-org_small.jpg">
-                    <source media="(max-width: 1019px)" srcset ="image/wdd230-org_medium.jpg">
-                    <source media="(max-width: 1500px)" srcset ="image/wdd230-org_large.jpg">
-                    <img src="image/wdd230-org_large.jpg" alt="Home imgage" class="trujillo-img">
+                    <!-- <source media="(max-width: 594px)" srcset ="image/hero.jpg">-->
+                   <!-- <source media="(max-width: 1019px)" srcset ="image/wdd230-org_medium.jpg">-->
+                   <!-- <source media="(max-width: 1500px)" srcset ="image/wdd230-org_large.jpg">-->
+                    <img src="image/hero.jpg" alt="Home image" class="hero-img">
                 </picture>
                 <!--<img src="image/huanchaco.jpg" alt="" class="trujillo-img">-->
-                <a href="join.html" class="hero-link">Join the Chamber</a>
-                 
-                
-            </div>
-            <div class="event">
-                <h2>Ribbon Cutting</h2>
-                <h3>The Diamond Shack</h3>
-                <!--<p>Event</p>-->
-                <p class="event-par">Join us for the grand oppening of The Diamond Shack, Thursday at 1:00 p.m.</p>
-            <br>
-                <a href="#">more info</a>
-            </div>
+                <a href="mailto:lrmultipleservice@gmail.com" target="_blank" class="hero-link">Pide tu presupuesto</a>
+             
+           
+           
             <div class="weather"><!--<p>WEATHER</p>-->
-                
-                <h2>Weather</h2>
-                <div class="section-weather">
-                    
-                    <span id="icon-src"></span>
-                    <div class="figure-weather"><img src="#" alt="#" id="weathericon" /></div>
-                    
-                    <div class="show-degrees"><span id="current-temp"></span> &deg;F</div>
-                </div>  
-                <p class="condition-weather"></p>
-                <div class="info-weather">
-                    <p class="text-weather">Wind Speed: <span id="speed"></span> km/h</p>
-                    <p class="text-weather">Wind Chill: <span id="windchill"></span></p>
-                </div>
+                <p><span id="current-temp"></span>°C</p> 
+                <img id="weathericon" src="" alt="">
+                <h2>Trujillo</h2>
+               
             </div>
-            <div class="new">
-                <h2>News</h2>
-                <h3>Rescue operations continue in Mykolaiv</h3>
-                <p>Russia continues to make "incremental gains" in southern Ukraine and has used "savage and brutal techniques" in the way it has targeted civilians,
-                     US Defense Secretary Lloyd Austin said on Saturday.
-                        </p>
-            
-            </div> 
-            
-            <div class="join"><!--<p>Join</p>-->
+           
                 
-                <a href="join.html" class="join-link">Join Us!</a>
-                <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
-                    
+        </div>
+        <div class="spotlight">
+            <div class="spot1"><!--<p>Spotlight 1</p>-->
+                  <!-- <h2 id="spot1name" ></h2> 
+                <img id="spot1image" src="image/truck.png" alt="truck">
+                <p><span id="spot1slogan"></span></p>
+                <p><span id="spot1website"></span></p>
+                <p class="phone"><span id="spot1tel"></span></p>-->
             </div>
-            
-            <div class="spotlight">
-                <div class="spot1"><!--<p>Spotlight 1</p>-->
-                      <!-- <h2 id="spot1name" ></h2> 
-                    <img id="spot1image" src="image/truck.png" alt="truck">
-                    <p><span id="spot1slogan"></span></p>
-                    <p><span id="spot1website"></span></p>
-                    <p class="phone"><span id="spot1tel"></span></p>-->
-                </div>
-    
-                <div class="spot2"> <!--<p>Spotlight 2</p>-->
-                     <!--  <h2 id="spot2name" ></h2>
-                    <img id="spot2image" src="image/lapiz.png" alt="pens"><br><br>
-                    <p><span id="spot2slogan"></span></p>
-                    <p><span id="spot2website"></span></p>
-                    <p class="phone"><span id="spot2tel"></span></p>-->
-                </div>
-    
-                <div class="spot3"><!--<p>Spotlight 3</p>-->
-                      <!-- <h2 id="spot3name" ></h2>
-                    <img id="spot3image" src="image/tree_house.png" alt="tree">
-                    <p><span id="spot3slogan"></span></p>
-                    <p><span id="spot3website"></span></p>
-                    <p class="phone"><span id="spot3tel"></span></p>-->
-                </div>
+
+            <div class="spot2"> <!--<p>Spotlight 2</p>-->
+                 <!--  <h2 id="spot2name" ></h2>
+                <img id="spot2image" src="image/lapiz.png" alt="pens"><br><br>
+                <p><span id="spot2slogan"></span></p>
+                <p><span id="spot2website"></span></p>
+                <p class="phone"><span id="spot2tel"></span></p>-->
             </div>
-                
+
+            <div class="spot3"><!--<p>Spotlight 3</p>-->
+                  <!-- <h2 id="spot3name" ></h2>
+                <img id="spot3image" src="image/tree_house.png" alt="tree">
+                <p><span id="spot3slogan"></span></p>
+                <p><span id="spot3website"></span></p>
+                <p class="phone"><span id="spot3tel"></span></p>-->
+            </div>
         </div>
     </main>    
 
@@ -147,6 +113,7 @@
             <a href="index.html"><img class="logo-footer" src="image/LR-logo.png" alt="logo"></a>
             <div class="title-subt">
                 <h1 class="footer-title">LR MULTIPLE-SERVICES E.I.R.L.</h1>
+                <h3>"Soluciones rápidas, resultados duraderos."</h3>
                
             </div>   
         </div>    

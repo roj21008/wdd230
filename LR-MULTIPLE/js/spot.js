@@ -19,18 +19,11 @@ fetch('https://roj21008.github.io/wdd230/chamber/js/data.json')
         spots.forEach(function(i){
         let randomBusiness=status[Math.floor(Math.random() * status.length)]
         let name=randomBusiness.name;
-        let phone=randomBusiness.tel; 
-        let website = randomBusiness.website; 
         let image=randomBusiness.image;
-        let slogan=randomBusiness.slogan;
-        
-
         
         i.innerHTML=`<h2>${name}</h2>
                     <img src="${image}" alt="${name}">
-                    <p>"${slogan}"</p>
-                    <a href="${website}">${website}</a>
-                    <p>${phone}</p>`
+                    <a href="mailto:lrmultipleservice@gmail.com" class="mail-ppto">Pide tu Presupuesto</a>`
         })
   
         
