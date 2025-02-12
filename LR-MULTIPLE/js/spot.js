@@ -3,7 +3,7 @@ let spot2=document.querySelector('.spot2')
 let spot3=document.querySelector('.spot3')
 let spots=[spot1,spot2,spot3]
 
-fetch('https://roj21008.github.io/wdd230/chamber/js/data.json')
+fetch('https://roj21008.github.io/wdd230/LR-MULTIPLE/js/data.json')
     .then(function(respone){return respone.json()})
     .then(function(data){
         let companies=data['companies'];
