@@ -21,7 +21,7 @@
             "services":"Reparaciones, supervisión de sistemas eléctricos e hidráulicos",
             "tel":"+51999999999",
             
-            "image":"image/mantenimiento.jpg",
+            "image":"image/mantenimiento.png",
             "membership": "bronze"
             
         },
@@ -66,7 +66,7 @@
             "services":"Drywall, ampliaciones, refacción de espacios",
             "tel":"+51999999999",
             
-            "image":"image/construccion",
+            "image":"image/construccion.png",
             "membership": "silver"
             
         },
@@ -92,7 +92,7 @@
             "services":"Cerámica, parquet, laminados, porcelanato",
             "tel":"+51999999999",
             
-            "image":"image/pisos.jpg",
+            "image":"image/pisos.png",
             "membership": "silver"
             
         },
