@@ -238,19 +238,19 @@ picture .hero-img{
 /*--------------CSS SPOTLIGHT------------*/
 
 .spot-child {
-  margin: 10px 0;
-  border: #003049 solid 1px;
   position: relative;
   text-align: center;
   overflow: hidden;
-  border-radius: 10px; /* Bordes redondeados opcionales */
+  border-radius: 10px;
+  height: 300px; /* Ajusta según lo que necesites */
+  display: flex;
+  flex-direction: column;
 }
 .spot-child img {
   width: 100%;
-  height: 90%;
+  height: 100%;
+  object-fit: cover; /* Hace que la imagen cubra todo el espacio disponible */
   display: block;
-  margin: 0;
-  padding: 0;
 }
 
 .spot-child h2 {
