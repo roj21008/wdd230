@@ -1,4 +1,4 @@
-let spot1=document.querySelector('.spot1')
+/*let spot1=document.querySelector('.spot1')
 let spot2=document.querySelector('.spot2')
 let spot3=document.querySelector('.spot3')
 let spots=[spot1,spot2,spot3]
@@ -27,4 +27,44 @@ fetch('https://roj21008.github.io/wdd230/LR-MULTIPLE/js/data.json?t=${new Date()
         })
   
         
+    })*/
+
+
+        let spot1 = document.querySelector('.spot1');
+let spot2 = document.querySelector('.spot2');
+let spot3 = document.querySelector('.spot3');
+let spots = [spot1, spot2, spot3];
+
+fetch(`https://roj21008.github.io/wdd230/LR-MULTIPLE/js/data.json?t=${new Date().getTime()}`)
+    .then(response => response.json())
+    .then(data => {
+        let companies = data['companies'];
+
+        if (companies.length < 3) {
+            console.error("No hay suficientes empresas en el JSON.");
+            return;
+        }
+
+        // Seleccionar 3 empresas aleatorias sin repetirse
+        let selectedCompanies = [];
+        while (selectedCompanies.length < 3) {
+            let randomCompany = companies[Math.floor(Math.random() * companies.length)];
+            if (!selectedCompanies.includes(randomCompany)) {
+                selectedCompanies.push(randomCompany);
+            }
+        }
+
+        // Asignar las empresas aleatorias a los spots
+        spots.forEach((spot, index) => {
+            let company = selectedCompanies[index];
+            let name = company.name;
+            let image = company.image;
+
+            spot.innerHTML = `
+                <h2>${name}</h2>
+                <img src="${image}" alt="${name}" class="spot-img">
+                <a href="https://wa.me/51948895989" target="_blank" class="mail-ppto">Pide tu Presupuesto</a>
+            `;
+        });
     })
+    .catch(error => console.error("Error al cargar el JSON:", error));
