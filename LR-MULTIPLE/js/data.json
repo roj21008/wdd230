@@ -4,7 +4,7 @@
             "name":"Pintura y acabados",
             "services":"Interiores, exteriores, estuco, impermeabilización)",
             "tel":"+51999999999",
-            "image":"image/pintura.png",
+            "image":"image/pintura.png"
             
         },
 
@@ -12,7 +12,7 @@
             "name":" Gasfitería y tuberías",
             "servic<<es":"Instalación y mantenimiento de cañerías, detección de fugas",
             "tel":"+51999999999",
-            "image":"image/gasfiteria.png",
+            "image":"image/gasfiteria.png"
             
             
         },
@@ -21,7 +21,7 @@
             "services":"Reparaciones, supervisión de sistemas eléctricos e hidráulicos",
             "tel":"+51999999999",
             
-            "image":"image/mantenimiento.png",
+            "image":"image/mantenimiento.png"
             
             
         },
@@ -30,7 +30,7 @@
             "services":"Empaque, transporte, desembalaje",
             "tel":"+51999999999",
             
-            "image":"image/mudanzas.png",
+            "image":"image/mudanzas.png"
             
             
         },
@@ -39,7 +39,7 @@
             "services":"Copias de llaves, apertura de puertas, cambio de cerraduras",
             "tel":"+51999999999",
             
-            "image":"image/cerrajeria.png",
+            "image":"image/cerrajeria.png"
             
             
         },
@@ -48,7 +48,7 @@
             "services":"Muebles, closets, puertas, restauración de madera",
             "tel":"+51999999999",
             
-            "image":"image/carpinteria.png",
+            "image":"image/carpinteria.png"
             
             
         },
@@ -57,7 +57,7 @@
             "services":"Poda, diseño de jardines, sistemas de riego",
             "tel":"+51999999999",
             
-            "image":"image/jardineria.png",
+            "image":"image/jardineria.png"
             
             
         },
@@ -66,7 +66,7 @@
             "services":"Drywall, ampliaciones, refacción de espacios",
             "tel":"+51999999999",
             
-            "image":"image/construccion.png",
+            "image":"image/construccion.png"
             
             
         },
@@ -75,7 +75,7 @@
             "services":"Alfombras, vidrios, mantenimiento post-obra",
             "tel":"+51999999999",
             
-            "image":"image/limpieza.png" ,
+            "image":"image/limpieza.png" 
             
             
         },{
@@ -83,7 +83,7 @@
             "services":"Páginas web, aplicaciones, soporte técnico",
             "tel":"+51999999999",
             
-            "image":"image/desarrollo web.png",
+            "image":"image/desarrollo web.png"
             
             
         },
@@ -92,7 +92,7 @@
             "services":"Cerámica, parquet, laminados, porcelanato",
             "tel":"+51999999999",
             
-            "image":"image/pisos.png",
+            "image":"image/pisos.png"
             
             
         },
@@ -101,7 +101,7 @@
             "services":"Desarrollo y ejecución de expedientes tecnicos",
             "tel":"+51999999999",
             
-            "image":"image/asesoria.png",
+            "image":"image/asesoria.png"
             
             
         }
