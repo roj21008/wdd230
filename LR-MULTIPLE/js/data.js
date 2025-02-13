@@ -20,6 +20,7 @@ function displayCompany(company){
     let logo =  document.createElement('img');
     let Services = document.createElement('p');
     let Telephone = document.createElement('p');  
+    let cotiza = document.createElement('a')
     
 
     
@@ -45,7 +46,7 @@ function displayCompany(company){
     card.appendChild(h2Name);
     card.appendChild(Services)
     card.appendChild(Telephone)
-    
+    card.innerHTML=` <a href="mailto:lrmultipleservice@gmail.com" class="mail-ppto">Pide tu Presupuesto</a>`
     
     grid.appendChild(card);
     }

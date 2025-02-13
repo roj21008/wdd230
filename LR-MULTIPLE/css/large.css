@@ -69,32 +69,10 @@ nav ul li a{
   font-size: 2rem;
 }
 
-.spotlight{
-  grid-column: 3;
-  width: 100%;
-  min-height: 200px;
-  }
+.spotlight {
+  grid-template-columns: 1fr 1fr 1fr;
+}
 
-.spot1{
-  width: 95%;
-  grid-row: 1;
-  
-  
-}
-.spot2{
-  width: 95%;
-  margin:0.5em;
-  grid-row: 2;
-  
-}
-.spot3{
-  width: 95%;
-  margin:0.5em;
-  display:block;
-  grid-row: 3;
-  
-  
-}
 
 
 /*---------------------JOIN PAGE-------------------*/

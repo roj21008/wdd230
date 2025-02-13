@@ -9,15 +9,15 @@
         },
 
         {
-            "name":" Gasfitería y reparación de tuberías",
-            "services":"Instalación y mantenimiento de cañerías, detección de fugas",
+            "name":" Gasfitería y tuberías",
+            "servic<<es":"Instalación y mantenimiento de cañerías, detección de fugas",
             "tel":"+51999999999",
             "image":"image/gasfiteria.png",
             "membership": "silver"
             
         },
         {
-            "name":"Mantenimiento integral de edificios",
+            "name":"Mantenimiento de edificios",
             "services":"Reparaciones, supervisión de sistemas eléctricos e hidráulicos",
             "tel":"+51999999999",
             
@@ -26,7 +26,7 @@
             
         },
         {
-            "name":"Servicio de mudanzas y traslado de bienes ",
+            "name":"Servicio de mudanzas ",
             "services":"Empaque, transporte, desembalaje",
             "tel":"+51999999999",
             
@@ -53,7 +53,7 @@
             
         },
         {
-            "name":"Jardinería y mantenimiento de áreas verdes",
+            "name":"Jardinería y áreas verdes",
             "services":"Poda, diseño de jardines, sistemas de riego",
             "tel":"+51999999999",
             
@@ -71,7 +71,7 @@
             
         },
         {
-            "name":"Limpieza profunda de hogares y oficinas",
+            "name":"Limpieza  de hogares y oficinas",
             "services":"Alfombras, vidrios, mantenimiento post-obra",
             "tel":"+51999999999",
             
@@ -97,7 +97,7 @@
             
         },
         {
-            "name":"Asesoría y gestión de proyectos de construcción y mantenimiento",
+            "name":"Asesoría y gestión de proyectos ",
             "services":"Desarrollo y ejecución de expedientes tecnicos",
             "tel":"+51999999999",
             

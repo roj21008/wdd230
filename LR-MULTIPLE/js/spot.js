@@ -22,7 +22,7 @@ fetch('https://roj21008.github.io/wdd230/LR-MULTIPLE/js/data.json')
         let image=randomBusiness.image;
         
         i.innerHTML=`<h2>${name}</h2>
-                    <img src="${image}" alt="${name}">
+                    <img src="${image}" alt="${name}" class="spot-img">
                     <a href="mailto:lrmultipleservice@gmail.com" class="mail-ppto">Pide tu Presupuesto</a>`
         })
   
