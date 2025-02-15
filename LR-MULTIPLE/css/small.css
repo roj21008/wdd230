@@ -255,7 +255,7 @@ picture .hero-img{
 }
 
 .spot-child h2 {
-  
+  text-align: center;
   font-size: 1.2em;
   background-color: #003049;
   width: 100%;
@@ -509,7 +509,7 @@ div.grid{
   grid-gap: 0.6rem;
 }
 
-section.section_company{
+section.section_service{
   text-align: center;
   width: 95%;
   margin: auto;

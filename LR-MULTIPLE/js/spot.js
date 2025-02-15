@@ -63,7 +63,7 @@ fetch(`https://roj21008.github.io/wdd230/LR-MULTIPLE/js/data.json?t=${new Date()
             spot.innerHTML = `
                 <h2>${name}</h2>
                 <img src="${image}" alt="${name}" class="spot-img">
-                <a href="https://wa.me/51948895989" target="_blank" class="mail-ppto">Pide tu Presupuesto</a>
+                <a href="https://wa.me/51948895989" target="_blank" class="mail-ppto">COTIZA</a>
             `;
         });
     })

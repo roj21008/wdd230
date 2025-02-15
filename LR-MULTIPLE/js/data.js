@@ -6,38 +6,38 @@ fetch(requestURL)
     .then(request => request.json())
     .then( ( data ) => {
         console.log(data);
-        const companies = data.companies;
-        dataRequest = companies;
-        companies.forEach(displayCompany);
+        const services= data.services;
+        dataRequest = services;
+        services.forEach(displayCompany);
     })
     .catch(error => console.error("Error cargando JSON:", error));;
 
  
 
-function displayCompany(company){
+function displayCompany(service){
     let card = document.createElement('section');
     let h2Name =  document.createElement('h2');
     let logo =  document.createElement('img');
     let Services = document.createElement('p');
     let Telephone = document.createElement('p');  
-    let cotiza = document.createElement('a')
+    
     
 
     
     
-    h2Name.textContent = company.name;
-    Services.textContent = company.services;
-    Telephone.textContent = company.tel;
+    h2Name.textContent = service.name;
+    Services.textContent = service.services;
+    Telephone.textContent = service.tel;
    
 
     
     
 
-    logo.setAttribute('src',company.image);
+    logo.setAttribute('src',service.image);
     logo.setAttribute('alt',`Company Logo`);
     logo.setAttribute('loading','lazy');
     logo.classList.add("logo_img-directory");
-    card.classList.add("section_company");
+    card.classList.add("section_service");
     Services.classList.add("services");
     Telephone.classList.add("telephone");  
     
@@ -46,7 +46,7 @@ function displayCompany(company){
     card.appendChild(h2Name);
     card.appendChild(Services)
     card.appendChild(Telephone)
-    card.innerHTML=` <a href="mailto:lrmultipleservice@gmail.com" class="mail-ppto">Pide tu Presupuesto</a>`
+    
     
     grid.appendChild(card);
     }
