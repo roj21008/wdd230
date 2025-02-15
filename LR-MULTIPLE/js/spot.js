@@ -3,7 +3,7 @@ let spot2 = document.querySelector('.spot2');
 let spot3 = document.querySelector('.spot3');
 let spots = [spot1, spot2, spot3];
 
-fetch(`https://roj21008.github.io/wdd230/LR-MULTIPLE/js/data.json?t=${new Date().getTime()}`)
+fetch(`https://roj21008.github.io/LR-MULTIPLE/js/data.json?t=${new Date().getTime()}`)
     .then(response => response.json())
     .then(data => {
         let services = data['services'];
